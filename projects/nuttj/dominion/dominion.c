@@ -655,9 +655,6 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 
   int tributeRevealedCards[2] = {-1, -1};
   int temphand[MAX_HAND];// moved above the if statement
-  int drawntreasure=0;
-  //int cardDrawn;
-  int z = 0;// this is the counter for the temp hand
   if (nextPlayer > (state->numPlayers - 1)){
     nextPlayer = 0;
   }
@@ -667,7 +664,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
   switch( card ) 
     {
     case adventurer:
-      return adventurerEffect(state, drawntreasure, temphand, z, currentPlayer);
+      return adventurerEffect(state, temphand, currentPlayer);
 			
     case council_room:
       //+4 Cards
@@ -811,15 +808,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return 0;
 		
     case smithy:
-      //+3 Cards
-      for (i = 0; i < 3; i++)
-	{
-	  drawCard(currentPlayer, state);
-	}
-			
-      //discard card from hand
-      discardCard(handPos, currentPlayer, state, 0);
-      return 0;
+      return smithyEffect(state, handPos, currentPlayer);
 		
     case village:
       //+1 Card
@@ -1310,28 +1299,47 @@ int updateCoins(int player, struct gameState *state, int bonus)
   return 0;
 }
 
-int adventurerEffect(struct gameState *state, int drawntreasure, int *temphand, int z, int currentPlayer)
+/*The Adventurer card allows the player to reveal cards from their deck until they draw two Treasure cards
+ * The Treasure cards are added to the player's hand and the rest of the revealed cards are discarded*/
+int adventurerEffect(struct gameState *state, int *temphand, int currentPlayer)
 {
+   int drawntreasure = 0;
+   int z = 0;
    int cardDrawn;
 
-   while(drawntreasure<2){
+   while(drawntreasure<2){ //loops until two Treasure cards had been drawn
 	if (state->deckCount[currentPlayer] <1){//if the deck is empty we need to shuffle discard and add to deck
 	  shuffle(currentPlayer, state);
 	}
 	drawCard(currentPlayer, state);
 	cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
-	if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
+	if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold) //if this is a treasure card
 	  drawntreasure++;
 	else{
-	  temphand[z]=cardDrawn;
+	  temphand[z]=cardDrawn; //if this is not a treasure card
 	  state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
-	  (z)++;
+	  z++; //increase the count of non-treasure cards;
 	}
       }
-      while(z-1>=0){
+      while(z-1>=0){ //while there are revealed cards that need to be discarded
 	state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
 	z=z-1;
       }
+      return 0;
+}
+
+/*The Smithy card allows the player to draw three cards and add it to their hand*/
+int smithyEffect(struct gameState *state, int handPos, int currentPlayer)
+{
+      //+3 Cards
+      int i;
+      for (i = 0; i < 3; i++)
+	{
+	  drawCard(currentPlayer, state);
+	}
+			
+      //discard card from hand
+      discardCard(handPos, currentPlayer, state, 0);
       return 0;
 }
 //end of dominion.c
