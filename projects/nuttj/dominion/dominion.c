@@ -1310,7 +1310,7 @@ int cutpurseEffect(struct gameState *state, int currentPlayer, int handPos)
  * four coins or gain an estate */
 int baronEffect(struct gameState *state, int choice1, int currentPlayer)
 {
-      state->numBuys++;//Increase buys by 1!
+      state->numPlayers++;//Increase buys by 1!
       if (choice1 > 0){//Boolean true or going to discard an estate
 	int p = 0;//Iterator for hand!
 	int card_not_discarded = 1;//Flag for discard set!
