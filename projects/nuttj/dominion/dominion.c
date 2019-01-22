@@ -1217,7 +1217,6 @@ int adventurerEffect(struct gameState *state, int *temphand, int currentPlayer)
 	else{
 	  temphand[z]=cardDrawn; //if this is not a treasure card
 	  state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
-	  z++; //increase the count of non-treasure cards;
 	}
       }
       while(z-1>=0){ //while there are revealed cards that need to be discarded
@@ -1238,7 +1237,7 @@ int smithyEffect(struct gameState *state, int handPos, int currentPlayer)
 	}
 			
       //discard card from hand
-      discardCard(handPos, currentPlayer, state, 0);
+      discardCard(i, currentPlayer, state, 0);
       return 0;
 }
 
@@ -1276,7 +1275,7 @@ int cutpurseEffect(struct gameState *state, int currentPlayer, int handPos)
       updateCoins(currentPlayer, state, 2);
       for (i = 0; i < state->numPlayers; i++)//loop through all the players
 	{
-	  if (i != currentPlayer)
+	  if (i == currentPlayer)
 	    {
 	      for (j = 0; j < state->handCount[i]; j++) //see if the player is holding a Copper
 		{
