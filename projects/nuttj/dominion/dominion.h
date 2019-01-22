@@ -130,4 +130,5 @@ int getWinners(int players[MAX_PLAYERS], struct gameState *state);
 
 int adventurerEffect(struct gameState *state, int *temphand, int currentPlayer);
 int smithyEffect(struct gameState *state, int handPos, int currentPlayer);
+int stewardEffect(struct gameState *state, int choice1, int choice2, int choice3, int handPos, int currentPlayer);
 #endif
