@@ -48,27 +48,33 @@ int main(int argc, const char* argv[])
 	testResult(j, 2, "Could not find two treasure cards in player's deck.  Exiting test\n\n");
 
 	cardEffect(card,0, 0, 0, &G, handPos, 0); //play the card from the player's hand
-
-
  
 	if (G.handCount[player] != I.handCount[player] + 1) { //2 new treasure cards minus 1 discarded adventurer equals 2 card in players hand
 		printf("TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card\n");
+		printf("  Starting handCount: %d\n", G.handCount[player]);
+		printf("  Ending handCount: %d\n", I.handCount[player]);
 		result += 1; //increase the count of failed tests by 1
 	}
 
 	if (G.deckCount[player] != treasurePos) { //All the cards in the deck up to the second treasure card should have been drawn
 		printf("TEST FAILED: The expected number of cards were not drawn from the deck\n");
+		printf("  Starting deckCount: %d\n", G.deckCount[player]);
+		printf("  Ending deckCount: %d\n", I.deckCount[player]);
 		result += 1; //increase the count of failed tests by 1
 	}		
 
 
 	if (G.discardCount[player] != I.deckCount[player] - treasurePos - 2) { //all the drawn cards except the two treasure cards should have been discarded
 		printf("TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards\n");
+		printf("  Expected # of discarded cards: %d\n", I.handCount[player] - treasurePos - 2);
+		printf("  discardCount: %d\n", G.discardCount[player]);
 		result += 1; //increase the count of failed tests by 1
 	}
 
 	if (G.playedCardCount != I.playedCardCount + 1) { //The tested card should be in the play pile
 		printf("TEST FAILED: Number of played cards should hve increased by 1\n");
+		printf("  Expected # of played cards: 1\n");
+		printf("  playedCardCount: %d\n", G.playedCardCount);
 		result += 1; //increase the count of Tfailed tests by 1
 	}
 
@@ -132,18 +138,8 @@ int main(int argc, const char* argv[])
 	if(result == 0)
 		printf("All tests passed\n\n");
 	else
-	{
-		printf("%d tests failed\n", result);	
-		printf("Starting handCount: %d\n", G.handCount[player]);
-		printf("Ending handCount: %d\n", I.handCount[player]);
-		printf("Starting deckCount: %d\n", G.deckCount[player]);
-		printf("Ending deckCount: %d\n", I.deckCount[player]);
-		printf("treasurePos: %d\n", treasurePos);
-		printf("Expected # of played cards: 1\n");
-		printf("playedCardCount: %d\n", G.playedCardCount);
-		printf("Expected # of discarded cards: %d\n", I.handCount[player] - treasurePos - 2);
-		printf("discarded cards: %d\n\n", G.discardCount[player]);
-	}
+		printf("%d tests failed\n\n", result);	
+
 
 	return 0;
 }
