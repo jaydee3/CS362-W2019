@@ -1,0 +1,771 @@
+Results of running unit tests
+___________________________________________________________
+unittest1:
+Performing unit test for supplyCount()
+All tests passed
+Function 'baronEffect'
+Lines executed:0.00% of 29
+
+Function 'cutpurseEffect'
+Lines executed:0.00% of 13
+
+Function 'stewardEffect'
+Lines executed:0.00% of 10
+
+Function 'smithyEffect'
+Lines executed:0.00% of 5
+
+Function 'adventurerEffect'
+Lines executed:0.00% of 16
+
+Function 'updateCoins'
+Lines executed:81.82% of 11
+
+Function 'gainCard'
+Lines executed:0.00% of 13
+
+Function 'discardCard'
+Lines executed:0.00% of 13
+
+Function 'cardEffect'
+Lines executed:0.00% of 172
+
+Function 'getCost'
+Lines executed:0.00% of 30
+
+Function 'drawCard'
+Lines executed:36.36% of 22
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+
+Function 'whoseTurn'
+Lines executed:0.00% of 2
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+
+Function 'supplyCount'
+Lines executed:100.00% of 2
+
+Function 'handCard'
+Lines executed:0.00% of 3
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+
+Function 'playCard'
+Lines executed:0.00% of 14
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+
+Function 'initializeGame'
+Lines executed:83.87% of 62
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+
+Function 'newGame'
+Lines executed:0.00% of 3
+
+Function 'compare'
+Lines executed:83.33% of 6
+
+File 'dominion.c'
+Lines executed:16.34% of 557
+Creating 'dominion.c.gcov'
+
+___________________________________________________________
+unittest2:
+Performing unit test for isGameOver()
+All tests passed
+Function 'baronEffect'
+Lines executed:0.00% of 29
+
+Function 'cutpurseEffect'
+Lines executed:0.00% of 13
+
+Function 'stewardEffect'
+Lines executed:0.00% of 10
+
+Function 'smithyEffect'
+Lines executed:0.00% of 5
+
+Function 'adventurerEffect'
+Lines executed:0.00% of 16
+
+Function 'updateCoins'
+Lines executed:81.82% of 11
+
+Function 'gainCard'
+Lines executed:0.00% of 13
+
+Function 'discardCard'
+Lines executed:0.00% of 13
+
+Function 'cardEffect'
+Lines executed:0.00% of 172
+
+Function 'getCost'
+Lines executed:0.00% of 30
+
+Function 'drawCard'
+Lines executed:36.36% of 22
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+
+Function 'isGameOver'
+Lines executed:90.00% of 10
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+
+Function 'whoseTurn'
+Lines executed:0.00% of 2
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+
+Function 'supplyCount'
+Lines executed:0.00% of 2
+
+Function 'handCard'
+Lines executed:0.00% of 3
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+
+Function 'playCard'
+Lines executed:0.00% of 14
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+
+Function 'initializeGame'
+Lines executed:83.87% of 62
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+
+Function 'newGame'
+Lines executed:0.00% of 3
+
+Function 'compare'
+Lines executed:83.33% of 6
+
+File 'dominion.c'
+Lines executed:17.59% of 557
+Creating 'dominion.c.gcov'
+
+___________________________________________________________
+unittest3:
+Performing unit test for numHandCards() function
+All tests passed
+
+Function 'baronEffect'
+Lines executed:0.00% of 29
+
+Function 'cutpurseEffect'
+Lines executed:0.00% of 13
+
+Function 'stewardEffect'
+Lines executed:0.00% of 10
+
+Function 'smithyEffect'
+Lines executed:0.00% of 5
+
+Function 'adventurerEffect'
+Lines executed:0.00% of 16
+
+Function 'updateCoins'
+Lines executed:63.64% of 11
+
+Function 'gainCard'
+Lines executed:0.00% of 13
+
+Function 'discardCard'
+Lines executed:0.00% of 13
+
+Function 'cardEffect'
+Lines executed:0.00% of 172
+
+Function 'getCost'
+Lines executed:0.00% of 30
+
+Function 'drawCard'
+Lines executed:36.36% of 22
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+
+Function 'supplyCount'
+Lines executed:0.00% of 2
+
+Function 'handCard'
+Lines executed:0.00% of 3
+
+Function 'numHandCards'
+Lines executed:100.00% of 2
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+
+Function 'playCard'
+Lines executed:0.00% of 14
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+
+Function 'initializeGame'
+Lines executed:85.48% of 62
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+
+Function 'newGame'
+Lines executed:0.00% of 3
+
+Function 'compare'
+Lines executed:83.33% of 6
+
+File 'dominion.c'
+Lines executed:16.52% of 557
+Creating 'dominion.c.gcov'
+
+___________________________________________________________
+unittest4:
+Performing unit test for updateCoins() function
+All tests passed
+
+Function 'baronEffect'
+Lines executed:0.00% of 29
+
+Function 'cutpurseEffect'
+Lines executed:0.00% of 13
+
+Function 'stewardEffect'
+Lines executed:0.00% of 10
+
+Function 'smithyEffect'
+Lines executed:0.00% of 5
+
+Function 'adventurerEffect'
+Lines executed:0.00% of 16
+
+Function 'updateCoins'
+Lines executed:100.00% of 11
+
+Function 'gainCard'
+Lines executed:0.00% of 13
+
+Function 'discardCard'
+Lines executed:0.00% of 13
+
+Function 'cardEffect'
+Lines executed:0.00% of 172
+
+Function 'getCost'
+Lines executed:0.00% of 30
+
+Function 'drawCard'
+Lines executed:36.36% of 22
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+
+Function 'whoseTurn'
+Lines executed:0.00% of 2
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+
+Function 'supplyCount'
+Lines executed:0.00% of 2
+
+Function 'handCard'
+Lines executed:0.00% of 3
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+
+Function 'playCard'
+Lines executed:0.00% of 14
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+
+Function 'initializeGame'
+Lines executed:85.48% of 62
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+
+Function 'newGame'
+Lines executed:0.00% of 3
+
+Function 'compare'
+Lines executed:83.33% of 6
+
+File 'dominion.c'
+Lines executed:16.52% of 557
+Creating 'dominion.c.gcov'
+
+___________________________________________________________
+cardtest1:
+Performing card test for Smithy
+TEST FAILED: Smithy is not on top of the played card pile
+TEST FAILED: The last card in the player's hand was not moved to the discarded Smithy postion
+2 tests failed
+
+Function 'baronEffect'
+Lines executed:0.00% of 29
+
+Function 'cutpurseEffect'
+Lines executed:0.00% of 13
+
+Function 'stewardEffect'
+Lines executed:0.00% of 10
+
+Function 'smithyEffect'
+Lines executed:100.00% of 5
+
+Function 'adventurerEffect'
+Lines executed:0.00% of 16
+
+Function 'updateCoins'
+Lines executed:81.82% of 11
+
+Function 'gainCard'
+Lines executed:0.00% of 13
+
+Function 'discardCard'
+Lines executed:84.62% of 13
+
+Function 'cardEffect'
+Lines executed:4.07% of 172
+
+Function 'getCost'
+Lines executed:0.00% of 30
+
+Function 'drawCard'
+Lines executed:36.36% of 22
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+
+Function 'supplyCount'
+Lines executed:0.00% of 2
+
+Function 'handCard'
+Lines executed:0.00% of 3
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+
+Function 'playCard'
+Lines executed:0.00% of 14
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+
+Function 'initializeGame'
+Lines executed:85.48% of 62
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+
+Function 'newGame'
+Lines executed:0.00% of 3
+
+Function 'compare'
+Lines executed:83.33% of 6
+
+File 'dominion.c'
+Lines executed:20.65% of 557
+Creating 'dominion.c.gcov'
+
+___________________________________________________________
+cardtest2:
+Performing card test for Adventurer
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card
+  Starting handCount: 5
+  Ending handCount: 7
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards
+  Expected # of discarded cards: 2
+  discardCount: 0
+TEST FAILED: Number of played cards should hve increased by 1
+  Expected # of played cards: 1
+  playedCardCount: 0
+TEST FAILED: Adventurer is not on top of the played card pile
+4 tests failed
+
+Function 'baronEffect'
+Lines executed:0.00% of 29
+
+Function 'cutpurseEffect'
+Lines executed:0.00% of 13
+
+Function 'stewardEffect'
+Lines executed:0.00% of 10
+
+Function 'smithyEffect'
+Lines executed:0.00% of 5
+
+Function 'adventurerEffect'
+Lines executed:81.25% of 16
+
+Function 'updateCoins'
+Lines executed:63.64% of 11
+
+Function 'gainCard'
+Lines executed:0.00% of 13
+
+Function 'discardCard'
+Lines executed:0.00% of 13
+
+Function 'cardEffect'
+Lines executed:4.07% of 172
+
+Function 'getCost'
+Lines executed:0.00% of 30
+
+Function 'drawCard'
+Lines executed:36.36% of 22
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+
+Function 'supplyCount'
+Lines executed:0.00% of 2
+
+Function 'handCard'
+Lines executed:0.00% of 3
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+
+Function 'playCard'
+Lines executed:0.00% of 14
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+
+Function 'initializeGame'
+Lines executed:85.48% of 62
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+
+Function 'newGame'
+Lines executed:0.00% of 3
+
+Function 'compare'
+Lines executed:83.33% of 6
+
+File 'dominion.c'
+Lines executed:19.75% of 557
+Creating 'dominion.c.gcov'
+
+___________________________________________________________
+cardtest3:
+Performing card test for Baron with options: player discards estate for 4 coins
+TEST FAILED: Baron did not increase the number of buys by 1
+  Starting Buys: 1
+  Ending Buys: 1
+TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card
+  Starting handCount: 5
+  Ending handCount: 4
+TEST FAILED: Number of played cards should have increased by 1
+  Expected # of played cards: 1
+  playedCardCount: 0
+TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Performing card test for Baron with options: player draws an Estate, there are Estates in the supply pile
+TEST FAILED: Baron did not increase the number of buys by 1
+  Starting Buys: 1
+  Ending Buys: 1
+TEST FAILED: Net loss in player's hand count should be 1: Played Baron card
+  Starting handCount: 5
+  Ending handCount: 5
+TEST FAILED: Number of played cards should have increased by 1
+  Expected # of played cards: 1
+  playedCardCount: 0
+TEST FAILED: Baron is not on top of the played card pile
+TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards
+  Expected # of discarded cards: 0
+  discardCount: 1
+  discard card =  10   baron = 15, estate = 1
+TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply
+  Starting Estate supply: 12
+  Ending Estate supply: 10
+6 tests failed
+
+Performing card test for Baron with options: player draws an Estate, there are no Estates in the supply pile
+TEST FAILED: Baron did not increase the number of buys by 1
+  Starting Buys: 1
+  Ending Buys: 1
+TEST FAILED: Number of played cards should have increased by 1
+  Expected # of played cards: 1
+  playedCardCount: 0
+TEST FAILED: Baron is not on top of the played card pile
+3 tests failed
+
+Function 'baronEffect'
+Lines executed:75.86% of 29
+
+Function 'cutpurseEffect'
+Lines executed:0.00% of 13
+
+Function 'stewardEffect'
+Lines executed:0.00% of 10
+
+Function 'smithyEffect'
+Lines executed:0.00% of 5
+
+Function 'adventurerEffect'
+Lines executed:0.00% of 16
+
+Function 'updateCoins'
+Lines executed:63.64% of 11
+
+Function 'gainCard'
+Lines executed:61.54% of 13
+
+Function 'discardCard'
+Lines executed:0.00% of 13
+
+Function 'cardEffect'
+Lines executed:4.07% of 172
+
+Function 'getCost'
+Lines executed:0.00% of 30
+
+Function 'drawCard'
+Lines executed:36.36% of 22
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+
+Function 'supplyCount'
+Lines executed:100.00% of 2
+
+Function 'handCard'
+Lines executed:0.00% of 3
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+
+Function 'playCard'
+Lines executed:0.00% of 14
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+
+Function 'initializeGame'
+Lines executed:85.48% of 62
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+
+Function 'newGame'
+Lines executed:0.00% of 3
+
+Function 'compare'
+Lines executed:83.33% of 6
+
+File 'dominion.c'
+Lines executed:23.16% of 557
+Creating 'dominion.c.gcov'
+
+___________________________________________________________
+cardtest4:
+Performing card test for Council Room
+All tests passed
+
+Function 'baronEffect'
+Lines executed:0.00% of 29
+
+Function 'cutpurseEffect'
+Lines executed:0.00% of 13
+
+Function 'stewardEffect'
+Lines executed:0.00% of 10
+
+Function 'smithyEffect'
+Lines executed:0.00% of 5
+
+Function 'adventurerEffect'
+Lines executed:0.00% of 16
+
+Function 'updateCoins'
+Lines executed:63.64% of 11
+
+Function 'gainCard'
+Lines executed:0.00% of 13
+
+Function 'discardCard'
+Lines executed:84.62% of 13
+
+Function 'cardEffect'
+Lines executed:8.14% of 172
+
+Function 'getCost'
+Lines executed:0.00% of 30
+
+Function 'drawCard'
+Lines executed:36.36% of 22
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+
+Function 'supplyCount'
+Lines executed:0.00% of 2
+
+Function 'handCard'
+Lines executed:0.00% of 3
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+
+Function 'playCard'
+Lines executed:0.00% of 14
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+
+Function 'initializeGame'
+Lines executed:85.48% of 62
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+
+Function 'newGame'
+Lines executed:0.00% of 3
+
+Function 'compare'
+Lines executed:83.33% of 6
+
+File 'dominion.c'
+Lines executed:20.65% of 557
+Creating 'dominion.c.gcov'
+

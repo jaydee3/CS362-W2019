@@ -46,7 +46,7 @@ int main(int argc, const char* argv[])
  
 	//Number of buys should have increased by one
 	if (G.numBuys != I.numBuys + 1) {
-		printf("TEST FAILED: Baron did not increase the number of buys by 1");
+		printf("TEST FAILED: Baron did not increase the number of buys by 1\n");
 		printf("  Starting Buys: %d\n", I.numBuys);
 		printf("  Ending Buys: %d\n", G.numBuys);
 		result += 1; //increase the count of failed tests by 1
@@ -178,7 +178,7 @@ int main(int argc, const char* argv[])
  
 	//Number of buys should have increased by one
 	if (G.numBuys != I.numBuys + 1) {
-		printf("TEST FAILED: Baron did not increase the number of buys by 1");
+		printf("TEST FAILED: Baron did not increase the number of buys by 1\n");
 		printf("  Starting Buys: %d\n", I.numBuys);
 		printf("  Ending Buys: %d\n", G.numBuys);
 		result += 1; //increase the count of failed tests by 1
@@ -297,7 +297,7 @@ int main(int argc, const char* argv[])
  
 	//Number of buys should have increased by one
 	if (G.numBuys != I.numBuys + 1) {
-		printf("TEST FAILED: Baron did not increase the number of buys by 1");
+		printf("TEST FAILED: Baron did not increase the number of buys by 1\n");
 		printf("  Starting Buys: %d\n", I.numBuys);
 		printf("  Ending Buys: %d\n", G.numBuys);
 		result += 1; //increase the count of failed tests by 1
