@@ -18,7 +18,7 @@ int main(int argc, const char* argv[])
 	struct gameState G, I; //G is the test game state, I is the initial game state that is used to test against changes in G
 	int numPlayers = 4; //holds the number of players in the game
 	int result; //holds the number of tests that failed
-	int handPos = 0; //the position the Smithy card will be played from
+	int handPos = 0; //the position the card will be played from
 	int player = 0; //the player number
 	int i, j; //counters
 	int treasurePos; //This will hold the positions of the second treasure cards in the player's deck
@@ -51,15 +51,15 @@ int main(int argc, const char* argv[])
  
 	if (G.handCount[player] != I.handCount[player] + 1) { //2 new treasure cards minus 1 discarded adventurer equals 2 card in players hand
 		printf("TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card\n");
-		printf("  Starting handCount: %d\n", G.handCount[player]);
-		printf("  Ending handCount: %d\n", I.handCount[player]);
+		printf("  Starting handCount: %d\n", I.handCount[player]);
+		printf("  Ending handCount: %d\n", G.handCount[player]);
 		result += 1; //increase the count of failed tests by 1
 	}
 
 	if (G.deckCount[player] != treasurePos) { //All the cards in the deck up to the second treasure card should have been drawn
 		printf("TEST FAILED: The expected number of cards were not drawn from the deck\n");
-		printf("  Starting deckCount: %d\n", G.deckCount[player]);
-		printf("  Ending deckCount: %d\n", I.deckCount[player]);
+		printf("  Starting deckCount: %d\n", I.deckCount[player]);
+		printf("  Ending deckCount: %d\n", G.deckCount[player]);
 		result += 1; //increase the count of failed tests by 1
 	}		
 
@@ -73,7 +73,7 @@ int main(int argc, const char* argv[])
 
 	if (G.playedCardCount != I.playedCardCount + 1) { //The tested card should be in the play pile
 		printf("TEST FAILED: Number of played cards should hve increased by 1\n");
-		printf("  Expected # of played cards: 1\n");
+		printf("  Expected # of played cards: %d\n", I.playedCardCount + 1);
 		printf("  playedCardCount: %d\n", G.playedCardCount);
 		result += 1; //increase the count of Tfailed tests by 1
 	}

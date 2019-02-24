@@ -20,7 +20,7 @@ int main(int argc, const char* argv[])
 	struct gameState G, I; //G is the test game state, I is the initial game state that is used to test against changes in G
 	int numPlayers = 4; //holds the number of players in the game
 	int result = 0; //holds the number of tests that failed
-	int handPos = 0; //the position the Smithy card will be played from
+	int handPos = 0; //the position the card will be played from
 	int player = 0; //the player number
 	int i, j; //counters
 	int card = baron; //this is the card being tested
