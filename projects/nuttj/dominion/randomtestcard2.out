@@ -1,754 +1,756 @@
 Performing card test for Baron
-Test 1: Player discards Estate  Not holding Estate  Estate in Supply
+Test 1: Player draws Estate from supply  Not holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 12  Ending handCount: 12
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 8  discardCount: 9
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
-
-Test 2: Player discards Estate  Holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 8  Ending handCount: 7
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-4 tests failed
-
-Test 3: Player draws Estate from supply  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 4: Player draws Estate from supply  Holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 19  Ending handCount: 19
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 7  discardCount: 8
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
-6 tests failed
-
-Test 5: Player discards Estate  Holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 15  Ending handCount: 14
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-4 tests failed
-
-Test 6: Player discards Estate  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 7: Player draws Estate from supply  Holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 8: Player discards Estate  Holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 20  Ending handCount: 19
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-4 tests failed
-
-Test 9: Player draws Estate from supply  Holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 10: Player draws Estate from supply  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 11: Player discards Estate  Holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 17  Ending handCount: 16
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-4 tests failed
-
-Test 12: Player draws Estate from supply  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 13: Player draws Estate from supply  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 10  Ending handCount: 10
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 10  discardCount: 11
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
-6 tests failed
-
-Test 14: Player discards Estate  Holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 17  Ending handCount: 16
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-4 tests failed
-
-Test 15: Player discards Estate  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 12  Ending handCount: 12
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 16  discardCount: 17
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
-
-Test 16: Player draws Estate from supply  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 17: Player discards Estate  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 15  discardCount: 16
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 3
-5 tests failed
-
-Test 18: Player draws Estate from supply  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 19: Player draws Estate from supply  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 20: Player discards Estate  Holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 13  Ending handCount: 12
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-4 tests failed
-
-Test 21: Player draws Estate from supply  Holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 13  Ending handCount: 13
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 6  discardCount: 7
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
-6 tests failed
-
-Test 22: Player discards Estate  Holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 16  Ending handCount: 15
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-4 tests failed
-
-Test 23: Player discards Estate  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 8  Ending handCount: 8
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 10  discardCount: 11
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
-6 tests failed
-
-Test 24: Player draws Estate from supply  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 25: Player discards Estate  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 9  Ending handCount: 9
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 2  discardCount: 3
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
-6 tests failed
-
-Test 26: Player discards Estate  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 20  Ending handCount: 20
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 19  discardCount: 20
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
-
-Test 27: Player discards Estate  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 5  Ending handCount: 5
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 11  discardCount: 12
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
-6 tests failed
-
-Test 28: Player draws Estate from supply  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 11  Ending handCount: 11
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 5  discardCount: 6
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
-
-Test 29: Player draws Estate from supply  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 3  Ending handCount: 3
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 6  discardCount: 7
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
-
-Test 30: Player draws Estate from supply  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 16  Ending handCount: 16
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
   TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 17  discardCount: 18
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
-6 tests failed
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
 
-Test 31: Player draws Estate from supply  Not holding Estate  Estate in Supply
+Test 2: Player discards Estate  Holding Estate  No Estate in supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 9  Ending handCount: 9
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 14  discardCount: 15
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
-6 tests failed
-
-Test 32: Player discards Estate  Holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 8  Ending handCount: 7
+  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 9  Ending handCount: 8
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
 4 tests failed
 
-Test 33: Player draws Estate from supply  Holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 20  Ending handCount: 20
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 13  discardCount: 14
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
-
-Test 34: Player draws Estate from supply  Holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 35: Player draws Estate from supply  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 36: Player discards Estate  Holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 5  Ending handCount: 4
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-4 tests failed
-
-Test 37: Player discards Estate  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 10  Ending handCount: 10
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 5  discardCount: 6
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
-6 tests failed
-
-Test 38: Player discards Estate  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 6  Ending handCount: 6
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 9  discardCount: 10
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
-
-Test 39: Player draws Estate from supply  Not holding Estate  Estate in Supply
+Test 3: Player discards Estate  Not holding Estate  No Estate in supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
   TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 1  Ending handCount: 1
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 1  discardCount: 2
+4 tests failed
+
+Test 4: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 4  discardCount: 5
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
+5 tests failed
+
+Test 5: Player draws Estate from supply  Holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 18  Ending handCount: 18
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 6: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 3  discardCount: 4
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
+5 tests failed
+
+Test 7: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 8  discardCount: 9
   TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
+5 tests failed
 
-Test 40: Player discards Estate  Not holding Estate  Estate in Supply
+Test 8: Player draws Estate from supply  Not holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 17  Ending handCount: 17
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 6  discardCount: 7
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 14  discardCount: 15
   TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
+5 tests failed
 
-Test 41: Player discards Estate  Not holding Estate  No Estate in supply
+Test 9: Player discards Estate  Not holding Estate  No Estate in supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 12  discardCount: 13
+4 tests failed
 
-Test 42: Player draws Estate from supply  Holding Estate  No Estate in supply
+Test 10: Player draws Estate from supply  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 8  Ending handCount: 8
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 11: Player discards Estate  Not holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 4  discardCount: 5
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
 
-Test 43: Player draws Estate from supply  Not holding Estate  No Estate in supply
+Test 12: Player draws Estate from supply  Holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 19  discardCount: 20
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
 
-Test 44: Player discards Estate  Not holding Estate  Estate in Supply
+Test 13: Player draws Estate from supply  Holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 9  Ending handCount: 9
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 4  discardCount: 5
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
+
+Test 14: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
   TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 10  discardCount: 11
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
-6 tests failed
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
 
-Test 45: Player draws Estate from supply  Not holding Estate  Estate in Supply
+Test 15: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 13  discardCount: 14
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
+
+Test 16: Player discards Estate  Holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 10  Ending handCount: 9
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 17: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 14  discardCount: 15
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
+
+Test 18: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 19  discardCount: 20
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
+5 tests failed
+
+Test 19: Player discards Estate  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 11  discardCount: 12
+4 tests failed
+
+Test 20: Player discards Estate  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 20  discardCount: 21
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
+5 tests failed
+
+Test 21: Player draws Estate from supply  Not holding Estate  No Estate in supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
   TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 11  Ending handCount: 11
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 17  discardCount: 18
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
-6 tests failed
+4 tests failed
 
-Test 46: Player discards Estate  Not holding Estate  Estate in Supply
+Test 22: Player draws Estate from supply  Not holding Estate  No Estate in supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 16  Ending handCount: 16
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 15  Ending handCount: 15
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 15  discardCount: 16
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
-6 tests failed
+4 tests failed
 
-Test 47: Player discards Estate  Not holding Estate  Estate in Supply
+Test 23: Player draws Estate from supply  Not holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 4  Ending handCount: 4
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
   TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 16  discardCount: 17
   TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
-6 tests failed
+5 tests failed
 
-Test 48: Player draws Estate from supply  Not holding Estate  Estate in Supply
+Test 24: Player draws Estate from supply  Not holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 10  Ending handCount: 10
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 9  discardCount: 10
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
+5 tests failed
+
+Test 25: Player draws Estate from supply  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 13  Ending handCount: 13
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 26: Player draws Estate from supply  Holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 19  discardCount: 20
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
+
+Test 27: Player draws Estate from supply  Holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 8  discardCount: 9
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
+5 tests failed
+
+Test 28: Player discards Estate  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 11  discardCount: 12
+4 tests failed
+
+Test 29: Player draws Estate from supply  Holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 13  Ending handCount: 13
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 30: Player discards Estate  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 0: Played Baron card drew Estate card  Starting handCount: 1  Ending handCount: 0
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
   TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 7  discardCount: 8
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 3
 6 tests failed
 
-Test 49: Player discards Estate  Not holding Estate  No Estate in supply
+Test 31: Player draws Estate from supply  Not holding Estate  No Estate in supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 7  Ending handCount: 7
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
+4 tests failed
 
-Test 50: Player discards Estate  Holding Estate  Estate in Supply
+Test 32: Player discards Estate  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 6  Ending handCount: 6
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 33: Player discards Estate  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 11  Ending handCount: 11
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 34: Player discards Estate  Holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
   TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 12  Ending handCount: 11
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
 4 tests failed
 
-Test 51: Player discards Estate  Holding Estate  Estate in Supply
+Test 35: Player discards Estate  Not holding Estate  No Estate in supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 8  Ending handCount: 7
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 6  Ending handCount: 6
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
 4 tests failed
 
-Test 52: Player discards Estate  Not holding Estate  No Estate in supply
+Test 36: Player draws Estate from supply  Not holding Estate  No Estate in supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 53: Player draws Estate from supply  Holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 54: Player discards Estate  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 55: Player draws Estate from supply  Holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 13  Ending handCount: 13
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 1  discardCount: 2
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
-6 tests failed
-
-Test 56: Player draws Estate from supply  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 7  Ending handCount: 7
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 16  discardCount: 17
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
-6 tests failed
-
-Test 57: Player draws Estate from supply  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 58: Player discards Estate  Holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 8  Ending handCount: 7
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 14  Ending handCount: 14
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
 4 tests failed
 
-Test 59: Player draws Estate from supply  Holding Estate  No Estate in supply
+Test 37: Player discards Estate  Not holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 60: Player draws Estate from supply  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 19  Ending handCount: 19
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 9  discardCount: 10
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
-
-Test 61: Player discards Estate  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 12  Ending handCount: 12
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 14  discardCount: 15
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 20  discardCount: 21
   TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
-6 tests failed
-
-Test 62: Player discards Estate  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 63: Player draws Estate from supply  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 64: Player draws Estate from supply  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 19  Ending handCount: 19
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 11  discardCount: 12
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
-
-Test 65: Player draws Estate from supply  Holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 18  Ending handCount: 18
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 1  discardCount: 2
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
-6 tests failed
-
-Test 66: Player draws Estate from supply  Holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 18  Ending handCount: 18
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 19  discardCount: 20
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
-
-Test 67: Player draws Estate from supply  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 68: Player discards Estate  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 14  discardCount: 15
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 3
 5 tests failed
 
-Test 69: Player discards Estate  Not holding Estate  Estate in Supply
+Test 38: Player discards Estate  Not holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 4  discardCount: 5
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 3
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 10  discardCount: 11
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
 5 tests failed
 
-Test 70: Player draws Estate from supply  Holding Estate  No Estate in supply
+Test 39: Player draws Estate from supply  Holding Estate  No Estate in supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 71: Player draws Estate from supply  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 72: Player draws Estate from supply  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 73: Player draws Estate from supply  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 4  Ending handCount: 4
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 12  discardCount: 13
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
-6 tests failed
-
-Test 74: Player discards Estate  Holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 14  Ending handCount: 13
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 10  Ending handCount: 10
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
 4 tests failed
 
-Test 75: Player draws Estate from supply  Holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 76: Player discards Estate  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 7  Ending handCount: 7
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 1  discardCount: 2
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
-6 tests failed
-
-Test 77: Player discards Estate  Holding Estate  No Estate in supply
+Test 40: Player discards Estate  Holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
   TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 20  Ending handCount: 19
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
 4 tests failed
 
-Test 78: Player discards Estate  Not holding Estate  No Estate in supply
+Test 41: Player discards Estate  Not holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 79: Player discards Estate  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 6  discardCount: 7
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: 1
-5 tests failed
-
-Test 80: Player discards Estate  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 7  Ending handCount: 7
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 4  discardCount: 5
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
-6 tests failed
-
-Test 81: Player draws Estate from supply  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 14  Ending handCount: 14
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 16  discardCount: 17
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
-
-Test 82: Player draws Estate from supply  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 83: Player draws Estate from supply  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 4  Ending handCount: 4
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 19  discardCount: 20
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
-
-Test 84: Player discards Estate  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 0: Played Baron card and drew Estate card  Starting handCount: 4  Ending handCount: 3
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 11  discardCount: 12
-5 tests failed
-
-Test 85: Player draws Estate from supply  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 86: Player discards Estate  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 87: Player discards Estate  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 88: Player draws Estate from supply  Not holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 3  Ending handCount: 3
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 12  discardCount: 13
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 1  discardCount: 2
   TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
-6 tests failed
+5 tests failed
 
-Test 89: Player discards Estate  Not holding Estate  No Estate in supply
+Test 42: Player discards Estate  Not holding Estate  No Estate in supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 90: Player discards Estate  Not holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
-
-Test 91: Player discards Estate  Holding Estate  No Estate in supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 17  Ending handCount: 16
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 13  Ending handCount: 13
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
 4 tests failed
 
-Test 92: Player discards Estate  Holding Estate  No Estate in supply
+Test 43: Player discards Estate  Holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Coins should have increased by 4  Starting coins: 4  Ending coins: 4
+  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 5  Ending handCount: 5
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Starting estate supply is not equal to ending Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
+6 tests failed
+
+Test 44: Player draws Estate from supply  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 3  Ending handCount: 3
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 45: Player draws Estate from supply  Holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 18  Ending handCount: 18
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 46: Player draws Estate from supply  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 13  Ending handCount: 13
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 47: Player discards Estate  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 14  Ending handCount: 14
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 48: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 11  discardCount: 12
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
+
+Test 49: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 9  discardCount: 10
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
+5 tests failed
+
+Test 50: Player discards Estate  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 19  discardCount: 20
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
+5 tests failed
+
+Test 51: Player draws Estate from supply  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 1  Ending handCount: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 52: Player draws Estate from supply  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 2  Ending handCount: 2
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 53: Player discards Estate  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 4  discardCount: 5
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
+
+Test 54: Player discards Estate  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 4  Ending handCount: 4
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 55: Player discards Estate  Holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 18  Ending handCount: 17
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 56: Player discards Estate  Holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
   TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 16  Ending handCount: 15
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
 4 tests failed
 
-Test 93: Player discards Estate  Not holding Estate  Estate in Supply
+Test 57: Player discards Estate  Holding Estate  No Estate in supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 18  Ending handCount: 18
+  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 3  Ending handCount: 2
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 58: Player discards Estate  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 20  Ending handCount: 20
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 59: Player discards Estate  Holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 15  Ending handCount: 14
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 60: Player draws Estate from supply  Holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 5  discardCount: 6
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
+5 tests failed
+
+Test 61: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 13  discardCount: 14
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
+
+Test 62: Player draws Estate from supply  Holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 5  discardCount: 6
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
+
+Test 63: Player discards Estate  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 3  discardCount: 4
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
+5 tests failed
+
+Test 64: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 10  discardCount: 11
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
+
+Test 65: Player discards Estate  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 1  discardCount: 2
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
+
+Test 66: Player draws Estate from supply  Holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 10  Ending handCount: 10
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 67: Player discards Estate  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
   TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 7  discardCount: 8
   TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
-6 tests failed
+5 tests failed
 
-Test 94: Player discards Estate  Holding Estate  Estate in Supply
+Test 68: Player discards Estate  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 18  discardCount: 19
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
+5 tests failed
+
+Test 69: Player discards Estate  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 3  Ending handCount: 3
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 70: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 12  discardCount: 13
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
+5 tests failed
+
+Test 71: Player discards Estate  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 18  Ending handCount: 18
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 72: Player draws Estate from supply  Holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 8  discardCount: 9
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
+5 tests failed
+
+Test 73: Player discards Estate  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 5  discardCount: 6
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
+5 tests failed
+
+Test 74: Player draws Estate from supply  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 18  Ending handCount: 18
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 75: Player discards Estate  Holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 10  Ending handCount: 9
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 76: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 19  discardCount: 20
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
+5 tests failed
+
+Test 77: Player draws Estate from supply  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 5  Ending handCount: 5
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 78: Player discards Estate  Holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 10  Ending handCount: 9
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 79: Player draws Estate from supply  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 12  Ending handCount: 12
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 80: Player discards Estate  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 12  Ending handCount: 12
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 81: Player draws Estate from supply  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 14  Ending handCount: 14
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 82: Player draws Estate from supply  Holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 13  discardCount: 14
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
+5 tests failed
+
+Test 83: Player draws Estate from supply  Holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 19  discardCount: 20
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
+5 tests failed
+
+Test 84: Player draws Estate from supply  Holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 4  discardCount: 5
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
+
+Test 85: Player discards Estate  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 16  Ending handCount: 16
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 86: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 8  discardCount: 9
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
+5 tests failed
+
+Test 87: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 16  discardCount: 17
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
+5 tests failed
+
+Test 88: Player draws Estate from supply  Holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 8  discardCount: 9
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
+5 tests failed
+
+Test 89: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 1  discardCount: 2
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
+5 tests failed
+
+Test 90: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 1  discardCount: 2
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
+5 tests failed
+
+Test 91: Player draws Estate from supply  Not holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 20  discardCount: 21
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
+5 tests failed
+
+Test 92: Player draws Estate from supply  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 15  Ending handCount: 15
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 93: Player draws Estate from supply  Holding Estate  Estate in Supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 2  discardCount: 3
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
+5 tests failed
+
+Test 94: Player draws Estate from supply  Not holding Estate  No Estate in supply
+  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 19  Ending handCount: 19
+  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
+  TEST FAILED: Baron is not on top of the played card pile
+4 tests failed
+
+Test 95: Player discards Estate  Holding Estate  No Estate in supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
   TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 14  Ending handCount: 13
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
 4 tests failed
 
-Test 95: Player draws Estate from supply  Holding Estate  Estate in Supply
-  TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 9  Ending handCount: 9
-  TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
-  TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 13  discardCount: 14
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
-
-Test 96: Player draws Estate from supply  Not holding Estate  No Estate in supply
+Test 96: Player draws Estate from supply  Not holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
-3 tests failed
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 5  discardCount: 6
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
+5 tests failed
 
-Test 97: Player discards Estate  Holding Estate  Estate in Supply
+Test 97: Player draws Estate from supply  Not holding Estate  No Estate in supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 2: Played Baron card and discarded Estate card  Starting handCount: 20  Ending handCount: 19
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 14  Ending handCount: 14
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
 4 tests failed
 
-Test 98: Player draws Estate from supply  Not holding Estate  Estate in Supply
+Test 98: Player discards Estate  Not holding Estate  No Estate in supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 1  Ending handCount: 1
+  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 4  Ending handCount: 4
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 8  discardCount: 9
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
-6 tests failed
+4 tests failed
 
 Test 99: Player draws Estate from supply  Holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 6  Ending handCount: 6
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 3  discardCount: 4
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 1  Ending Estate supply: -1
-6 tests failed
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 5  discardCount: 6
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
 
 Test 100: Player discards Estate  Not holding Estate  Estate in Supply
   TEST FAILED: Baron did not increase the number of buys by 1  Starting Buys: 1  Ending Buys: 1
-  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card  Starting handCount: 13  Ending handCount: 13
   TEST FAILED: Number of played cards should have increased by 1  Expected # of played cards: 1  playedCardCount: 0
   TEST FAILED: Baron is not on top of the played card pile
-  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 13  discardCount: 14
-  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 2  Ending Estate supply: 0
-6 tests failed
+  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards  Expected count: 12  discardCount: 13
+  TEST FAILED: Ending Estate supply should be 1 less than starting Estate supply  Starting Estate supply: 3  Ending Estate supply: 1
+5 tests failed
 
 Function 'baronEffect'
 Lines executed:100.00% of 29
@@ -1201,10 +1203,10 @@ branch  1 taken 9% (fallthrough)
 call    0 returned 100%
      4000:  216:    newDeck[newDeckPos] = state->deck[player][card];
      4000:  217:    newDeckPos++;
-    13115:  218:    for (i = card; i < state->deckCount[player]-1; i++) {
-branch  0 taken 70%
-branch  1 taken 30% (fallthrough)
-     9115:  219:      state->deck[player][i] = state->deck[player][i+1];
+    12933:  218:    for (i = card; i < state->deckCount[player]-1; i++) {
+branch  0 taken 69%
+branch  1 taken 31% (fallthrough)
+     8933:  219:      state->deck[player][i] = state->deck[player][i+1];
         -:  220:    }
      4000:  221:    state->deckCount[player]--;
         -:  222:  }
@@ -1336,9 +1338,9 @@ call    0 never executed
     #####:  317:  return state->hand[currentPlayer][handPos];
         -:  318:}
         -:  319:
-function supplyCount called 159 returned 100% blocks executed 100%
-      159:  320:int supplyCount(int card, struct gameState *state) {
-      159:  321:  return state->supplyCount[card];
+function supplyCount called 185 returned 100% blocks executed 100%
+      185:  320:int supplyCount(int card, struct gameState *state) {
+      185:  321:  return state->supplyCount[card];
         -:  322:}
         -:  323:
 function fullDeckCount called 0 returned 0% blocks executed 0%
@@ -1431,13 +1433,13 @@ call    0 never executed
     #####:  387:  return 0;
         -:  388:}
         -:  389:
-function isGameOver called 15 returned 100% blocks executed 82%
-       15:  390:int isGameOver(struct gameState *state) {
+function isGameOver called 13 returned 100% blocks executed 82%
+       13:  390:int isGameOver(struct gameState *state) {
         -:  391:  int i;
         -:  392:  int j;
         -:  393:	
         -:  394:  //if stack of Province cards is empty, the game ends
-       15:  395:  if (state->supplyCount[province] == 0)
+       13:  395:  if (state->supplyCount[province] == 0)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
         -:  396:    {
@@ -1445,26 +1447,26 @@ branch  1 taken 100%
         -:  398:    }
         -:  399:
         -:  400:  //if three supply pile are at 0, the game ends
-       15:  401:  j = 0;
-      390:  402:  for (i = 0; i < 25; i++)
+       13:  401:  j = 0;
+      338:  402:  for (i = 0; i < 25; i++)
 branch  0 taken 96%
 branch  1 taken 4% (fallthrough)
         -:  403:    {
-      375:  404:      if (state->supplyCount[i] == 0)
+      325:  404:      if (state->supplyCount[i] == 0)
 branch  0 taken 4% (fallthrough)
 branch  1 taken 96%
         -:  405:	{
-       15:  406:	  j++;
+       13:  406:	  j++;
         -:  407:	}
         -:  408:    }
-       15:  409:  if ( j >= 3)
+       13:  409:  if ( j >= 3)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
         -:  410:    {
     #####:  411:      return 1;
         -:  412:    }
         -:  413:
-       15:  414:  return 0;
+       13:  414:  return 0;
         -:  415:}
         -:  416:
 function scoreFor called 0 returned 0% blocks executed 0%
@@ -2500,13 +2502,13 @@ branch  1 never executed
     #####: 1131:  return 0;
         -: 1132:}
         -: 1133:
-function gainCard called 41 returned 100% blocks executed 70%
-       41: 1134:int gainCard(int supplyPos, struct gameState *state, int toFlag, int player)
+function gainCard called 50 returned 100% blocks executed 70%
+       50: 1134:int gainCard(int supplyPos, struct gameState *state, int toFlag, int player)
         -: 1135:{
         -: 1136:  //Note: supplyPos is enum of choosen card
         -: 1137:	
         -: 1138:  //check if supply pile is empty (0) or card is not used in game (-1)
-       41: 1139:  if ( supplyCount(supplyPos, state) < 1 )
+       50: 1139:  if ( supplyCount(supplyPos, state) < 1 )
 call    0 returned 100%
 branch  1 taken 0% (fallthrough)
 branch  2 taken 100%
@@ -2519,14 +2521,14 @@ branch  2 taken 100%
         -: 1146:  // toFlag = 1 : add to deck
         -: 1147:  // toFlag = 2 : add to hand
         -: 1148:
-       41: 1149:  if (toFlag == 1)
+       50: 1149:  if (toFlag == 1)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
         -: 1150:    {
     #####: 1151:      state->deck[ player ][ state->deckCount[player] ] = supplyPos;
     #####: 1152:      state->deckCount[player]++;
         -: 1153:    }
-       41: 1154:  else if (toFlag == 2)
+       50: 1154:  else if (toFlag == 2)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
         -: 1155:    {
@@ -2535,14 +2537,14 @@ branch  1 taken 100%
         -: 1158:    }
         -: 1159:  else
         -: 1160:    {
-       41: 1161:      state->discard[player][ state->discardCount[player] ] = supplyPos;
-       41: 1162:      state->discardCount[player]++;
+       50: 1161:      state->discard[player][ state->discardCount[player] ] = supplyPos;
+       50: 1162:      state->discardCount[player]++;
         -: 1163:    }
         -: 1164:	
         -: 1165:  //decrease number in supply pile
-       41: 1166:  state->supplyCount[supplyPos]--;
+       50: 1166:  state->supplyCount[supplyPos]--;
         -: 1167:	 
-       41: 1168:  return 0;
+       50: 1168:  return 0;
         -: 1169:}
         -: 1170:
 function updateCoins called 100 returned 100% blocks executed 82%
@@ -2559,18 +2561,18 @@ branch  0 taken 83%
 branch  1 taken 17% (fallthrough)
         -: 1180:    {
       500: 1181:      if (state->hand[player][i] == copper)
-branch  0 taken 69% (fallthrough)
-branch  1 taken 31%
+branch  0 taken 70% (fallthrough)
+branch  1 taken 30%
         -: 1182:	{
-      344: 1183:	  state->coins += 1;
+      352: 1183:	  state->coins += 1;
         -: 1184:	}
-      156: 1185:      else if (state->hand[player][i] == silver)
+      148: 1185:      else if (state->hand[player][i] == silver)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
         -: 1186:	{
     #####: 1187:	  state->coins += 2;
         -: 1188:	}
-      156: 1189:      else if (state->hand[player][i] == gold)
+      148: 1189:      else if (state->hand[player][i] == gold)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
         -: 1190:	{
@@ -2744,72 +2746,72 @@ function baronEffect called 100 returned 100% blocks executed 100%
         -: 1311:{
       100: 1312:      state->numPlayers++;//Increase buys by 1!
       100: 1313:      if (choice1 > 0){//Boolean true or going to discard an estate
-branch  0 taken 51% (fallthrough)
-branch  1 taken 49%
-       51: 1314:	int p = 0;//Iterator for hand!
-       51: 1315:	int card_not_discarded = 1;//Flag for discard set!
-      665: 1316:	while(card_not_discarded){ //while an estate has not been found and discarded
-branch  0 taken 92%
-branch  1 taken 8% (fallthrough)
-      563: 1317:	  if (state->hand[currentPlayer][p] == estate){//Found an estate card!
+branch  0 taken 42% (fallthrough)
+branch  1 taken 58%
+       42: 1314:	int p = 0;//Iterator for hand!
+       42: 1315:	int card_not_discarded = 1;//Flag for discard set!
+      492: 1316:	while(card_not_discarded){ //while an estate has not been found and discarded
+branch  0 taken 91%
+branch  1 taken 9% (fallthrough)
+      408: 1317:	  if (state->hand[currentPlayer][p] == estate){//Found an estate card!
 branch  0 taken 4% (fallthrough)
 branch  1 taken 96%
-       23: 1318:	    state->coins += 4;//Add 4 coins to the amount of coins
-       23: 1319:	    state->discard[currentPlayer][state->discardCount[currentPlayer]] = state->hand[currentPlayer][p];
-       23: 1320:	    state->discardCount[currentPlayer]++;
-      112: 1321:	    for (;p < state->handCount[currentPlayer]; p++){
-branch  0 taken 79%
-branch  1 taken 21% (fallthrough)
-       89: 1322:	      state->hand[currentPlayer][p] = state->hand[currentPlayer][p+1];
+       15: 1318:	    state->coins += 4;//Add 4 coins to the amount of coins
+       15: 1319:	    state->discard[currentPlayer][state->discardCount[currentPlayer]] = state->hand[currentPlayer][p];
+       15: 1320:	    state->discardCount[currentPlayer]++;
+      101: 1321:	    for (;p < state->handCount[currentPlayer]; p++){
+branch  0 taken 85%
+branch  1 taken 15% (fallthrough)
+       86: 1322:	      state->hand[currentPlayer][p] = state->hand[currentPlayer][p+1];
         -: 1323:	    }
-       23: 1324:	    state->hand[currentPlayer][state->handCount[currentPlayer]] = -1;
-       23: 1325:	    state->handCount[currentPlayer]--;
-       23: 1326:	    card_not_discarded = 0;//Exit the loop
+       15: 1324:	    state->hand[currentPlayer][state->handCount[currentPlayer]] = -1;
+       15: 1325:	    state->handCount[currentPlayer]--;
+       15: 1326:	    card_not_discarded = 0;//Exit the loop
         -: 1327:	  }
-      540: 1328:	  else if (p > state->handCount[currentPlayer]){//if all cards have been looped through and no estate was found
-branch  0 taken 5% (fallthrough)
-branch  1 taken 95%
+      393: 1328:	  else if (p > state->handCount[currentPlayer]){//if all cards have been looped through and no estate was found
+branch  0 taken 7% (fallthrough)
+branch  1 taken 93%
         -: 1329:	    if(DEBUG) {
         -: 1330:	      printf("No estate cards in your hand, invalid choice\n");
         -: 1331:	      printf("Must gain an estate if there are any\n");
         -: 1332:	    }
-       28: 1333:	    if (supplyCount(estate, state) > 0){ //if there are still estates in the supply
+       27: 1333:	    if (supplyCount(estate, state) > 0){ //if there are still estates in the supply
 call    0 returned 100%
-branch  1 taken 61% (fallthrough)
-branch  2 taken 39%
-       17: 1334:	      gainCard(estate, state, 0, currentPlayer); //gain an estate
+branch  1 taken 52% (fallthrough)
+branch  2 taken 48%
+       14: 1334:	      gainCard(estate, state, 0, currentPlayer); //gain an estate
 call    0 returned 100%
-       17: 1335:	      state->supplyCount[estate]--;//Decrement estates
-       17: 1336:	      if (supplyCount(estate, state) == 0){
+       14: 1335:	      state->supplyCount[estate]--;//Decrement estates
+       14: 1336:	      if (supplyCount(estate, state) == 0){
 call    0 returned 100%
-branch  1 taken 35% (fallthrough)
-branch  2 taken 65%
-        6: 1337:		isGameOver(state);
+branch  1 taken 14% (fallthrough)
+branch  2 taken 86%
+        2: 1337:		isGameOver(state);
 call    0 returned 100%
         -: 1338:	      }
         -: 1339:	    }
-       28: 1340:	    card_not_discarded = 0;//Exit the loop
+       27: 1340:	    card_not_discarded = 0;//Exit the loop
         -: 1341:	  }
         -: 1342:			    
         -: 1343:	  else{
-      512: 1344:	    p++;//Next card
+      366: 1344:	    p++;//Next card
         -: 1345:	  }
         -: 1346:	}
         -: 1347:      }
         -: 1348:			    
         -: 1349:      else{//if the player chose to gain an estate
-       49: 1350:	if (supplyCount(estate, state) > 0){
+       58: 1350:	if (supplyCount(estate, state) > 0){
 call    0 returned 100%
-branch  1 taken 49% (fallthrough)
-branch  2 taken 51%
-       24: 1351:	  gainCard(estate, state, 0, currentPlayer);//Gain an estate
+branch  1 taken 62% (fallthrough)
+branch  2 taken 38%
+       36: 1351:	  gainCard(estate, state, 0, currentPlayer);//Gain an estate
 call    0 returned 100%
-       24: 1352:	  state->supplyCount[estate]--;//Decrement Estates
-       24: 1353:	  if (supplyCount(estate, state) == 0){
+       36: 1352:	  state->supplyCount[estate]--;//Decrement Estates
+       36: 1353:	  if (supplyCount(estate, state) == 0){
 call    0 returned 100%
-branch  1 taken 38% (fallthrough)
-branch  2 taken 63%
-        9: 1354:	    isGameOver(state);
+branch  1 taken 31% (fallthrough)
+branch  2 taken 69%
+       11: 1354:	    isGameOver(state);
 call    0 returned 100%
         -: 1355:	  }
         -: 1356:	}

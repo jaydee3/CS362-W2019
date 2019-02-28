@@ -190,9 +190,9 @@ int main(int argc, const char* argv[])
 		//estates in their hand, there are Estates in the supply pile
 		else if(estateSupply == 1)
 		{	
-			//Baron should have been played
-			if (G.handCount[player] != I.handCount[player] - 1) { 
-				printf("  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card");
+			//Baron should have been played and Estate should have been drawn
+			if (G.handCount[player] != I.handCount[player]) { 
+				printf("  TEST FAILED: Net loss in player's hand count should be 0: Played Baron card drew Estate card");
 				printf("  Starting handCount: %d", I.handCount[player]);
 				printf("  Ending handCount: %d\n", G.handCount[player]);
 				result += 1; //increase the count of failed tests by 1
@@ -239,13 +239,13 @@ int main(int argc, const char* argv[])
 
 		/**********************************************************************************************************************
 		 *********************************************************************************************************************/
-		//Performing card test for Baron with options: player draws an Estate or discards and estate when they ar not holding
+		//Performing card test for Baron with options: player draws an Estate or discards an estate when they are not holding
 		//an estate, and there are no Estates in the supply pile\n
 		else if (estateSupply == 0)
 		{
-		//Baron and should have been played and Estate should be added to player's hand
-		if (G.handCount[player] != I.handCount[player]) { 
-			printf("  TEST FAILED: Net loss in player's hand count should be 0: Played Baron card and drew Estate card");
+		//Baron and should have been played
+		if (G.handCount[player] != I.handCount[player] - 1) { 
+			printf("  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card");
 			printf("  Starting handCount: %d", I.handCount[player]);
 			printf("  Ending handCount: %d\n", G.handCount[player]);
 			result += 1; //increase the count of failed tests by 1
