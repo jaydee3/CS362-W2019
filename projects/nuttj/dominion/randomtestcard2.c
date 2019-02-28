@@ -291,7 +291,7 @@ int main(int argc, const char* argv[])
 		}//end if
 
 		//Perform test to see if the other player's hands have been altered
-		for(i = 1; i < numPlayers; i++)
+		for(i = 1; i < G.numPlayers; i++)
 		{
 			//test if the count of cards in the player's hand has changed
 			if(G.handCount[i] != I.handCount[i])
