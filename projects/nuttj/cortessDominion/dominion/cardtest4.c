@@ -89,7 +89,7 @@ int main(int argc, const char* argv[])
 	//No cards should have been discarded
 	if (G.discardCount[player] != I.discardCount[player]) { 
 		printf("TEST FAILED: Number of ending discarded cards should be equal to the number of starting discarded cards\n");
-		printf("  Expected # of discarded cards: %d\n", I.discardCount[player] + 1);
+		printf("  Expected # of discarded cards: %d\n", I.discardCount[player]);
 		printf("  discardCount: %d\n", G.discardCount[player]);
 		result += 1; //increase the count of failed tests by 1
 	}

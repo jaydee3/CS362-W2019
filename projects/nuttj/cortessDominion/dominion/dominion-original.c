@@ -643,7 +643,7 @@ int getCost(int cardNumber)
   return -1;
 }
 
-int adventurerEffect(struct gameState *state, int currentPlayer, int handPos) {
+int adventurerEffect(struct gameState *state, int currentPlayer) {
     int z = 0;// this is the counter for the temp hand
     int cardDrawn;
     int temphand[MAX_HAND];
@@ -668,9 +668,6 @@ int adventurerEffect(struct gameState *state, int currentPlayer, int handPos) {
         state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
         z=z-1;
     }
-
-    //discard played card from hand
-    discardCard(handPos, currentPlayer, state, 0);
 
     return 0;
 }
@@ -833,7 +830,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
   switch( card ) 
     {
     case adventurer:
-        adventurerEffect(state, currentPlayer, handPos);
+        adventurerEffect(state, currentPlayer);
 			
     case council_room:
         council_roomEffect(state, currentPlayer, handPos);
@@ -888,9 +885,6 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return 0;
 		
     case baron:
-      //discard played card from hand
-      discardCard(handPos, currentPlayer, state, 0);
-
       state->numBuys++;//Increase buys by 1!
       if (choice1 > 0){//Boolean true or going to discard an estate
 	int p = 0;//Iterator for hand!

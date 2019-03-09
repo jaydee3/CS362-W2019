@@ -1,35 +1,44 @@
 Performing card test for Adventurer
-Test 1: treasure in deck: 0   treasure in discard: 2  total card drawn = 6
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 17  Ending handCount: 22
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 4  discardCount: 1
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 2: treasure in deck: 2   treasure in discard: 0  total card drawn = 13
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 5  Ending handCount: 10
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 30  discardCount: 27
-TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+Test 1: treasure in deck: 0   treasure in discard: 2  total card drawn = 10
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 19  Ending handCount: 23
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 8  discardCount: 5
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
 TEST FAILED: The number of treasures in the player's hand should have increased by 2
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-8 tests failed
+9 tests failed
 
-Test 3: treasure in deck: 2   treasure in discard: 0  total card drawn = 11
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 3  Ending handCount: 8
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 16  discardCount: 13
+Test 2: treasure in deck: 1   treasure in discard: 0  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 1  Ending handCount: 4
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-6 tests failed
+9 tests failed
 
-Test 4: treasure in deck: 0   treasure in discard: 1  total card drawn = 1
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -1  discardCount: 1
+Test 3: treasure in deck: 1   treasure in discard: 0  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 17  Ending handCount: 20
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 4: treasure in deck: 1   treasure in discard: 0  total card drawn = 3
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 11  Ending handCount: 12
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 1  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
 TEST FAILED: Adventurer is not on top of the played card pile
 TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 1
 TEST FAILED: The number of treasures in the player's hand should have increased by 1
@@ -37,96 +46,223 @@ TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-8 tests failed
+10 tests failed
 
-Test 5: treasure in deck: 0   treasure in discard: 1  total card drawn = 4
-TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 20  Ending handCount: 23
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 2  discardCount: 1
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 6: treasure in deck: 0   treasure in discard: 1  total card drawn = 5
-TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 8  Ending handCount: 12
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 7: treasure in deck: 0   treasure in discard: 0  total card drawn = -2
-TEST FAILED: Net gain in player's hand count should be -1: 0 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 5  Ending handCount: 2
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -4  discardCount: 1
+Test 5: treasure in deck: 2   treasure in discard: 0  total card drawn = -14
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 6  Ending handCount: 10
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
 TEST FAILED: Adventurer is not on top of the played card pile
-TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 0
-TEST FAILED: The number of treasures in the player's hand should have increased by 0
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
 9 tests failed
 
-Test 8: treasure in deck: 0   treasure in discard: 2  total card drawn = 6
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 6  Ending handCount: 11
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 4  discardCount: 1
+Test 6: treasure in deck: 1   treasure in discard: 0  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 18  Ending handCount: 21
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-6 tests failed
+9 tests failed
 
-Test 9: treasure in deck: 2   treasure in discard: 0  total card drawn = 7
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 10  Ending handCount: 15
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 8  discardCount: 5
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 10: treasure in deck: 2   treasure in discard: 0  total card drawn = -13
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 1  Ending handCount: 5
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 3  discardCount: 1
+Test 7: treasure in deck: 2   treasure in discard: 0  total card drawn = 3
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 9  Ending handCount: 13
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
 TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
 TEST FAILED: The number of treasures in the player's hand should have increased by 2
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 8: treasure in deck: 1   treasure in discard: 1  total card drawn = 6
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 11  Ending handCount: 15
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 4  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 9: treasure in deck: 2   treasure in discard: 0  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 19  Ending handCount: 23
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 19  discardCount: 16
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count hasPerforming card test for Adventurer
+Test 1: treasure in deck: 1   treasure in discard: 1  total card drawn = 1
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 14  Ending handCount: 13
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -1  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 2: treasure in deck: 2   treasure in discard: 0  total card drawn = -11
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 18  Ending handCount: 21
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 3: treasure in deck: 0   treasure in discard: 1  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 4  Ending handCount: 7
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 4: treasure in deck: 1   treasure in discard: 1  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 13  Ending handCount: 16
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 5: treasure in deck: 2   treasure in discard: 0  total card drawn = -6
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 4  Ending handCount: 1
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: -3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 6: treasure in deck: 1   treasure in discard: 0  total card drawn = -12
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 20  Ending handCount: 6
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -14  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 1
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 7: treasure in deck: 2   treasure in discard: 0  total card drawn = 2
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 14  Ending handCount: 17
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 8: treasure in deck: 0   treasure in discard: 1  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 15  Ending handCount: 18
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 9: treasure in deck: 0   treasure in discard: 0  total card drawn = -11
+TEST FAILED: Net gain in player's hand count should be -1: 0 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 14  Ending handCount: 1
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -13  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
 8 tests failed
+
+Test 10: treasure in deck: 2   treasure in discard: 0  total card drawn = 3
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 12  Ending handCount: 15
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
 
 Test 11: treasure in deck: 0   treasure in discard: 1  total card drawn = 5
-TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 1  Ending handCount: 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 19  Ending handCount: 22
 TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-6 tests failed
+9 tests failed
 
-Test 12: treasure in deck: 1   treasure in discard: 1  total card drawn = 6
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 8  Ending handCount: 13
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 4  discardCount: 1
+Test 12: treasure in deck: 1   treasure in discard: 0  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 8  Ending handCount: 11
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-6 tests failed
+9 tests failed
 
-Test 13: treasure in deck: 0   treasure in discard: 0  total card drawn = 1
-TEST FAILED: Net gain in player's hand count should be -1: 0 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 8  Ending handCount: 8
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-5 tests failed
-
-Test 14: treasure in deck: 1   treasure in discard: 1  total card drawn = -3
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 6  Ending handCount: 2
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -5  discardCount: 1
+Test 13: treasure in deck: 2   treasure in discard: 0  total card drawn = -17
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 15  Ending handCount: 1
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: -14  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
 TEST FAILED: Adventurer is not on top of the played card pile
 TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
 TEST FAILED: The number of treasures in the player's hand should have increased by 2
@@ -134,213 +270,462 @@ TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-9 tests failed
+10 tests failed
 
-Test 15: treasure in deck: 1   treasure in discard: 0  total card drawn = -58
-TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 1  Ending handCount: -58
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -60  discardCount: 1
-TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 1
-TEST FAILED: The number of treasures in the player's hand should have increased by 1
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-8 tests failed
-
-Test 16: treasure in deck: 2   treasure in discard: 0  total card drawn = 0
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 19  Ending handCount: 24
+Test 14: treasure in deck: 2   treasure in discard: 0  total card drawn = -11
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 20  Ending handCount: 24
 TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
 TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
 TEST FAILED: The number of treasures in the player's hand should have increased by 2
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-8 tests failed
+10 tests failed
+
+Test 15: treasure in deck: 2   treasure in discard: 0  total card drawn = 19
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 17  Ending handCount: 21
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 24  discardCount: 21
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 16: treasure in deck: 1   treasure in discard: 1  total card drawn = 6
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 5  Ending handCount: 9
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 4  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
 
 Test 17: treasure in deck: 1   treasure in discard: 1  total card drawn = 6
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 14  Ending handCount: 19
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 2  Ending handCount: 6
 TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 4  discardCount: 1
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 18: treasure in deck: 2   treasure in discard: 0  total card drawn = 12
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 11  Ending handCount: 16
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 20  discardCount: 17
-TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
-TEST FAILED: The number of treasures in the player's hand should have increased by 2
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-8 tests failed
-
-Test 19: treasure in deck: 0   treasure in discard: 1  total card drawn = 2
-TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 4  Ending handCount: 5
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
 TEST FAILED: Adventurer is not on top of the played card pile
-TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 1
-TEST FAILED: The number of treasures in the player's hand should have increased by 1
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-8 tests failed
-
-Test 20: treasure in deck: 0   treasure in discard: 0  total card drawn = -16
-TEST FAILED: Net gain in player's hand count should be -1: 0 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 19  Ending handCount: 2
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -18  discardCount: 1
-TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 0
-TEST FAILED: The number of treasures in the player's hand should have increased by 0
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-8 tests failed
-
-Test 21: treasure in deck: 2   treasure in discard: 0  total card drawn = 10
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 2  Ending handCount: 7
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 9  discardCount: 6
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 22: treasure in deck: 2   treasure in discard: 0  total card drawn = -3
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 11  Ending handCount: 16
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 23: treasure in deck: 0   treasure in discard: 2  total card drawn = 10
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 9  Ending handCount: 14
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 8  discardCount: 5
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 24: treasure in deck: 2   treasure in discard: 0  total card drawn = 15
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 6  Ending handCount: 11
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 31  discardCount: 28
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 25: treasure in deck: 0   treasure in discard: 2  total card drawn = 6
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 19  Ending handCount: 24
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 4  discardCount: 1
-TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
 TEST FAILED: The number of treasures in the player's hand should have increased by 2
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-8 tests failed
+9 tests failed
 
-Test 26: treasure in deck: 2   treasure in discard: 0  total card drawn = -7
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 5  Ending handCount: 9
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 3  discardCount: 1
-TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
-TEST FAILED: The number of treasures in the player's hand should have increased by 2
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-8 tests failed
-
-Test 27: treasure in deck: 2   treasure in discard: 0  total card drawn = -5
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 20  Ending handCount: 25
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 28: treasure in deck: 2   treasure in discard: 0  total card drawn = -11
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 6  Ending handCount: 11
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 29: treasure in deck: 0   treasure in discard: 1  total card drawn = 2
-TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 10  Ending handCount: 11
-TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 1
-TEST FAILED: The number of treasures in the player's hand should have increased by 1
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-7 tests failed
-
-Test 30: treasure in deck: 0   treasure in discard: 1  total card drawn = 5
-TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 17  Ending handCount: 21
+Test 18: treasure in deck: 0   treasure in discard: 1  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 9  Ending handCount: 12
 TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
 TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 31: treasure in deck: 2   treasure in discard: 0  total card drawn = -4
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 9  Ending handCount: 14
+TEST FAILPerforming card test for Adventurer
+Test 1: treasure in deck: 2   treasure in discard: 0  total card drawn = -7
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 17  Ending handCount: 21
 TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-6 tests failed
+9 tests failed
 
-Test 32: treasure in deck: 2   treasure in discard: 0  total card drawn = 18
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 18  Ending handCount: 23
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 20  discardCount: 17
+Test 2: treasure in deck: 2   treasure in discard: 0  total card drawn = -5
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 6  Ending handCount: 9
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
 TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
 TEST FAILED: The number of treasures in the player's hand should have increased by 2
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-8 tests failed
+10 tests failed
 
-Test 33: treasure in deck: 2   treasure in discard: 0  total card drawn = 2
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 13  Ending handCount: 18
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
+Test 3: treasure in deck: 0   treasure in discard: 1  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 16  Ending handCount: 19
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 4: treasure in deck: 2   treasure in discard: 0  total card drawn = -4
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 17  Ending handCount: 20
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 5: treasure in deck: 1   treasure in discard: 0  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 4  Ending handCount: 7
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 6: treasure in deck: 2   treasure in discard: 0  total card drawn = 2
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 11  Ending handCount: 14
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 7: treasure in deck: 0   treasure in discard: 2  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 14  Ending handCount: 17
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
 TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
 TEST FAILED: The number of treasures in the player's hand should have increased by 2
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-8 tests failed
+10 tests failed
 
-Test 34: treasure in deck: 0   treasure in discard: 0  total card drawn = -4
-TEST FAILED: Net gain in player's hand count should be -1: 0 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 14  Ending handCount: 9
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -6  discardCount: 1
+Test 8: treasure in deck: 0   treasure in discard: 1  total card drawn = -1
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 4  Ending handCount: 1
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 9: treasure in deck: 1   treasure in discard: 1  total card drawn = 16
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 17  Ending handCount: 21
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 14  discardCount: 11
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 10: treasure in deck: 2   treasure in discard: 0  total card drawn = 17
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 14  Ending handCount: 18
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 35  discardCount: 32
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 11: treasure in deck: 1   treasure in discard: 1  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 16  Ending handCount: 19
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 12: treasure in deck: 1   treasure in discard: 1  total card drawn = 23
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 10  Ending handCount: 14
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 21  discardCount: 18
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
 TEST FAILED: Adventurer is not on top of the played card pile
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-7 tests failed
+8 tests failed
 
-Test 35: treasure in deck: 0   treasure in discard: 0  total card drawn = -2
-TEST FAILED: Net gain in player's hand count should be -1: 0 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 5  Ending handCount: 2
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -4  discardCount: 1
+Test 13: treasure in deck: 0   treasure in discard: 0  total card drawn = 0
+TEST FAILED: Net gain in player's hand count should be -1: 0 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 16  Ending handCount: 14
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -2  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
 TEST FAILED: Adventurer is not on top of the played card pile
-TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 0
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+8 tests failed
+
+Test 14: treasure in deck: 0   treasure in discard: 2  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 6  Ending handCount: 9
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 15: treasure in deck: 1   treasure in discard: 0  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 6  Ending handCount: 9
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 16: treasure in deck: 0   treasure in discard: 2  total card drawn = 18
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 5  Ending handCount: 9
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 16  discardCount: 13
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 17: treasure in deck: 2   treasure in discard: 0  total card drawn = 12
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 3  Ending handCount: 7
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 23  discardCount: 20
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 18: treasure in deck: 0   treasure in discard: 1  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 15  Ending handCount: 18
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 19: treasure in deck: 0   treasure in discard: 0  total card drawn = -10
+TEST FAILED: Net gain in player's hand count should be -1: 0 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 13  Ending handCount: 1
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -12  discardCount: 1
+TEST FAILED: Number of playPerforming card test for Adventurer
+Test 1: treasure in deck: 2   treasure in discard: 0  total card drawn = -10
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 10  Ending handCount: 14
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 2: treasure in deck: 0   treasure in discard: 1  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 2  Ending handCount: 5
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 3: treasure in deck: 2   treasure in discard: 0  total card drawn = -4
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 20  Ending handCount: 24
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 4: treasure in deck: 1   treasure in discard: 0  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 10  Ending handCount: 13
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 5: treasure in deck: 1   treasure in discard: 0  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 17  Ending handCount: 20
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 6: treasure in deck: 1   treasure in discard: 1  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 7  Ending handCount: 10
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 7: treasure in deck: 2   treasure in discard: 0  total card drawn = -6
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 13  Ending handCount: 17
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 8: treasure in deck: 2   treasure in discard: 0  total card drawn = -13
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 13  Ending handCount: 17
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 9: treasure in deck: 0   treasure in discard: 1  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 16  Ending handCount: 19
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 10: treasure in deck: 0   treasure in discard: 1  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 6  Ending handCount: 9
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+8 tests failed
+
+Test 11: treasure in deck: 2   treasure in discard: 0  total card drawn = -3
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 15  Ending handCount: 19
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 14  discardCount: 11
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+8 tests failed
+
+Test 12: treasure in deck: 1   treasure in discard: 1  total card drawn = 6
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 1  Ending handCount: 5
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 4  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 13: treasure in deck: 1   treasure in discard: 0  total card drawn = 2
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 1
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+8 tests failed
+
+Test 14: treasure in deck: 1   treasure in discard: 1  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 6  Ending handCount: 9
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+8 tests failed
+
+Test 15: treasure in deck: 0   treasure in discard: 0  total card drawn = 3
+TEST FAILED: Net gain in player's hand count should be -1: 0 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 12  Ending handCount: 13
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 1  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
 TEST FAILED: The number of treasures in the player's hand should have increased by 0
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
@@ -348,54 +733,55 @@ TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
 9 tests failed
 
-Test 36: treasure in deck: 2   treasure in discard: 0  total card drawn = -3
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 18  Ending handCount: 23
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
+Test 16: treasure in deck: 1   treasure in discard: 0  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 12  Ending handCount: 15
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-6 tests failed
+9 tests failed
 
-Test 37: treasure in deck: 2   treasure in discard: 0  total card drawn = 12
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 20  Ending handCount: 25
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 19  discardCount: 16
+Test 17: treasure in deck: 1   treasure in discard: 0  total card drawn = 3
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 16  Ending handCount: 17
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 1  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-6 tests failed
+9 tests failed
 
-Test 38: treasure in deck: 2   treasure in discard: 0  total card drawn = -11
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 12  Ending handCount: 17
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 39: treasure in deck: 0   treasure in discard: 2  total card drawn = 18
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 14  Ending handCount: 19
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 16  discardCount: 13
+Test 18: treasure in deck: 0   treasure in discard: 2  total card drawn = 19
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 15  Ending handCount: 19
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 17  discardCount: 14
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
 TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-7 tests failed
+10 tests failed
 
-Test 40: treasure in deck: 1   treasure in discard: 1  total card drawn = 28
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 5  Ending handCount: 10
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 26  discardCount: 23
+Test 19: treasure in deck: 0   treasure in discard: 0  total card drawn = 2
+TEST FAILED: Net gain in player's hand count should be -1: 0 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 18  Ending handCount: 18
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 0  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 0
 TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 41: treasure in deck: 1   treasure in discard: 0  total card drawn = 1
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -1  discardCount: 1
+TEST FAILED: Player 1's deck count Performing card test for Adventurer
+Test 1: treasure in deck: 1   treasure in discard: 0  total card drawn = -8
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 15  Ending handCount: 5
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -10  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
 TEST FAILED: Adventurer is not on top of the played card pile
 TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 1
 TEST FAILED: The number of treasures in the player's hand should have increased by 1
@@ -403,93 +789,240 @@ TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-8 tests failed
+10 tests failed
 
-Test 42: treasure in deck: 1   treasure in discard: 0  total card drawn = 5
-TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 2  Ending handCount: 6
+Test 2: treasure in deck: 1   treasure in discard: 1  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 11  Ending handCount: 14
 TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 43: treasure in deck: 0   treasure in discard: 1  total card drawn = 5
-TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 1  Ending handCount: 5
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 44: treasure in deck: 0   treasure in discard: 0  total card drawn = 0
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -2  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
 TEST FAILED: Adventurer is not on top of the played card pile
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 45: treasure in deck: 1   treasure in discard: 1  total card drawn = 31
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 12  Ending handCount: 17
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 29  discardCount: 26
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-6 tests failed
-
-Test 46: treasure in deck: 0   treasure in discard: 0  total card drawn = -2
-TEST FAILED: Net gain in player's hand count should be -1: 0 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 5  Ending handCount: 2
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -4  discardCount: 1
-TEST FAILED: Adventurer is not on top of the played card pile
-TEST FAILED: Player 1's hand count has been altered
-TEST FAILED: Player 1's deck count has been altered
-TEST FAILED: Player 2's hand count has been altered
-TEST FAILED: Player 2's deck count has been altered
-7 tests failed
-
-Test 47: treasure in deck: 2   treasure in discard: 0  total card drawn = 9
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 17  Ending handCount: 22
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 27  discardCount: 24
 TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
 TEST FAILED: The number of treasures in the player's hand should have increased by 2
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 3: treasure in deck: 0   treasure in discard: 2  total card drawn = 18
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 17  Ending handCount: 21
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 16  discardCount: 13
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 4: treasure in deck: 1   treasure in discard: 1  total card drawn = 28
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 5  Ending handCount: 9
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 26  discardCount: 23
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 5: treasure in deck: 1   treasure in discard: 1  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 5  Ending handCount: 8
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 6: treasure in deck: 0   treasure in discard: 2  total card drawn = 10
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 18  Ending handCount: 22
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 8  discardCount: 5
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
 8 tests failed
 
-Test 48: treasure in deck: 2   treasure in discard: 0  total card drawn = -4
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 11  Ending handCount: 16
+Test 7: treasure in deck: 1   treasure in discard: 1  total card drawn = 17
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 1  Ending handCount: 5
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 15  discardCount: 12
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 8: treasure in deck: 2   treasure in discard: 0  total card drawn = 11
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 18  Ending handCount: 22
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 15  discardCount: 12
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 9: treasure in deck: 1   treasure in discard: 0  total card drawn = -8
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 14  Ending handCount: 4
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -10  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 1
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 10: treasure in deck: 2   treasure in discard: 0  total card drawn = 0
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 18  Ending handCount: 22
 TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-6 tests failed
+9 tests failed
 
-Test 49: treasure in deck: 2   treasure in discard: 0  total card drawn = 9
-TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 20  Ending handCount: 25
-TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 13  discardCount: 10
+Test 11: treasure in deck: 2   treasure in discard: 0  total card drawn = 8
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 11  Ending handCount: 15
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 23  discardCount: 20
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
-6 tests failed
+9 tests failed
 
-Test 50: treasure in deck: 0   treasure in discard: 0  total card drawn = -70
-TEST FAILED: Net gain in player's hand count should be -1: 0 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 13  Ending handCount: -58
-TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -72  discardCount: 1
-TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 0
+Test 12: treasure in deck: 2   treasure in discard: 0  total card drawn = 9
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 20  Ending handCount: 24
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 8  discardCount: 5
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 13: treasure in deck: 1   treasure in discard: 1  total card drawn = 5
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 15  Ending handCount: 18
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 14: treasure in deck: 2   treasure in discard: 0  total card drawn = -12
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 6  Ending handCount: 10
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 4  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 15: treasure in deck: 2   treasure in discard: 0  total card drawn = -9
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 17  Ending handCount: 20
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+10 tests failed
+
+Test 16: treasure in deck: 2   treasure in discard: 0  total card drawn = -2
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 11  Ending handCount: 14
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 3  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 17: treasure in deck: 2   treasure in discard: 0  total card drawn = 13
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 6  Ending handCount: 10
+TEST FAILED: Number of discarded cards should be the original discard count plus number of cards drawn - 2 treasure cards  Expected #: 20  discardCount: 17
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's deck and discard should have decreased by 2
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 18: treasure in deck: 0   treasure in discard: 0  total card drawn = -5
+TEST FAILED: Net gain in player's hand count should be -1: 0 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 15  Ending handCount: 8
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -7  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
 TEST FAILED: The number of treasures in the player's hand should have increased by 0
 TEST FAILED: Player 1's hand count has been altered
 TEST FAILED: Player 1's deck count has been altered
 TEST FAILED: Player 2's hand count has been altered
 TEST FAILED: Player 2's deck count has been altered
+9 tests failed
+
+Test 19: treasure in deck: 1   treasure in discard: 1  total card drawn = 15
+TEST FAILED: Net gain in player's hand count should be 1: 2 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 8  Ending handCount: 12
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: 13  discardCount: 10
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
 8 tests failed
+
+Test 20: treasure in deck: 1   treasure in discard: 0  total card drawn = -7
+TEST FAILED: Net gain in player's hand count should be 0: 1 drawn treasure cards and 1 discarded Adventurer Card  Starting handCount: 16  Ending handCount: 7
+TEST FAILED: Number of discarded cards should be the number of cards drawn - 2 treasure cards  Expected # of discarded cards: -9  discardCount: 1
+TEST FAILED: Number of played cards should hve increased by 1  Expected # of played cards: 1  playedCardCount: 2
+TEST FAILED: Adventurer is not on top of the played card pile
+TEST FAILED: The number of treasures in the player's hand should have increased by 1
+TEST FAILED: Player 1's hand count has been altered
+TEST FAILED: Player 1's deck count has been altered
+TEST FAILED: Player 2's hand count has been altered
+TEST FAILED: Player 2's deck count has been altered
+9 tests failed
 
 Function 'updateCoins'
 Lines executed:81.82% of 11
@@ -510,10 +1043,10 @@ Taken at least once:50.00% of 6
 No calls
 
 Function 'cardEffect'
-Lines executed:5.43% of 184
+Lines executed:5.41% of 185
 Branches executed:14.84% of 155
 Taken at least once:1.29% of 155
-Calls executed:7.69% of 52
+Calls executed:7.55% of 53
 
 Function 'smithyEffect'
 Lines executed:0.00% of 5
@@ -540,10 +1073,10 @@ Taken at least once:100.00% of 6
 Calls executed:100.00% of 3
 
 Function 'adventurerEffect'
-Lines executed:100.00% of 17
+Lines executed:100.00% of 18
 Branches executed:100.00% of 10
 Taken at least once:100.00% of 10
-Calls executed:100.00% of 2
+Calls executed:100.00% of 3
 
 Function 'getCost'
 Lines executed:10.00% of 30
@@ -648,10 +1181,10 @@ Taken at least once:100.00% of 4
 No calls
 
 File 'dominion.c'
-Lines executed:32.80% of 558
+Lines executed:32.86% of 560
 Branches executed:38.80% of 415
 Taken at least once:22.89% of 415
-Calls executed:23.16% of 95
+Calls executed:23.71% of 97
 Creating 'dominion.c.gcov'
 
         -:    0:Source:dominion.c
@@ -666,17 +1199,17 @@ Creating 'dominion.c.gcov'
         -:    5:#include <math.h>
         -:    6:#include <stdlib.h>
         -:    7:
-function compare called 6769 returned 100% blocks executed 100%
-     6769:    8:int compare(const void* a, const void* b) {
-     6769:    9:  if (*(int*)a > *(int*)b)
+function compare called 2635 returned 100% blocks executed 100%
+     2635:    8:int compare(const void* a, const void* b) {
+     2635:    9:  if (*(int*)a > *(int*)b)
 branch  0 taken 27% (fallthrough)
 branch  1 taken 73%
-     1823:   10:    return 1;
-     4946:   11:  if (*(int*)a < *(int*)b)
-branch  0 taken 43% (fallthrough)
-branch  1 taken 57%
-     2146:   12:    return -1;
-     2800:   13:  return 0;
+      713:   10:    return 1;
+     1922:   11:  if (*(int*)a < *(int*)b)
+branch  0 taken 46% (fallthrough)
+branch  1 taken 54%
+      891:   12:    return -1;
+     1031:   13:  return 0;
         -:   14:}
         -:   15:
 function newGame called 0 returned 0% blocks executed 0%
@@ -702,21 +1235,21 @@ function kingdomCards called 0 returned 0% blocks executed 0%
     #####:   34:  return k;
         -:   35:}
         -:   36:
-function initializeGame called 50 returned 100% blocks executed 89%
-       50:   37:int initializeGame(int numPlayers, int kingdomCards[10], int randomSeed,
+function initializeGame called 20 returned 100% blocks executed 89%
+       20:   37:int initializeGame(int numPlayers, int kingdomCards[10], int randomSeed,
         -:   38:		   struct gameState *state) {
         -:   39:
         -:   40:  int i;
         -:   41:  int j;
         -:   42:  int it;			
         -:   43:  //set up random number generator
-       50:   44:  SelectStream(1);
+       20:   44:  SelectStream(1);
 call    0 returned 100%
-       50:   45:  PutSeed((long)randomSeed);
+       20:   45:  PutSeed((long)randomSeed);
 call    0 returned 100%
         -:   46:  
         -:   47:  //check number of players
-       50:   48:  if (numPlayers > MAX_PLAYERS || numPlayers < 2)
+       20:   48:  if (numPlayers > MAX_PLAYERS || numPlayers < 2)
 branch  0 taken 100% (fallthrough)
 branch  1 taken 0%
 branch  2 taken 0% (fallthrough)
@@ -726,18 +1259,18 @@ branch  3 taken 100%
         -:   51:    }
         -:   52:
         -:   53:  //set number of players
-       50:   54:  state->numPlayers = numPlayers;
+       20:   54:  state->numPlayers = numPlayers;
         -:   55:
         -:   56:  //check selected kingdom cards are different
-      550:   57:  for (i = 0; i < 10; i++)
+      220:   57:  for (i = 0; i < 10; i++)
 branch  0 taken 91%
 branch  1 taken 9% (fallthrough)
         -:   58:    {
-     5500:   59:      for (j = 0; j < 10; j++)
+     2200:   59:      for (j = 0; j < 10; j++)
 branch  0 taken 91%
 branch  1 taken 9% (fallthrough)
         -:   60:        {
-     5000:   61:	  if (j != i && kingdomCards[j] == kingdomCards[i])
+     2000:   61:	  if (j != i && kingdomCards[j] == kingdomCards[i])
 branch  0 taken 90% (fallthrough)
 branch  1 taken 10%
 branch  2 taken 0% (fallthrough)
@@ -753,13 +1286,13 @@ branch  3 taken 100%
         -:   70:  ///////////////////////////////
         -:   71:
         -:   72:  //set number of Curse cards
-       50:   73:  if (numPlayers == 2)
+       20:   73:  if (numPlayers == 2)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
         -:   74:    {
     #####:   75:      state->supplyCount[curse] = 10;
         -:   76:    }
-       50:   77:  else if (numPlayers == 3)
+       20:   77:  else if (numPlayers == 3)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
         -:   78:    {
@@ -767,11 +1300,11 @@ branch  1 taken 100%
         -:   80:    }
         -:   81:  else
         -:   82:    {
-       50:   83:      state->supplyCount[curse] = 30;
+       20:   83:      state->supplyCount[curse] = 30;
         -:   84:    }
         -:   85:
         -:   86:  //set number of Victory cards
-       50:   87:  if (numPlayers == 2)
+       20:   87:  if (numPlayers == 2)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
         -:   88:    {
@@ -781,52 +1314,52 @@ branch  1 taken 100%
         -:   92:    }
         -:   93:  else
         -:   94:    {
-       50:   95:      state->supplyCount[estate] = 12;
-       50:   96:      state->supplyCount[duchy] = 12;
-       50:   97:      state->supplyCount[province] = 12;
+       20:   95:      state->supplyCount[estate] = 12;
+       20:   96:      state->supplyCount[duchy] = 12;
+       20:   97:      state->supplyCount[province] = 12;
         -:   98:    }
         -:   99:
         -:  100:  //set number of Treasure cards
-       50:  101:  state->supplyCount[copper] = 60 - (7 * numPlayers);
-       50:  102:  state->supplyCount[silver] = 40;
-       50:  103:  state->supplyCount[gold] = 30;
+       20:  101:  state->supplyCount[copper] = 60 - (7 * numPlayers);
+       20:  102:  state->supplyCount[silver] = 40;
+       20:  103:  state->supplyCount[gold] = 30;
         -:  104:
         -:  105:  //set number of Kingdom cards
-     1050:  106:  for (i = adventurer; i <= treasure_map; i++)       	//loop all cards
+      420:  106:  for (i = adventurer; i <= treasure_map; i++)       	//loop all cards
 branch  0 taken 95%
 branch  1 taken 5% (fallthrough)
         -:  107:    {
-     8250:  108:      for (j = 0; j < 10; j++)           		//loop chosen cards
+     3300:  108:      for (j = 0; j < 10; j++)           		//loop chosen cards
 branch  0 taken 94%
 branch  1 taken 6% (fallthrough)
         -:  109:	{
-     7750:  110:	  if (kingdomCards[j] == i)
+     3100:  110:	  if (kingdomCards[j] == i)
 branch  0 taken 6% (fallthrough)
 branch  1 taken 94%
         -:  111:	    {
         -:  112:	      //check if card is a 'Victory' Kingdom card
-      500:  113:	      if (kingdomCards[j] == great_hall || kingdomCards[j] == gardens)
+      200:  113:	      if (kingdomCards[j] == great_hall || kingdomCards[j] == gardens)
 branch  0 taken 90% (fallthrough)
 branch  1 taken 10%
 branch  2 taken 11% (fallthrough)
 branch  3 taken 89%
         -:  114:		{
-      200:  115:		  if (numPlayers == 2){ 
+       80:  115:		  if (numPlayers == 2){ 
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
     #####:  116:		    state->supplyCount[i] = 8; 
         -:  117:		  }
-      100:  118:		  else{ state->supplyCount[i] = 12; }
+       40:  118:		  else{ state->supplyCount[i] = 12; }
         -:  119:		}
         -:  120:	      else
         -:  121:		{
-      400:  122:		  state->supplyCount[i] = 10;
+      160:  122:		  state->supplyCount[i] = 10;
         -:  123:		}
-      500:  124:	      break;
+      200:  124:	      break;
         -:  125:	    }
         -:  126:	  else    //card is not in the set choosen for the game
         -:  127:	    {
-     7250:  128:	      state->supplyCount[i] = -1;
+     2900:  128:	      state->supplyCount[i] = -1;
         -:  129:	    }
         -:  130:	}
         -:  131:
@@ -836,33 +1369,33 @@ branch  1 taken 100%
         -:  135:  //supply intilization complete
         -:  136:
         -:  137:  //set player decks
-      250:  138:  for (i = 0; i < numPlayers; i++)
+      100:  138:  for (i = 0; i < numPlayers; i++)
 branch  0 taken 80%
 branch  1 taken 20% (fallthrough)
         -:  139:    {
-      200:  140:      state->deckCount[i] = 0;
-      800:  141:      for (j = 0; j < 3; j++)
+       80:  140:      state->deckCount[i] = 0;
+      320:  141:      for (j = 0; j < 3; j++)
 branch  0 taken 75%
 branch  1 taken 25% (fallthrough)
         -:  142:	{
-      600:  143:	  state->deck[i][j] = estate;
-      600:  144:	  state->deckCount[i]++;
+      240:  143:	  state->deck[i][j] = estate;
+      240:  144:	  state->deckCount[i]++;
         -:  145:	}
-     1600:  146:      for (j = 3; j < 10; j++)
+      640:  146:      for (j = 3; j < 10; j++)
 branch  0 taken 88%
 branch  1 taken 13% (fallthrough)
         -:  147:	{
-     1400:  148:	  state->deck[i][j] = copper;
-     1400:  149:	  state->deckCount[i]++;		
+      560:  148:	  state->deck[i][j] = copper;
+      560:  149:	  state->deckCount[i]++;		
         -:  150:	}
         -:  151:    }
         -:  152:
         -:  153:  //shuffle player decks
-      250:  154:  for (i = 0; i < numPlayers; i++)
+      100:  154:  for (i = 0; i < numPlayers; i++)
 branch  0 taken 80%
 branch  1 taken 20% (fallthrough)
         -:  155:    {
-      200:  156:      if ( shuffle(i, state) < 0 )
+       80:  156:      if ( shuffle(i, state) < 0 )
 call    0 returned 100%
 branch  1 taken 0% (fallthrough)
 branch  2 taken 100%
@@ -872,13 +1405,13 @@ branch  2 taken 100%
         -:  160:    }
         -:  161:
         -:  162:  //draw player hands
-      250:  163:  for (i = 0; i < numPlayers; i++)
+      100:  163:  for (i = 0; i < numPlayers; i++)
 branch  0 taken 80%
 branch  1 taken 20% (fallthrough)
         -:  164:    {  
         -:  165:      //initialize hand size to zero
-      200:  166:      state->handCount[i] = 0;
-      200:  167:      state->discardCount[i] = 0;
+       80:  166:      state->handCount[i] = 0;
+       80:  167:      state->discardCount[i] = 0;
         -:  168:      //draw 5 cards
         -:  169:      // for (j = 0; j < 5; j++)
         -:  170:      //	{
@@ -887,76 +1420,76 @@ branch  1 taken 20% (fallthrough)
         -:  173:    }
         -:  174:  
         -:  175:  //set embargo tokens to 0 for all supply piles
-     1400:  176:  for (i = 0; i <= treasure_map; i++)
+      560:  176:  for (i = 0; i <= treasure_map; i++)
 branch  0 taken 96%
 branch  1 taken 4% (fallthrough)
         -:  177:    {
-     1350:  178:      state->embargoTokens[i] = 0;
+      540:  178:      state->embargoTokens[i] = 0;
         -:  179:    }
         -:  180:
         -:  181:  //initialize first player's turn
-       50:  182:  state->outpostPlayed = 0;
-       50:  183:  state->phase = 0;
-       50:  184:  state->numActions = 1;
-       50:  185:  state->numBuys = 1;
-       50:  186:  state->playedCardCount = 0;
-       50:  187:  state->whoseTurn = 0;
-       50:  188:  state->handCount[state->whoseTurn] = 0;
+       20:  182:  state->outpostPlayed = 0;
+       20:  183:  state->phase = 0;
+       20:  184:  state->numActions = 1;
+       20:  185:  state->numBuys = 1;
+       20:  186:  state->playedCardCount = 0;
+       20:  187:  state->whoseTurn = 0;
+       20:  188:  state->handCount[state->whoseTurn] = 0;
         -:  189:  //int it; move to top
         -:  190:
         -:  191:  //Moved draw cards to here, only drawing at the start of a turn
-      300:  192:  for (it = 0; it < 5; it++){
+      120:  192:  for (it = 0; it < 5; it++){
 branch  0 taken 83%
 branch  1 taken 17% (fallthrough)
-      250:  193:    drawCard(state->whoseTurn, state);
+      100:  193:    drawCard(state->whoseTurn, state);
 call    0 returned 100%
         -:  194:  }
         -:  195:
-       50:  196:  updateCoins(state->whoseTurn, state, 0);
+       20:  196:  updateCoins(state->whoseTurn, state, 0);
 call    0 returned 100%
         -:  197:
-       50:  198:  return 0;
+       20:  198:  return 0;
         -:  199:}
         -:  200:
-function shuffle called 789 returned 100% blocks executed 100%
-      789:  201:int shuffle(int player, struct gameState *state) {
+function shuffle called 239 returned 100% blocks executed 100%
+      239:  201:int shuffle(int player, struct gameState *state) {
         -:  202: 
         -:  203:
         -:  204:  int newDeck[MAX_DECK];
-      789:  205:  int newDeckPos = 0;
+      239:  205:  int newDeckPos = 0;
         -:  206:  int card;
         -:  207:  int i;
         -:  208:
-      789:  209:  if (state->deckCount[player] < 1)
-branch  0 taken 66% (fallthrough)
-branch  1 taken 34%
-      519:  210:    return -1;
-      270:  211:  qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
+      239:  209:  if (state->deckCount[player] < 1)
+branch  0 taken 55% (fallthrough)
+branch  1 taken 45%
+      131:  210:    return -1;
+      108:  211:  qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
 call    0 returned 100%
         -:  212:  /* SORT CARDS IN DECK TO ENSURE DETERMINISM! */
         -:  213:
-     3733:  214:  while (state->deckCount[player] > 0) {
+     1478:  214:  while (state->deckCount[player] > 0) {
 branch  0 taken 92%
 branch  1 taken 8% (fallthrough)
-     3193:  215:    card = floor(Random() * state->deckCount[player]);
+     1262:  215:    card = floor(Random() * state->deckCount[player]);
 call    0 returned 100%
-     3193:  216:    newDeck[newDeckPos] = state->deck[player][card];
-     3193:  217:    newDeckPos++;
-    16071:  218:    for (i = card; i < state->deckCount[player]-1; i++) {
-branch  0 taken 80%
-branch  1 taken 20% (fallthrough)
-    12878:  219:      state->deck[player][i] = state->deck[player][i+1];
+     1262:  216:    newDeck[newDeckPos] = state->deck[player][card];
+     1262:  217:    newDeckPos++;
+     5431:  218:    for (i = card; i < state->deckCount[player]-1; i++) {
+branch  0 taken 77%
+branch  1 taken 23% (fallthrough)
+     4169:  219:      state->deck[player][i] = state->deck[player][i+1];
         -:  220:    }
-     3193:  221:    state->deckCount[player]--;
+     1262:  221:    state->deckCount[player]--;
         -:  222:  }
-     3463:  223:  for (i = 0; i < newDeckPos; i++) {
+     1370:  223:  for (i = 0; i < newDeckPos; i++) {
 branch  0 taken 92%
 branch  1 taken 8% (fallthrough)
-     3193:  224:    state->deck[player][i] = newDeck[i];
-     3193:  225:    state->deckCount[player]++;
+     1262:  224:    state->deck[player][i] = newDeck[i];
+     1262:  225:    state->deckCount[player]++;
         -:  226:  }
         -:  227:
-      270:  228:  return 0;
+      108:  228:  return 0;
         -:  229:}
         -:  230:
 function playCard called 0 returned 0% blocks executed 0%
@@ -1077,9 +1610,9 @@ call    0 never executed
     #####:  317:  return state->hand[currentPlayer][handPos];
         -:  318:}
         -:  319:
-function supplyCount called 100 returned 100% blocks executed 100%
-      100:  320:int supplyCount(int card, struct gameState *state) {
-      100:  321:  return state->supplyCount[card];
+function supplyCount called 40 returned 100% blocks executed 100%
+       40:  320:int supplyCount(int card, struct gameState *state) {
+       40:  321:  return state->supplyCount[card];
         -:  322:}
         -:  323:
 function fullDeckCount called 0 returned 0% blocks executed 0%
@@ -1117,9 +1650,9 @@ branch  1 never executed
     #####:  343:  return count;
         -:  344:}
         -:  345:
-function whoseTurn called 50 returned 100% blocks executed 100%
-       50:  346:int whoseTurn(struct gameState *state) {
-       50:  347:  return state->whoseTurn;
+function whoseTurn called 20 returned 100% blocks executed 100%
+       20:  346:int whoseTurn(struct gameState *state) {
+       20:  347:  return state->whoseTurn;
         -:  348:}
         -:  349:
 function endTurn called 0 returned 0% blocks executed 0%
@@ -1387,76 +1920,76 @@ branch  1 never executed
     #####:  522:  return 0;
         -:  523:}
         -:  524:
-function drawCard called 1539 returned 100% blocks executed 100%
-     1539:  525:int drawCard(int player, struct gameState *state)
+function drawCard called 613 returned 100% blocks executed 100%
+      613:  525:int drawCard(int player, struct gameState *state)
         -:  526:{	int count;
         -:  527:  int deckCounter;
-     1539:  528:  if (state->deckCount[player] <= 0){//Deck is empty
-branch  0 taken 20% (fallthrough)
-branch  1 taken 80%
+      613:  528:  if (state->deckCount[player] <= 0){//Deck is empty
+branch  0 taken 14% (fallthrough)
+branch  1 taken 86%
         -:  529:    
         -:  530:    //Step 1 Shuffle the discard pile back into a deck
         -:  531:    int i;
         -:  532:    //Move discard to deck
-     1506:  533:    for (i = 0; i < state->discardCount[player];i++){
-branch  0 taken 79%
-branch  1 taken 21% (fallthrough)
-     1193:  534:      state->deck[player][i] = state->discard[player][i];
-     1193:  535:      state->discard[player][i] = -1;
+      547:  533:    for (i = 0; i < state->discardCount[player];i++){
+branch  0 taken 84%
+branch  1 taken 16% (fallthrough)
+      462:  534:      state->deck[player][i] = state->discard[player][i];
+      462:  535:      state->discard[player][i] = -1;
         -:  536:    }
         -:  537:
-      313:  538:    state->deckCount[player] = state->discardCount[player];
-      313:  539:    state->discardCount[player] = 0;//Reset discard
+       85:  538:    state->deckCount[player] = state->discardCount[player];
+       85:  539:    state->discardCount[player] = 0;//Reset discard
         -:  540:
         -:  541:    //Shufffle the deck
-      313:  542:    shuffle(player, state);//Shuffle the deck up and make it so that we can draw
+       85:  542:    shuffle(player, state);//Shuffle the deck up and make it so that we can draw
 call    0 returned 100%
         -:  543:   
         -:  544:    if (DEBUG){//Debug statements
         -:  545:      printf("Deck count now: %d\n", state->deckCount[player]);
         -:  546:    }
         -:  547:    
-      313:  548:    state->discardCount[player] = 0;
+       85:  548:    state->discardCount[player] = 0;
         -:  549:
         -:  550:    //Step 2 Draw Card
-      313:  551:    count = state->handCount[player];//Get current player's hand count
+       85:  551:    count = state->handCount[player];//Get current player's hand count
         -:  552:    
         -:  553:    if (DEBUG){//Debug statements
         -:  554:      printf("Current hand count: %d\n", count);
         -:  555:    }
         -:  556:    
-      313:  557:    deckCounter = state->deckCount[player];//Create a holder for the deck count
+       85:  557:    deckCounter = state->deckCount[player];//Create a holder for the deck count
         -:  558:
-      313:  559:    if (deckCounter == 0)
-branch  0 taken 78% (fallthrough)
-branch  1 taken 22%
-      243:  560:      return -1;
+       85:  559:    if (deckCounter == 0)
+branch  0 taken 67% (fallthrough)
+branch  1 taken 33%
+       57:  560:      return -1;
         -:  561:
-       70:  562:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to hand
-       70:  563:    state->deckCount[player]--;
-       70:  564:    state->handCount[player]++;//Increment hand count
+       28:  562:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to hand
+       28:  563:    state->deckCount[player]--;
+       28:  564:    state->handCount[player]++;//Increment hand count
         -:  565:  }
         -:  566:
         -:  567:  else{
-     1226:  568:    int count = state->handCount[player];//Get current hand count for player
+      528:  568:    int count = state->handCount[player];//Get current hand count for player
         -:  569:    int deckCounter;
         -:  570:    if (DEBUG){//Debug statements
         -:  571:      printf("Current hand count: %d\n", count);
         -:  572:    }
         -:  573:
-     1226:  574:    deckCounter = state->deckCount[player];//Create holder for the deck count
-     1226:  575:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
-     1226:  576:    state->deckCount[player]--;
-     1226:  577:    state->handCount[player]++;//Increment hand count
+      528:  574:    deckCounter = state->deckCount[player];//Create holder for the deck count
+      528:  575:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
+      528:  576:    state->deckCount[player]--;
+      528:  577:    state->handCount[player]++;//Increment hand count
         -:  578:  }
         -:  579:
-     1296:  580:  return 0;
+      556:  580:  return 0;
         -:  581:}
         -:  582:
-function getCost called 50 returned 100% blocks executed 10%
-       50:  583:int getCost(int cardNumber)
+function getCost called 20 returned 100% blocks executed 10%
+       20:  583:int getCost(int cardNumber)
         -:  584:{
-       50:  585:  switch( cardNumber ) 
+       20:  585:  switch( cardNumber ) 
 branch  0 taken 100%
 branch  1 taken 0%
 branch  2 taken 0%
@@ -1487,7 +2020,7 @@ branch 26 taken 0%
 branch 27 taken 0%
         -:  586:    {
         -:  587:    case curse:
-       50:  588:      return 0;
+       20:  588:      return 0;
         -:  589:    case estate:
     #####:  590:      return 2;
         -:  591:    case duchy:
@@ -1545,259 +2078,263 @@ branch 27 taken 0%
     #####:  643:  return -1;
         -:  644:}
         -:  645:
-function adventurerEffect called 50 returned 100% blocks executed 100%
-       50:  646:int adventurerEffect(struct gameState *state, int currentPlayer) {
-       50:  647:    int z = 0;// this is the counter for the temp hand
+function adventurerEffect called 20 returned 100% blocks executed 100%
+       20:  646:int adventurerEffect(struct gameState *state, int currentPlayer, int handPos) {
+       20:  647:    int z = 0;// this is the counter for the temp hand
         -:  648:    int cardDrawn;
         -:  649:    int temphand[MAX_HAND];
-       50:  650:    int drawntreasure=0;
+       20:  650:    int drawntreasure=0;
         -:  651:
-     1089:  652:    while(drawntreasure<2){
+      433:  652:    while(drawntreasure<2){
 branch  0 taken 95%
 branch  1 taken 5% (fallthrough)
-      989:  653:        if (state->deckCount[currentPlayer] < 1){   //if the deck is empty we need to shuffle discard and add to deck
-branch  0 taken 28% (fallthrough)
-branch  1 taken 72%
-      276:  654:            shuffle(currentPlayer, state);
+      393:  653:        if (state->deckCount[currentPlayer] < 1){   //if the deck is empty we need to shuffle discard and add to deck
+branch  0 taken 19% (fallthrough)
+branch  1 taken 81%
+       74:  654:            shuffle(currentPlayer, state);
 call    0 returned 100%
         -:  655:        }
-      989:  656:        drawCard(currentPlayer, state);
+      393:  656:        drawCard(currentPlayer, state);
 call    0 returned 100%
-      989:  657:        cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+      393:  657:        cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
         -:  658://        if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
-      989:  659:        if (cardDrawn == copper || cardDrawn == silver) // assignment 2 bug
-branch  0 taken 94% (fallthrough)
-branch  1 taken 6%
-branch  2 taken 4% (fallthrough)
-branch  3 taken 96%
-      100:  660:            drawntreasure++;
+      393:  659:        if (cardDrawn == copper || cardDrawn == silver) // assignment 2 bug
+branch  0 taken 95% (fallthrough)
+branch  1 taken 5%
+branch  2 taken 5% (fallthrough)
+branch  3 taken 95%
+       40:  660:            drawntreasure++;
         -:  661:        else{
-      889:  662:            temphand[z]=cardDrawn;
-      889:  663:            state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
-      889:  664:            z++;
+      353:  662:            temphand[z]=cardDrawn;
+      353:  663:            state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
+      353:  664:            z++;
         -:  665:        }
         -:  666:    }
-      989:  667:    while(z-1>=0){
+      393:  667:    while(z-1>=0){
 branch  0 taken 95%
 branch  1 taken 5% (fallthrough)
-      889:  668:        state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
-      889:  669:        z=z-1;
+      353:  668:        state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
+      353:  669:        z=z-1;
         -:  670:    }
         -:  671:
-       50:  672:    return 0;
-        -:  673:}
+        -:  672:    //discard played card from hand
+       20:  673:    discardCard(handPos, currentPlayer, state, 0);
+call    0 returned 100%
         -:  674:
-function council_roomEffect called 50 returned 100% blocks executed 100%
-       50:  675:int council_roomEffect(struct gameState *state, int currentPlayer, int handPos){
-        -:  676:    int i;
-        -:  677:    //+4 Cards
-      250:  678:    for (i = 0; i < 4; i++)
+       20:  675:    return 0;
+        -:  676:}
+        -:  677:
+function council_roomEffect called 20 returned 100% blocks executed 100%
+       20:  678:int council_roomEffect(struct gameState *state, int currentPlayer, int handPos){
+        -:  679:    int i;
+        -:  680:    //+4 Cards
+      100:  681:    for (i = 0; i < 4; i++)
 branch  0 taken 80%
 branch  1 taken 20% (fallthrough)
-        -:  679:    {
-      200:  680:        drawCard(currentPlayer, state);
+        -:  682:    {
+       80:  683:        drawCard(currentPlayer, state);
 call    0 returned 100%
-        -:  681:    }
-        -:  682:
-        -:  683:    //+1 Buy
-       50:  684:    state->numBuys++;
+        -:  684:    }
         -:  685:
-        -:  686:    //Each other player draws a card
-        -:  687://    for (i = 0; i < state->numPlayers; i++)
-      200:  688:    for (i = 0; i < state->numPlayers - 1; i++) // assignment 2 bug
+        -:  686:    //+1 Buy
+       20:  687:    state->numBuys++;
+        -:  688:
+        -:  689:    //Each other player draws a card
+        -:  690://    for (i = 0; i < state->numPlayers; i++)
+       80:  691:    for (i = 0; i < state->numPlayers - 1; i++) // assignment 2 bug
 branch  0 taken 75%
 branch  1 taken 25% (fallthrough)
-        -:  689:    {
-      150:  690:        if ( i != currentPlayer )
+        -:  692:    {
+       60:  693:        if ( i != currentPlayer )
 branch  0 taken 67% (fallthrough)
 branch  1 taken 33%
-        -:  691:        {
-      100:  692:            drawCard(i, state);
+        -:  694:        {
+       40:  695:            drawCard(i, state);
 call    0 returned 100%
-        -:  693:        }
-        -:  694:    }
-        -:  695:
-        -:  696:    //put played card in played card pile
-       50:  697:    discardCard(handPos, currentPlayer, state, 0);
-call    0 returned 100%
+        -:  696:        }
+        -:  697:    }
         -:  698:
-       50:  699:    return 0;
-        -:  700:}
-        -:  701:
-function feastEffect called 50 returned 100% blocks executed 94%
-       50:  702:int feastEffect(struct gameState *state, int currentPlayer, int choice1){
-        -:  703:    int temphand[MAX_HAND];
-        -:  704:    int i;
-        -:  705:
-        -:  706:    //gain card with cost up to 5
-        -:  707:    //Backup hand
-      708:  708:    for (i = 0; i <= state->handCount[currentPlayer]; i++){
-branch  0 taken 93%
-branch  1 taken 7% (fallthrough)
-        -:  709://        temphand[i] = state->hand[currentPlayer][i];//Backup card
-      658:  710:        temphand[i+1] = state->hand[currentPlayer][i];// assignment 2 bug
-      658:  711:        state->hand[currentPlayer][i] = -1;//Set to nothing
-        -:  712:    }
-        -:  713:    //Backup hand
-        -:  714:
-        -:  715:    //Update Coins for Buy
-       50:  716:    updateCoins(currentPlayer, state, 5);
+        -:  699:    //put played card in played card pile
+       20:  700:    discardCard(handPos, currentPlayer, state, 0);
 call    0 returned 100%
-       50:  717:    int x = 1;//Condition to loop on
-      150:  718:    while( x == 1) {//Buy one card
+        -:  701:
+       20:  702:    return 0;
+        -:  703:}
+        -:  704:
+function feastEffect called 20 returned 100% blocks executed 94%
+       20:  705:int feastEffect(struct gameState *state, int currentPlayer, int choice1){
+        -:  706:    int temphand[MAX_HAND];
+        -:  707:    int i;
+        -:  708:
+        -:  709:    //gain card with cost up to 5
+        -:  710:    //Backup hand
+      310:  711:    for (i = 0; i <= state->handCount[currentPlayer]; i++){
+branch  0 taken 94%
+branch  1 taken 6% (fallthrough)
+        -:  712://        temphand[i] = state->hand[currentPlayer][i];//Backup card
+      290:  713:        temphand[i+1] = state->hand[currentPlayer][i];// assignment 2 bug
+      290:  714:        state->hand[currentPlayer][i] = -1;//Set to nothing
+        -:  715:    }
+        -:  716:    //Backup hand
+        -:  717:
+        -:  718:    //Update Coins for Buy
+       20:  719:    updateCoins(currentPlayer, state, 5);
+call    0 returned 100%
+       20:  720:    int x = 1;//Condition to loop on
+       60:  721:    while( x == 1) {//Buy one card
 branch  0 taken 50%
 branch  1 taken 50% (fallthrough)
-       50:  719:        if (supplyCount(choice1, state) <= 0){
+       20:  722:        if (supplyCount(choice1, state) <= 0){
 call    0 returned 100%
 branch  1 taken 100% (fallthrough)
 branch  2 taken 0%
-        -:  720:            if (DEBUG)
-        -:  721:                printf("None of that card left, sorry!\n");
-        -:  722:
-        -:  723:            if (DEBUG){
-        -:  724:                printf("Cards Left: %d\n", supplyCount(choice1, state));
-        -:  725:            }
-        -:  726:        }
-       50:  727:        else if (state->coins < getCost(choice1)){
+        -:  723:            if (DEBUG)
+        -:  724:                printf("None of that card left, sorry!\n");
+        -:  725:
+        -:  726:            if (DEBUG){
+        -:  727:                printf("Cards Left: %d\n", supplyCount(choice1, state));
+        -:  728:            }
+        -:  729:        }
+       20:  730:        else if (state->coins < getCost(choice1)){
 call    0 returned 100%
 branch  1 taken 0% (fallthrough)
 branch  2 taken 100%
-    #####:  728:            printf("That card is too expensive!\n");
+    #####:  731:            printf("That card is too expensive!\n");
 call    0 never executed
-        -:  729:
-        -:  730:            if (DEBUG){
-        -:  731:                printf("Coins: %d < %d\n", state->coins, getCost(choice1));
-        -:  732:            }
-        -:  733:        }
-        -:  734:        else{
-        -:  735:
-        -:  736:            if (DEBUG){
-        -:  737:                printf("Deck Count: %d\n", state->handCount[currentPlayer] + state->deckCount[currentPlayer] + state->discardCount[currentPlayer]);
-        -:  738:            }
-        -:  739:
-       50:  740:            gainCard(choice1, state, 0, currentPlayer);//Gain the card
-call    0 returned 100%
-       50:  741:            x = 0;//No more buying cards
+        -:  732:
+        -:  733:            if (DEBUG){
+        -:  734:                printf("Coins: %d < %d\n", state->coins, getCost(choice1));
+        -:  735:            }
+        -:  736:        }
+        -:  737:        else{
+        -:  738:
+        -:  739:            if (DEBUG){
+        -:  740:                printf("Deck Count: %d\n", state->handCount[currentPlayer] + state->deckCount[currentPlayer] + state->discardCount[currentPlayer]);
+        -:  741:            }
         -:  742:
-        -:  743:            if (DEBUG){
-        -:  744:                printf("Deck Count: %d\n", state->handCount[currentPlayer] + state->deckCount[currentPlayer] + state->discardCount[currentPlayer]);
-        -:  745:            }
-        -:  746:
-        -:  747:        }
-        -:  748:    }
+       20:  743:            gainCard(choice1, state, 0, currentPlayer);//Gain the card
+call    0 returned 100%
+       20:  744:            x = 0;//No more buying cards
+        -:  745:
+        -:  746:            if (DEBUG){
+        -:  747:                printf("Deck Count: %d\n", state->handCount[currentPlayer] + state->deckCount[currentPlayer] + state->discardCount[currentPlayer]);
+        -:  748:            }
         -:  749:
-        -:  750:    //Reset Hand
-      708:  751:    for (i = 0; i <= state->handCount[currentPlayer]; i++){
-branch  0 taken 93%
-branch  1 taken 7% (fallthrough)
-      658:  752:        state->hand[currentPlayer][i] = temphand[i];
-      658:  753:        temphand[i] = -1;
-        -:  754:    }
-        -:  755:
-       50:  756:    return 0;
-        -:  757:}
+        -:  750:        }
+        -:  751:    }
+        -:  752:
+        -:  753:    //Reset Hand
+      310:  754:    for (i = 0; i <= state->handCount[currentPlayer]; i++){
+branch  0 taken 94%
+branch  1 taken 6% (fallthrough)
+      290:  755:        state->hand[currentPlayer][i] = temphand[i];
+      290:  756:        temphand[i] = -1;
+        -:  757:    }
         -:  758:
+       20:  759:    return 0;
+        -:  760:}
+        -:  761:
 function mineEffect called 0 returned 0% blocks executed 0%
-    #####:  759:int mineEffect(struct gameState *state, int currentPlayer, int choice1, int choice2, int handPos){
-        -:  760:    int i;
-        -:  761:    int j;
-        -:  762:
-    #####:  763:    j = state->hand[currentPlayer][choice1];  //store card we will trash
-        -:  764:
-    #####:  765:    if (state->hand[currentPlayer][choice1] < copper || state->hand[currentPlayer][choice1] > gold)
+    #####:  762:int mineEffect(struct gameState *state, int currentPlayer, int choice1, int choice2, int handPos){
+        -:  763:    int i;
+        -:  764:    int j;
+        -:  765:
+    #####:  766:    j = state->hand[currentPlayer][choice1];  //store card we will trash
+        -:  767:
+    #####:  768:    if (state->hand[currentPlayer][choice1] < copper || state->hand[currentPlayer][choice1] > gold)
 branch  0 never executed
 branch  1 never executed
 branch  2 never executed
 branch  3 never executed
-        -:  766:    {
-    #####:  767:        return -1;
-        -:  768:    }
-        -:  769:
-    #####:  770:    if (choice2 > treasure_map || choice2 < curse)
+        -:  769:    {
+    #####:  770:        return -1;
+        -:  771:    }
+        -:  772:
+    #####:  773:    if (choice2 > treasure_map || choice2 < curse)
 branch  0 never executed
 branch  1 never executed
 branch  2 never executed
 branch  3 never executed
-        -:  771:    {
-    #####:  772:        return -1;
-        -:  773:    }
-        -:  774:
-    #####:  775:    if ( (getCost(state->hand[currentPlayer][choice1]) + 3) > getCost(choice2) )
+        -:  774:    {
+    #####:  775:        return -1;
+        -:  776:    }
+        -:  777:
+    #####:  778:    if ( (getCost(state->hand[currentPlayer][choice1]) + 3) > getCost(choice2) )
 call    0 never executed
 call    1 never executed
 branch  2 never executed
 branch  3 never executed
-        -:  776:    {
-    #####:  777:        return -1;
-        -:  778:    }
-        -:  779:
-    #####:  780:    gainCard(choice2, state, 2, currentPlayer);
-call    0 never executed
-        -:  781:
-        -:  782:    //discard card from hand
-    #####:  783:    discardCard(handPos, currentPlayer, state, 0);
+        -:  779:    {
+    #####:  780:        return -1;
+        -:  781:    }
+        -:  782:
+    #####:  783:    gainCard(choice2, state, 2, currentPlayer);
 call    0 never executed
         -:  784:
-        -:  785:    //discard trashed card
-    #####:  786:    for (i = 0; i < state->handCount[currentPlayer]; i++)
-branch  0 never executed
-branch  1 never executed
-        -:  787:    {
-    #####:  788:        if (state->hand[currentPlayer][i] == j)
-branch  0 never executed
-branch  1 never executed
-        -:  789:        {
-    #####:  790:            discardCard(i, currentPlayer, state, 0);
+        -:  785:    //discard card from hand
+    #####:  786:    discardCard(handPos, currentPlayer, state, 0);
 call    0 never executed
-    #####:  791:            break;
-        -:  792:        }
-        -:  793:    }
-        -:  794:
-    #####:  795:    return 0;
-        -:  796:}
+        -:  787:
+        -:  788:    //discard trashed card
+    #####:  789:    for (i = 0; i < state->handCount[currentPlayer]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  790:    {
+    #####:  791:        if (state->hand[currentPlayer][i] == j)
+branch  0 never executed
+branch  1 never executed
+        -:  792:        {
+    #####:  793:            discardCard(i, currentPlayer, state, 0);
+call    0 never executed
+    #####:  794:            break;
+        -:  795:        }
+        -:  796:    }
         -:  797:
+    #####:  798:    return 0;
+        -:  799:}
+        -:  800:
 function smithyEffect called 0 returned 0% blocks executed 0%
-    #####:  798:int smithyEffect(struct gameState *state, int currentPlayer,int handPos){
-        -:  799:    int i;
-        -:  800:    //+3 Cards
-        -:  801://    for (i = 0; i < 3; i++)
-    #####:  802:    for (i = 0; i < 4; i++) // assignment 2 bug
+    #####:  801:int smithyEffect(struct gameState *state, int currentPlayer,int handPos){
+        -:  802:    int i;
+        -:  803:    //+3 Cards
+        -:  804://    for (i = 0; i < 3; i++)
+    #####:  805:    for (i = 0; i < 4; i++) // assignment 2 bug
 branch  0 never executed
 branch  1 never executed
-        -:  803:    {
-    #####:  804:        drawCard(currentPlayer, state);
+        -:  806:    {
+    #####:  807:        drawCard(currentPlayer, state);
 call    0 never executed
-        -:  805:    }
-        -:  806:
-        -:  807:    //discard card from hand
-    #####:  808:    discardCard(handPos, currentPlayer, state, 0);
+        -:  808:    }
+        -:  809:
+        -:  810:    //discard card from hand
+    #####:  811:    discardCard(handPos, currentPlayer, state, 0);
 call    0 never executed
-    #####:  809:    return 0;
-        -:  810:}
-        -:  811:
-function cardEffect called 50 returned 100% blocks executed 4%
-       50:  812:int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
-        -:  813:{
-        -:  814:  int i;
-        -:  815:  int j;
-        -:  816:  int k;
-        -:  817:  //int x;
-        -:  818:  int index;
-       50:  819:  int currentPlayer = whoseTurn(state);
+    #####:  812:    return 0;
+        -:  813:}
+        -:  814:
+function cardEffect called 20 returned 100% blocks executed 4%
+       20:  815:int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
+        -:  816:{
+        -:  817:  int i;
+        -:  818:  int j;
+        -:  819:  int k;
+        -:  820:  //int x;
+        -:  821:  int index;
+       20:  822:  int currentPlayer = whoseTurn(state);
 call    0 returned 100%
-       50:  820:  int nextPlayer = currentPlayer + 1;
-        -:  821:
-       50:  822:  int tributeRevealedCards[2] = {-1, -1};
-        -:  823: // int temphand[MAX_HAND];// moved above the if statement
-       50:  824:  if (nextPlayer > (state->numPlayers - 1)){
+       20:  823:  int nextPlayer = currentPlayer + 1;
+        -:  824:
+       20:  825:  int tributeRevealedCards[2] = {-1, -1};
+        -:  826: // int temphand[MAX_HAND];// moved above the if statement
+       20:  827:  if (nextPlayer > (state->numPlayers - 1)){
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
-    #####:  825:    nextPlayer = 0;
-        -:  826:  }
-        -:  827:  
-        -:  828:	
-        -:  829:  //uses switch to select card and perform actions
-       50:  830:  switch( card ) 
+    #####:  828:    nextPlayer = 0;
+        -:  829:  }
+        -:  830:  
+        -:  831:	
+        -:  832:  //uses switch to select card and perform actions
+       20:  833:  switch( card ) 
 branch  0 taken 100%
 branch  1 taken 0%
 branch  2 taken 0%
@@ -1819,347 +2356,351 @@ branch 17 taken 0%
 branch 18 taken 0%
 branch 19 taken 0%
 branch 20 taken 0%
-        -:  831:    {
-        -:  832:    case adventurer:
-       50:  833:        adventurerEffect(state, currentPlayer);
-call    0 returned 100%
-        -:  834:			
-        -:  835:    case council_room:
-       50:  836:        council_roomEffect(state, currentPlayer, handPos);
+        -:  834:    {
+        -:  835:    case adventurer:
+       20:  836:        adventurerEffect(state, currentPlayer, handPos);
 call    0 returned 100%
         -:  837:			
-        -:  838:    case feast:
-       50:  839:        feastEffect(state, currentPlayer, choice1);
+        -:  838:    case council_room:
+       20:  839:        council_roomEffect(state, currentPlayer, handPos);
 call    0 returned 100%
         -:  840:			
-        -:  841:    case gardens:
-       50:  842:      return -1;
+        -:  841:    case feast:
+       20:  842:        feastEffect(state, currentPlayer, choice1);
+call    0 returned 100%
         -:  843:			
-        -:  844:    case mine:
-    #####:  845:        mineEffect(state, currentPlayer, choice1, choice2, handPos);
-call    0 never executed
+        -:  844:    case gardens:
+       20:  845:      return -1;
         -:  846:			
-        -:  847:    case remodel:
-    #####:  848:      j = state->hand[currentPlayer][choice1];  //store card we will trash
-        -:  849:
-    #####:  850:      if ( (getCost(state->hand[currentPlayer][choice1]) + 2) > getCost(choice2) )
+        -:  847:    case mine:
+    #####:  848:        mineEffect(state, currentPlayer, choice1, choice2, handPos);
+call    0 never executed
+        -:  849:			
+        -:  850:    case remodel:
+    #####:  851:      j = state->hand[currentPlayer][choice1];  //store card we will trash
+        -:  852:
+    #####:  853:      if ( (getCost(state->hand[currentPlayer][choice1]) + 2) > getCost(choice2) )
 call    0 never executed
 call    1 never executed
 branch  2 never executed
 branch  3 never executed
-        -:  851:	{
-    #####:  852:	  return -1;
-        -:  853:	}
-        -:  854:
-    #####:  855:      gainCard(choice2, state, 0, currentPlayer);
-call    0 never executed
-        -:  856:
-        -:  857:      //discard card from hand
-    #####:  858:      discardCard(handPos, currentPlayer, state, 0);
+        -:  854:	{
+    #####:  855:	  return -1;
+        -:  856:	}
+        -:  857:
+    #####:  858:      gainCard(choice2, state, 0, currentPlayer);
 call    0 never executed
         -:  859:
-        -:  860:      //discard trashed card
-    #####:  861:      for (i = 0; i < state->handCount[currentPlayer]; i++)
+        -:  860:      //discard card from hand
+    #####:  861:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -:  862:
+        -:  863:      //discard trashed card
+    #####:  864:      for (i = 0; i < state->handCount[currentPlayer]; i++)
 branch  0 never executed
 branch  1 never executed
-        -:  862:	{
-    #####:  863:	  if (state->hand[currentPlayer][i] == j)
+        -:  865:	{
+    #####:  866:	  if (state->hand[currentPlayer][i] == j)
 branch  0 never executed
 branch  1 never executed
-        -:  864:	    {
-    #####:  865:	      discardCard(i, currentPlayer, state, 0);			
+        -:  867:	    {
+    #####:  868:	      discardCard(i, currentPlayer, state, 0);			
 call    0 never executed
-    #####:  866:	      break;
-        -:  867:	    }
-        -:  868:	}
-        -:  869:
-        -:  870:
-    #####:  871:      return 0;
-        -:  872:		
-        -:  873:    case smithy:
-    #####:  874:      smithyEffect(state, currentPlayer, handPos);
-call    0 never executed
+    #####:  869:	      break;
+        -:  870:	    }
+        -:  871:	}
+        -:  872:
+        -:  873:
+    #####:  874:      return 0;
         -:  875:		
-        -:  876:    case village:
-        -:  877:      //+1 Card
-    #####:  878:      drawCard(currentPlayer, state);
+        -:  876:    case smithy:
+    #####:  877:      smithyEffect(state, currentPlayer, handPos);
 call    0 never executed
-        -:  879:			
-        -:  880:      //+2 Actions
-    #####:  881:      state->numActions = state->numActions + 2;
+        -:  878:		
+        -:  879:    case village:
+        -:  880:      //+1 Card
+    #####:  881:      drawCard(currentPlayer, state);
+call    0 never executed
         -:  882:			
-        -:  883:      //discard played card from hand
-    #####:  884:      discardCard(handPos, currentPlayer, state, 0);
+        -:  883:      //+2 Actions
+    #####:  884:      state->numActions = state->numActions + 2;
+        -:  885:			
+        -:  886:      //discard played card from hand
+    #####:  887:      discardCard(handPos, currentPlayer, state, 0);
 call    0 never executed
-    #####:  885:      return 0;
-        -:  886:		
-        -:  887:    case baron:
-    #####:  888:      state->numBuys++;//Increase buys by 1!
-    #####:  889:      if (choice1 > 0){//Boolean true or going to discard an estate
+    #####:  888:      return 0;
+        -:  889:		
+        -:  890:    case baron:
+        -:  891:      //discard played card from hand
+    #####:  892:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -:  893:
+    #####:  894:      state->numBuys++;//Increase buys by 1!
+    #####:  895:      if (choice1 > 0){//Boolean true or going to discard an estate
 branch  0 never executed
 branch  1 never executed
-    #####:  890:	int p = 0;//Iterator for hand!
-    #####:  891:	int card_not_discarded = 1;//Flag for discard set!
-    #####:  892:	while(card_not_discarded){
+    #####:  896:	int p = 0;//Iterator for hand!
+    #####:  897:	int card_not_discarded = 1;//Flag for discard set!
+    #####:  898:	while(card_not_discarded){
 branch  0 never executed
 branch  1 never executed
-    #####:  893:	  if (state->hand[currentPlayer][p] == estate){//Found an estate card!
+    #####:  899:	  if (state->hand[currentPlayer][p] == estate){//Found an estate card!
 branch  0 never executed
 branch  1 never executed
-    #####:  894:	    state->coins += 4;//Add 4 coins to the amount of coins
-    #####:  895:	    state->discard[currentPlayer][state->discardCount[currentPlayer]] = state->hand[currentPlayer][p];
-    #####:  896:	    state->discardCount[currentPlayer]++;
-    #####:  897:	    for (;p < state->handCount[currentPlayer]; p++){
+    #####:  900:	    state->coins += 4;//Add 4 coins to the amount of coins
+    #####:  901:	    state->discard[currentPlayer][state->discardCount[currentPlayer]] = state->hand[currentPlayer][p];
+    #####:  902:	    state->discardCount[currentPlayer]++;
+    #####:  903:	    for (;p < state->handCount[currentPlayer]; p++){
 branch  0 never executed
 branch  1 never executed
-    #####:  898:	      state->hand[currentPlayer][p] = state->hand[currentPlayer][p+1];
-        -:  899:	    }
-    #####:  900:	    state->hand[currentPlayer][state->handCount[currentPlayer]] = -1;
-    #####:  901:	    state->handCount[currentPlayer]--;
-    #####:  902:	    card_not_discarded = 0;//Exit the loop
-        -:  903:	  }
-    #####:  904:	  else if (p > state->handCount[currentPlayer]){
+    #####:  904:	      state->hand[currentPlayer][p] = state->hand[currentPlayer][p+1];
+        -:  905:	    }
+    #####:  906:	    state->hand[currentPlayer][state->handCount[currentPlayer]] = -1;
+    #####:  907:	    state->handCount[currentPlayer]--;
+    #####:  908:	    card_not_discarded = 0;//Exit the loop
+        -:  909:	  }
+    #####:  910:	  else if (p > state->handCount[currentPlayer]){
 branch  0 never executed
 branch  1 never executed
-        -:  905:	    if(DEBUG) {
-        -:  906:	      printf("No estate cards in your hand, invalid choice\n");
-        -:  907:	      printf("Must gain an estate if there are any\n");
-        -:  908:	    }
-    #####:  909:	    if (supplyCount(estate, state) > 0){
+        -:  911:	    if(DEBUG) {
+        -:  912:	      printf("No estate cards in your hand, invalid choice\n");
+        -:  913:	      printf("Must gain an estate if there are any\n");
+        -:  914:	    }
+    #####:  915:	    if (supplyCount(estate, state) > 0){
 call    0 never executed
 branch  1 never executed
 branch  2 never executed
-    #####:  910:	      gainCard(estate, state, 0, currentPlayer);
+    #####:  916:	      gainCard(estate, state, 0, currentPlayer);
 call    0 never executed
-    #####:  911:	      state->supplyCount[estate]--;//Decrement estates
-    #####:  912:	      if (supplyCount(estate, state) == 0){
+    #####:  917:	      state->supplyCount[estate]--;//Decrement estates
+    #####:  918:	      if (supplyCount(estate, state) == 0){
 call    0 never executed
 branch  1 never executed
 branch  2 never executed
-    #####:  913:		isGameOver(state);
+    #####:  919:		isGameOver(state);
 call    0 never executed
-        -:  914:	      }
-        -:  915:	    }
-    #####:  916:	    card_not_discarded = 0;//Exit the loop
-        -:  917:	  }
-        -:  918:			    
-        -:  919:	  else{
-    #####:  920:	    p++;//Next card
-        -:  921:	  }
-        -:  922:	}
-        -:  923:      }
+        -:  920:	      }
+        -:  921:	    }
+    #####:  922:	    card_not_discarded = 0;//Exit the loop
+        -:  923:	  }
         -:  924:			    
-        -:  925:      else{
-    #####:  926:	if (supplyCount(estate, state) > 0){
+        -:  925:	  else{
+    #####:  926:	    p++;//Next card
+        -:  927:	  }
+        -:  928:	}
+        -:  929:      }
+        -:  930:			    
+        -:  931:      else{
+    #####:  932:	if (supplyCount(estate, state) > 0){
 call    0 never executed
 branch  1 never executed
 branch  2 never executed
-    #####:  927:	  gainCard(estate, state, 0, currentPlayer);//Gain an estate
+    #####:  933:	  gainCard(estate, state, 0, currentPlayer);//Gain an estate
 call    0 never executed
-    #####:  928:	  state->supplyCount[estate]--;//Decrement Estates
-    #####:  929:	  if (supplyCount(estate, state) == 0){
-call    0 never executed
-branch  1 never executed
-branch  2 never executed
-    #####:  930:	    isGameOver(state);
-call    0 never executed
-        -:  931:	  }
-        -:  932:	}
-        -:  933:      }
-        -:  934:	    
-        -:  935:      
-    #####:  936:      return 0;
-        -:  937:		
-        -:  938:    case great_hall:
-        -:  939:      //+1 Card
-    #####:  940:      drawCard(currentPlayer, state);
-call    0 never executed
-        -:  941:			
-        -:  942:      //+1 Actions
-    #####:  943:      state->numActions++;
-        -:  944:			
-        -:  945:      //discard card from hand
-    #####:  946:      discardCard(handPos, currentPlayer, state, 0);
-call    0 never executed
-    #####:  947:      return 0;
-        -:  948:		
-        -:  949:    case minion:
-        -:  950:      //+1 action
-    #####:  951:      state->numActions++;
-        -:  952:			
-        -:  953:      //discard card from hand
-    #####:  954:      discardCard(handPos, currentPlayer, state, 0);
-call    0 never executed
-        -:  955:			
-    #####:  956:      if (choice1)		//+2 coins
-branch  0 never executed
-branch  1 never executed
-        -:  957:	{
-    #####:  958:	  state->coins = state->coins + 2;
-        -:  959:	}
-        -:  960:			
-    #####:  961:      else if (choice2)		//discard hand, redraw 4, other players with 5+ cards discard hand and draw 4
-branch  0 never executed
-branch  1 never executed
-        -:  962:	{
-        -:  963:	  //discard hand
-    #####:  964:	  while(numHandCards(state) > 0)
+    #####:  934:	  state->supplyCount[estate]--;//Decrement Estates
+    #####:  935:	  if (supplyCount(estate, state) == 0){
 call    0 never executed
 branch  1 never executed
 branch  2 never executed
-        -:  965:	    {
-    #####:  966:	      discardCard(handPos, currentPlayer, state, 0);
+    #####:  936:	    isGameOver(state);
 call    0 never executed
-        -:  967:	    }
-        -:  968:				
-        -:  969:	  //draw 4
-    #####:  970:	  for (i = 0; i < 4; i++)
+        -:  937:	  }
+        -:  938:	}
+        -:  939:      }
+        -:  940:	    
+        -:  941:      
+    #####:  942:      return 0;
+        -:  943:		
+        -:  944:    case great_hall:
+        -:  945:      //+1 Card
+    #####:  946:      drawCard(currentPlayer, state);
+call    0 never executed
+        -:  947:			
+        -:  948:      //+1 Actions
+    #####:  949:      state->numActions++;
+        -:  950:			
+        -:  951:      //discard card from hand
+    #####:  952:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####:  953:      return 0;
+        -:  954:		
+        -:  955:    case minion:
+        -:  956:      //+1 action
+    #####:  957:      state->numActions++;
+        -:  958:			
+        -:  959:      //discard card from hand
+    #####:  960:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -:  961:			
+    #####:  962:      if (choice1)		//+2 coins
 branch  0 never executed
 branch  1 never executed
+        -:  963:	{
+    #####:  964:	  state->coins = state->coins + 2;
+        -:  965:	}
+        -:  966:			
+    #####:  967:      else if (choice2)		//discard hand, redraw 4, other players with 5+ cards discard hand and draw 4
+branch  0 never executed
+branch  1 never executed
+        -:  968:	{
+        -:  969:	  //discard hand
+    #####:  970:	  while(numHandCards(state) > 0)
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
         -:  971:	    {
-    #####:  972:	      drawCard(currentPlayer, state);
+    #####:  972:	      discardCard(handPos, currentPlayer, state, 0);
 call    0 never executed
         -:  973:	    }
         -:  974:				
-        -:  975:	  //other players discard hand and redraw if hand size > 4
-    #####:  976:	  for (i = 0; i < state->numPlayers; i++)
+        -:  975:	  //draw 4
+    #####:  976:	  for (i = 0; i < 4; i++)
 branch  0 never executed
 branch  1 never executed
         -:  977:	    {
-    #####:  978:	      if (i != currentPlayer)
-branch  0 never executed
-branch  1 never executed
-        -:  979:		{
-    #####:  980:		  if ( state->handCount[i] > 4 )
-branch  0 never executed
-branch  1 never executed
-        -:  981:		    {
-        -:  982:		      //discard hand
-    #####:  983:		      while( state->handCount[i] > 0 )
-branch  0 never executed
-branch  1 never executed
-        -:  984:			{
-    #####:  985:			  discardCard(handPos, i, state, 0);
+    #####:  978:	      drawCard(currentPlayer, state);
 call    0 never executed
-        -:  986:			}
-        -:  987:							
-        -:  988:		      //draw 4
-    #####:  989:		      for (j = 0; j < 4; j++)
+        -:  979:	    }
+        -:  980:				
+        -:  981:	  //other players discard hand and redraw if hand size > 4
+    #####:  982:	  for (i = 0; i < state->numPlayers; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  983:	    {
+    #####:  984:	      if (i != currentPlayer)
+branch  0 never executed
+branch  1 never executed
+        -:  985:		{
+    #####:  986:		  if ( state->handCount[i] > 4 )
+branch  0 never executed
+branch  1 never executed
+        -:  987:		    {
+        -:  988:		      //discard hand
+    #####:  989:		      while( state->handCount[i] > 0 )
 branch  0 never executed
 branch  1 never executed
         -:  990:			{
-    #####:  991:			  drawCard(i, state);
+    #####:  991:			  discardCard(handPos, i, state, 0);
 call    0 never executed
         -:  992:			}
-        -:  993:		    }
-        -:  994:		}
-        -:  995:	    }
-        -:  996:				
-        -:  997:	}
-    #####:  998:      return 0;
-        -:  999:		
-        -: 1000:    case steward:
-    #####: 1001:      if (choice1 == 1)
+        -:  993:							
+        -:  994:		      //draw 4
+    #####:  995:		      for (j = 0; j < 4; j++)
 branch  0 never executed
 branch  1 never executed
-        -: 1002:	{
-        -: 1003:	  //+2 cards
-    #####: 1004:	  drawCard(currentPlayer, state);
+        -:  996:			{
+    #####:  997:			  drawCard(i, state);
 call    0 never executed
-    #####: 1005:	  drawCard(currentPlayer, state);
-call    0 never executed
-        -: 1006:	}
-    #####: 1007:      else if (choice1 == 2)
+        -:  998:			}
+        -:  999:		    }
+        -: 1000:		}
+        -: 1001:	    }
+        -: 1002:				
+        -: 1003:	}
+    #####: 1004:      return 0;
+        -: 1005:		
+        -: 1006:    case steward:
+    #####: 1007:      if (choice1 == 1)
 branch  0 never executed
 branch  1 never executed
         -: 1008:	{
-        -: 1009:	  //+2 coins
-    #####: 1010:	  state->coins = state->coins + 2;
-        -: 1011:	}
-        -: 1012:      else
-        -: 1013:	{
-        -: 1014:	  //trash 2 cards in hand
-    #####: 1015:	  discardCard(choice2, currentPlayer, state, 1);
+        -: 1009:	  //+2 cards
+    #####: 1010:	  drawCard(currentPlayer, state);
 call    0 never executed
-    #####: 1016:	  discardCard(choice3, currentPlayer, state, 1);
+    #####: 1011:	  drawCard(currentPlayer, state);
 call    0 never executed
+        -: 1012:	}
+    #####: 1013:      else if (choice1 == 2)
+branch  0 never executed
+branch  1 never executed
+        -: 1014:	{
+        -: 1015:	  //+2 coins
+    #####: 1016:	  state->coins = state->coins + 2;
         -: 1017:	}
-        -: 1018:			
-        -: 1019:      //discard card from hand
-    #####: 1020:      discardCard(handPos, currentPlayer, state, 0);
+        -: 1018:      else
+        -: 1019:	{
+        -: 1020:	  //trash 2 cards in hand
+    #####: 1021:	  discardCard(choice2, currentPlayer, state, 1);
 call    0 never executed
-    #####: 1021:      return 0;
-        -: 1022:		
-        -: 1023:    case tribute:
-    #####: 1024:      if ((state->discardCount[nextPlayer] + state->deckCount[nextPlayer]) <= 1){
+    #####: 1022:	  discardCard(choice3, currentPlayer, state, 1);
+call    0 never executed
+        -: 1023:	}
+        -: 1024:			
+        -: 1025:      //discard card from hand
+    #####: 1026:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####: 1027:      return 0;
+        -: 1028:		
+        -: 1029:    case tribute:
+    #####: 1030:      if ((state->discardCount[nextPlayer] + state->deckCount[nextPlayer]) <= 1){
 branch  0 never executed
 branch  1 never executed
-    #####: 1025:	if (state->deckCount[nextPlayer] > 0){
+    #####: 1031:	if (state->deckCount[nextPlayer] > 0){
 branch  0 never executed
 branch  1 never executed
-    #####: 1026:	  tributeRevealedCards[0] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
-    #####: 1027:	  state->deckCount[nextPlayer]--;
-        -: 1028:	}
-    #####: 1029:	else if (state->discardCount[nextPlayer] > 0){
+    #####: 1032:	  tributeRevealedCards[0] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
+    #####: 1033:	  state->deckCount[nextPlayer]--;
+        -: 1034:	}
+    #####: 1035:	else if (state->discardCount[nextPlayer] > 0){
 branch  0 never executed
 branch  1 never executed
-    #####: 1030:	  tributeRevealedCards[0] = state->discard[nextPlayer][state->discardCount[nextPlayer]-1];
-    #####: 1031:	  state->discardCount[nextPlayer]--;
-        -: 1032:	}
-        -: 1033:	else{
-        -: 1034:	  //No Card to Reveal
-        -: 1035:	  if (DEBUG){
-        -: 1036:	    printf("No cards to reveal\n");
-        -: 1037:	  }
+    #####: 1036:	  tributeRevealedCards[0] = state->discard[nextPlayer][state->discardCount[nextPlayer]-1];
+    #####: 1037:	  state->discardCount[nextPlayer]--;
         -: 1038:	}
-        -: 1039:      }
-        -: 1040:	    
-        -: 1041:      else{
-    #####: 1042:	if (state->deckCount[nextPlayer] == 0){
+        -: 1039:	else{
+        -: 1040:	  //No Card to Reveal
+        -: 1041:	  if (DEBUG){
+        -: 1042:	    printf("No cards to reveal\n");
+        -: 1043:	  }
+        -: 1044:	}
+        -: 1045:      }
+        -: 1046:	    
+        -: 1047:      else{
+    #####: 1048:	if (state->deckCount[nextPlayer] == 0){
 branch  0 never executed
 branch  1 never executed
-    #####: 1043:	  for (i = 0; i < state->discardCount[nextPlayer]; i++){
+    #####: 1049:	  for (i = 0; i < state->discardCount[nextPlayer]; i++){
 branch  0 never executed
 branch  1 never executed
-    #####: 1044:	    state->deck[nextPlayer][i] = state->discard[nextPlayer][i];//Move to deck
-    #####: 1045:	    state->deckCount[nextPlayer]++;
-    #####: 1046:	    state->discard[nextPlayer][i] = -1;
-    #####: 1047:	    state->discardCount[nextPlayer]--;
-        -: 1048:	  }
-        -: 1049:			    
-    #####: 1050:	  shuffle(nextPlayer,state);//Shuffle the deck
+    #####: 1050:	    state->deck[nextPlayer][i] = state->discard[nextPlayer][i];//Move to deck
+    #####: 1051:	    state->deckCount[nextPlayer]++;
+    #####: 1052:	    state->discard[nextPlayer][i] = -1;
+    #####: 1053:	    state->discardCount[nextPlayer]--;
+        -: 1054:	  }
+        -: 1055:			    
+    #####: 1056:	  shuffle(nextPlayer,state);//Shuffle the deck
 call    0 never executed
-        -: 1051:	} 
-    #####: 1052:	tributeRevealedCards[0] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
-    #####: 1053:	state->deck[nextPlayer][state->deckCount[nextPlayer]--] = -1;
-    #####: 1054:	state->deckCount[nextPlayer]--;
-    #####: 1055:	tributeRevealedCards[1] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
-    #####: 1056:	state->deck[nextPlayer][state->deckCount[nextPlayer]--] = -1;
-    #####: 1057:	state->deckCount[nextPlayer]--;
-        -: 1058:      }    
-        -: 1059:		       
-    #####: 1060:      if (tributeRevealedCards[0] == tributeRevealedCards[1]){//If we have a duplicate card, just drop one 
+        -: 1057:	} 
+    #####: 1058:	tributeRevealedCards[0] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
+    #####: 1059:	state->deck[nextPlayer][state->deckCount[nextPlayer]--] = -1;
+    #####: 1060:	state->deckCount[nextPlayer]--;
+    #####: 1061:	tributeRevealedCards[1] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
+    #####: 1062:	state->deck[nextPlayer][state->deckCount[nextPlayer]--] = -1;
+    #####: 1063:	state->deckCount[nextPlayer]--;
+        -: 1064:      }    
+        -: 1065:		       
+    #####: 1066:      if (tributeRevealedCards[0] == tributeRevealedCards[1]){//If we have a duplicate card, just drop one 
 branch  0 never executed
 branch  1 never executed
-    #####: 1061:	state->playedCards[state->playedCardCount] = tributeRevealedCards[1];
-    #####: 1062:	state->playedCardCount++;
-    #####: 1063:	tributeRevealedCards[1] = -1;
-        -: 1064:      }
-        -: 1065:
-    #####: 1066:      for (i = 0; i <= 2; i ++){
+    #####: 1067:	state->playedCards[state->playedCardCount] = tributeRevealedCards[1];
+    #####: 1068:	state->playedCardCount++;
+    #####: 1069:	tributeRevealedCards[1] = -1;
+        -: 1070:      }
+        -: 1071:
+    #####: 1072:      for (i = 0; i <= 2; i ++){
 branch  0 never executed
 branch  1 never executed
-    #####: 1067:	if (tributeRevealedCards[i] == copper || tributeRevealedCards[i] == silver || tributeRevealedCards[i] == gold){//Treasure cards
+    #####: 1073:	if (tributeRevealedCards[i] == copper || tributeRevealedCards[i] == silver || tributeRevealedCards[i] == gold){//Treasure cards
 branch  0 never executed
 branch  1 never executed
 branch  2 never executed
 branch  3 never executed
 branch  4 never executed
 branch  5 never executed
-    #####: 1068:	  state->coins += 2;
-        -: 1069:	}
-        -: 1070:		    
-    #####: 1071:	else if (tributeRevealedCards[i] == estate || tributeRevealedCards[i] == duchy || tributeRevealedCards[i] == province || tributeRevealedCards[i] == gardens || tributeRevealedCards[i] == great_hall){//Victory Card Found
+    #####: 1074:	  state->coins += 2;
+        -: 1075:	}
+        -: 1076:		    
+    #####: 1077:	else if (tributeRevealedCards[i] == estate || tributeRevealedCards[i] == duchy || tributeRevealedCards[i] == province || tributeRevealedCards[i] == gardens || tributeRevealedCards[i] == great_hall){//Victory Card Found
 branch  0 never executed
 branch  1 never executed
 branch  2 never executed
@@ -2170,396 +2711,396 @@ branch  6 never executed
 branch  7 never executed
 branch  8 never executed
 branch  9 never executed
-    #####: 1072:	  drawCard(currentPlayer, state);
+    #####: 1078:	  drawCard(currentPlayer, state);
 call    0 never executed
-    #####: 1073:	  drawCard(currentPlayer, state);
+    #####: 1079:	  drawCard(currentPlayer, state);
 call    0 never executed
-        -: 1074:	}
-        -: 1075:	else{//Action Card
-    #####: 1076:	  state->numActions = state->numActions + 2;
-        -: 1077:	}
-        -: 1078:      }
-        -: 1079:	    
-    #####: 1080:      return 0;
-        -: 1081:		
-        -: 1082:    case ambassador:
-    #####: 1083:      j = 0;		//used to check if player has enough cards to discard
-        -: 1084:
-    #####: 1085:      if (choice2 > 2 || choice2 < 0)
+        -: 1080:	}
+        -: 1081:	else{//Action Card
+    #####: 1082:	  state->numActions = state->numActions + 2;
+        -: 1083:	}
+        -: 1084:      }
+        -: 1085:	    
+    #####: 1086:      return 0;
+        -: 1087:		
+        -: 1088:    case ambassador:
+    #####: 1089:      j = 0;		//used to check if player has enough cards to discard
+        -: 1090:
+    #####: 1091:      if (choice2 > 2 || choice2 < 0)
 branch  0 never executed
 branch  1 never executed
 branch  2 never executed
 branch  3 never executed
-        -: 1086:	{
-    #####: 1087:	  return -1;				
-        -: 1088:	}
-        -: 1089:
-    #####: 1090:      if (choice1 == handPos)
+        -: 1092:	{
+    #####: 1093:	  return -1;				
+        -: 1094:	}
+        -: 1095:
+    #####: 1096:      if (choice1 == handPos)
 branch  0 never executed
 branch  1 never executed
-        -: 1091:	{
-    #####: 1092:	  return -1;
-        -: 1093:	}
-        -: 1094:
-    #####: 1095:      for (i = 0; i < state->handCount[currentPlayer]; i++)
+        -: 1097:	{
+    #####: 1098:	  return -1;
+        -: 1099:	}
+        -: 1100:
+    #####: 1101:      for (i = 0; i < state->handCount[currentPlayer]; i++)
 branch  0 never executed
 branch  1 never executed
-        -: 1096:	{
-    #####: 1097:	  if (i != handPos && i == state->hand[currentPlayer][choice1] && i != choice1)
+        -: 1102:	{
+    #####: 1103:	  if (i != handPos && i == state->hand[currentPlayer][choice1] && i != choice1)
 branch  0 never executed
 branch  1 never executed
 branch  2 never executed
 branch  3 never executed
 branch  4 never executed
 branch  5 never executed
-        -: 1098:	    {
-    #####: 1099:	      j++;
-        -: 1100:	    }
-        -: 1101:	}
-    #####: 1102:      if (j < choice2)
+        -: 1104:	    {
+    #####: 1105:	      j++;
+        -: 1106:	    }
+        -: 1107:	}
+    #####: 1108:      if (j < choice2)
 branch  0 never executed
 branch  1 never executed
-        -: 1103:	{
-    #####: 1104:	  return -1;				
-        -: 1105:	}
-        -: 1106:
-        -: 1107:      if (DEBUG) 
-        -: 1108:	printf("Player %d reveals card number: %d\n", currentPlayer, state->hand[currentPlayer][choice1]);
-        -: 1109:
-        -: 1110:      //increase supply count for choosen card by amount being discarded
-    #####: 1111:      state->supplyCount[state->hand[currentPlayer][choice1]] += choice2;
-        -: 1112:			
-        -: 1113:      //each other player gains a copy of revealed card
-    #####: 1114:      for (i = 0; i < state->numPlayers; i++)
+        -: 1109:	{
+    #####: 1110:	  return -1;				
+        -: 1111:	}
+        -: 1112:
+        -: 1113:      if (DEBUG) 
+        -: 1114:	printf("Player %d reveals card number: %d\n", currentPlayer, state->hand[currentPlayer][choice1]);
+        -: 1115:
+        -: 1116:      //increase supply count for choosen card by amount being discarded
+    #####: 1117:      state->supplyCount[state->hand[currentPlayer][choice1]] += choice2;
+        -: 1118:			
+        -: 1119:      //each other player gains a copy of revealed card
+    #####: 1120:      for (i = 0; i < state->numPlayers; i++)
 branch  0 never executed
 branch  1 never executed
-        -: 1115:	{
-    #####: 1116:	  if (i != currentPlayer)
+        -: 1121:	{
+    #####: 1122:	  if (i != currentPlayer)
 branch  0 never executed
 branch  1 never executed
-        -: 1117:	    {
-    #####: 1118:	      gainCard(state->hand[currentPlayer][choice1], state, 0, i);
+        -: 1123:	    {
+    #####: 1124:	      gainCard(state->hand[currentPlayer][choice1], state, 0, i);
 call    0 never executed
-        -: 1119:	    }
-        -: 1120:	}
-        -: 1121:
-        -: 1122:      //discard played card from hand
-    #####: 1123:      discardCard(handPos, currentPlayer, state, 0);			
+        -: 1125:	    }
+        -: 1126:	}
+        -: 1127:
+        -: 1128:      //discard played card from hand
+    #####: 1129:      discardCard(handPos, currentPlayer, state, 0);			
 call    0 never executed
-        -: 1124:
-        -: 1125:      //trash copies of cards returned to supply
-    #####: 1126:      for (j = 0; j < choice2; j++)
+        -: 1130:
+        -: 1131:      //trash copies of cards returned to supply
+    #####: 1132:      for (j = 0; j < choice2; j++)
 branch  0 never executed
 branch  1 never executed
-        -: 1127:	{
-    #####: 1128:	  for (i = 0; i < state->handCount[currentPlayer]; i++)
+        -: 1133:	{
+    #####: 1134:	  for (i = 0; i < state->handCount[currentPlayer]; i++)
 branch  0 never executed
 branch  1 never executed
-        -: 1129:	    {
-    #####: 1130:	      if (state->hand[currentPlayer][i] == state->hand[currentPlayer][choice1])
+        -: 1135:	    {
+    #####: 1136:	      if (state->hand[currentPlayer][i] == state->hand[currentPlayer][choice1])
 branch  0 never executed
 branch  1 never executed
-        -: 1131:		{
-    #####: 1132:		  discardCard(i, currentPlayer, state, 1);
+        -: 1137:		{
+    #####: 1138:		  discardCard(i, currentPlayer, state, 1);
 call    0 never executed
-    #####: 1133:		  break;
-        -: 1134:		}
-        -: 1135:	    }
-        -: 1136:	}			
-        -: 1137:
-    #####: 1138:      return 0;
-        -: 1139:		
-        -: 1140:    case cutpurse:
-        -: 1141:
-    #####: 1142:      updateCoins(currentPlayer, state, 2);
+    #####: 1139:		  break;
+        -: 1140:		}
+        -: 1141:	    }
+        -: 1142:	}			
+        -: 1143:
+    #####: 1144:      return 0;
+        -: 1145:		
+        -: 1146:    case cutpurse:
+        -: 1147:
+    #####: 1148:      updateCoins(currentPlayer, state, 2);
 call    0 never executed
-    #####: 1143:      for (i = 0; i < state->numPlayers; i++)
+    #####: 1149:      for (i = 0; i < state->numPlayers; i++)
 branch  0 never executed
 branch  1 never executed
-        -: 1144:	{
-    #####: 1145:	  if (i != currentPlayer)
+        -: 1150:	{
+    #####: 1151:	  if (i != currentPlayer)
 branch  0 never executed
 branch  1 never executed
-        -: 1146:	    {
-    #####: 1147:	      for (j = 0; j < state->handCount[i]; j++)
+        -: 1152:	    {
+    #####: 1153:	      for (j = 0; j < state->handCount[i]; j++)
 branch  0 never executed
 branch  1 never executed
-        -: 1148:		{
-    #####: 1149:		  if (state->hand[i][j] == copper)
+        -: 1154:		{
+    #####: 1155:		  if (state->hand[i][j] == copper)
 branch  0 never executed
 branch  1 never executed
-        -: 1150:		    {
-    #####: 1151:		      discardCard(j, i, state, 0);
+        -: 1156:		    {
+    #####: 1157:		      discardCard(j, i, state, 0);
 call    0 never executed
-    #####: 1152:		      break;
-        -: 1153:		    }
-    #####: 1154:		  if (j == state->handCount[i])
+    #####: 1158:		      break;
+        -: 1159:		    }
+    #####: 1160:		  if (j == state->handCount[i])
 branch  0 never executed
 branch  1 never executed
-        -: 1155:		    {
-    #####: 1156:		      for (k = 0; k < state->handCount[i]; k++)
+        -: 1161:		    {
+    #####: 1162:		      for (k = 0; k < state->handCount[i]; k++)
 branch  0 never executed
 branch  1 never executed
-        -: 1157:			{
-        -: 1158:			  if (DEBUG)
-        -: 1159:			    printf("Player %d reveals card number %d\n", i, state->hand[i][k]);
-        -: 1160:			}	
-    #####: 1161:		      break;
-        -: 1162:		    }		
-        -: 1163:		}
-        -: 1164:					
-        -: 1165:	    }
-        -: 1166:				
-        -: 1167:	}				
-        -: 1168:
-        -: 1169:      //discard played card from hand
-    #####: 1170:      discardCard(handPos, currentPlayer, state, 0);			
+        -: 1163:			{
+        -: 1164:			  if (DEBUG)
+        -: 1165:			    printf("Player %d reveals card number %d\n", i, state->hand[i][k]);
+        -: 1166:			}	
+    #####: 1167:		      break;
+        -: 1168:		    }		
+        -: 1169:		}
+        -: 1170:					
+        -: 1171:	    }
+        -: 1172:				
+        -: 1173:	}				
+        -: 1174:
+        -: 1175:      //discard played card from hand
+    #####: 1176:      discardCard(handPos, currentPlayer, state, 0);			
 call    0 never executed
-        -: 1171:
-    #####: 1172:      return 0;
-        -: 1173:
-        -: 1174:		
-        -: 1175:    case embargo: 
-        -: 1176:      //+2 Coins
-    #####: 1177:      state->coins = state->coins + 2;
-        -: 1178:			
-        -: 1179:      //see if selected pile is in play
-    #####: 1180:      if ( state->supplyCount[choice1] == -1 )
-branch  0 never executed
-branch  1 never executed
-        -: 1181:	{
-    #####: 1182:	  return -1;
-        -: 1183:	}
+        -: 1177:
+    #####: 1178:      return 0;
+        -: 1179:
+        -: 1180:		
+        -: 1181:    case embargo: 
+        -: 1182:      //+2 Coins
+    #####: 1183:      state->coins = state->coins + 2;
         -: 1184:			
-        -: 1185:      //add embargo token to selected supply pile
-    #####: 1186:      state->embargoTokens[choice1]++;
-        -: 1187:			
-        -: 1188:      //trash card
-    #####: 1189:      discardCard(handPos, currentPlayer, state, 1);		
-call    0 never executed
-    #####: 1190:      return 0;
-        -: 1191:		
-        -: 1192:    case outpost:
-        -: 1193:      //set outpost flag
-    #####: 1194:      state->outpostPlayed++;
-        -: 1195:			
-        -: 1196:      //discard card
-    #####: 1197:      discardCard(handPos, currentPlayer, state, 0);
-call    0 never executed
-    #####: 1198:      return 0;
-        -: 1199:		
-        -: 1200:    case salvager:
-        -: 1201:      //+1 buy
-    #####: 1202:      state->numBuys++;
-        -: 1203:			
-    #####: 1204:      if (choice1)
+        -: 1185:      //see if selected pile is in play
+    #####: 1186:      if ( state->supplyCount[choice1] == -1 )
 branch  0 never executed
 branch  1 never executed
-        -: 1205:	{
-        -: 1206:	  //gain coins equal to trashed card
-    #####: 1207:	  state->coins = state->coins + getCost( handCard(choice1, state) );
+        -: 1187:	{
+    #####: 1188:	  return -1;
+        -: 1189:	}
+        -: 1190:			
+        -: 1191:      //add embargo token to selected supply pile
+    #####: 1192:      state->embargoTokens[choice1]++;
+        -: 1193:			
+        -: 1194:      //trash card
+    #####: 1195:      discardCard(handPos, currentPlayer, state, 1);		
+call    0 never executed
+    #####: 1196:      return 0;
+        -: 1197:		
+        -: 1198:    case outpost:
+        -: 1199:      //set outpost flag
+    #####: 1200:      state->outpostPlayed++;
+        -: 1201:			
+        -: 1202:      //discard card
+    #####: 1203:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####: 1204:      return 0;
+        -: 1205:		
+        -: 1206:    case salvager:
+        -: 1207:      //+1 buy
+    #####: 1208:      state->numBuys++;
+        -: 1209:			
+    #####: 1210:      if (choice1)
+branch  0 never executed
+branch  1 never executed
+        -: 1211:	{
+        -: 1212:	  //gain coins equal to trashed card
+    #####: 1213:	  state->coins = state->coins + getCost( handCard(choice1, state) );
 call    0 never executed
 call    1 never executed
-        -: 1208:	  //trash card
-    #####: 1209:	  discardCard(choice1, currentPlayer, state, 1);	
+        -: 1214:	  //trash card
+    #####: 1215:	  discardCard(choice1, currentPlayer, state, 1);	
 call    0 never executed
-        -: 1210:	}
-        -: 1211:			
-        -: 1212:      //discard card
-    #####: 1213:      discardCard(handPos, currentPlayer, state, 0);
+        -: 1216:	}
+        -: 1217:			
+        -: 1218:      //discard card
+    #####: 1219:      discardCard(handPos, currentPlayer, state, 0);
 call    0 never executed
-    #####: 1214:      return 0;
-        -: 1215:		
-        -: 1216:    case sea_hag:
-    #####: 1217:      for (i = 0; i < state->numPlayers; i++){
+    #####: 1220:      return 0;
+        -: 1221:		
+        -: 1222:    case sea_hag:
+    #####: 1223:      for (i = 0; i < state->numPlayers; i++){
 branch  0 never executed
 branch  1 never executed
-    #####: 1218:	if (i != currentPlayer){
+    #####: 1224:	if (i != currentPlayer){
 branch  0 never executed
 branch  1 never executed
-    #####: 1219:	  state->discard[i][state->discardCount[i]] = state->deck[i][state->deckCount[i]--];			    state->deckCount[i]--;
-    #####: 1220:	  state->discardCount[i]++;
-    #####: 1221:	  state->deck[i][state->deckCount[i]--] = curse;//Top card now a curse
-        -: 1222:	}
-        -: 1223:      }
-    #####: 1224:      return 0;
-        -: 1225:		
-        -: 1226:    case treasure_map:
-        -: 1227:      //search hand for another treasure_map
-    #####: 1228:      index = -1;
-    #####: 1229:      for (i = 0; i < state->handCount[currentPlayer]; i++)
+    #####: 1225:	  state->discard[i][state->discardCount[i]] = state->deck[i][state->deckCount[i]--];			    state->deckCount[i]--;
+    #####: 1226:	  state->discardCount[i]++;
+    #####: 1227:	  state->deck[i][state->deckCount[i]--] = curse;//Top card now a curse
+        -: 1228:	}
+        -: 1229:      }
+    #####: 1230:      return 0;
+        -: 1231:		
+        -: 1232:    case treasure_map:
+        -: 1233:      //search hand for another treasure_map
+    #####: 1234:      index = -1;
+    #####: 1235:      for (i = 0; i < state->handCount[currentPlayer]; i++)
 branch  0 never executed
 branch  1 never executed
-        -: 1230:	{
-    #####: 1231:	  if (state->hand[currentPlayer][i] == treasure_map && i != handPos)
+        -: 1236:	{
+    #####: 1237:	  if (state->hand[currentPlayer][i] == treasure_map && i != handPos)
 branch  0 never executed
 branch  1 never executed
 branch  2 never executed
 branch  3 never executed
-        -: 1232:	    {
-    #####: 1233:	      index = i;
-    #####: 1234:	      break;
-        -: 1235:	    }
-        -: 1236:	}
-    #####: 1237:      if (index > -1)
+        -: 1238:	    {
+    #####: 1239:	      index = i;
+    #####: 1240:	      break;
+        -: 1241:	    }
+        -: 1242:	}
+    #####: 1243:      if (index > -1)
 branch  0 never executed
 branch  1 never executed
-        -: 1238:	{
-        -: 1239:	  //trash both treasure cards
-    #####: 1240:	  discardCard(handPos, currentPlayer, state, 1);
+        -: 1244:	{
+        -: 1245:	  //trash both treasure cards
+    #####: 1246:	  discardCard(handPos, currentPlayer, state, 1);
 call    0 never executed
-    #####: 1241:	  discardCard(index, currentPlayer, state, 1);
+    #####: 1247:	  discardCard(index, currentPlayer, state, 1);
 call    0 never executed
-        -: 1242:
-        -: 1243:	  //gain 4 Gold cards
-    #####: 1244:	  for (i = 0; i < 4; i++)
+        -: 1248:
+        -: 1249:	  //gain 4 Gold cards
+    #####: 1250:	  for (i = 0; i < 4; i++)
 branch  0 never executed
 branch  1 never executed
-        -: 1245:	    {
-    #####: 1246:	      gainCard(gold, state, 1, currentPlayer);
+        -: 1251:	    {
+    #####: 1252:	      gainCard(gold, state, 1, currentPlayer);
 call    0 never executed
-        -: 1247:	    }
-        -: 1248:				
-        -: 1249:	  //return success
-    #####: 1250:	  return 1;
-        -: 1251:	}
-        -: 1252:			
-        -: 1253:      //no second treasure_map found in hand
-    #####: 1254:      return -1;
-        -: 1255:    }
-        -: 1256:	
-    #####: 1257:  return -1;
-        -: 1258:}
-        -: 1259:
-function discardCard called 50 returned 100% blocks executed 78%
-       50: 1260:int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
-        -: 1261:{
+        -: 1253:	    }
+        -: 1254:				
+        -: 1255:	  //return success
+    #####: 1256:	  return 1;
+        -: 1257:	}
+        -: 1258:			
+        -: 1259:      //no second treasure_map found in hand
+    #####: 1260:      return -1;
+        -: 1261:    }
         -: 1262:	
-        -: 1263:  //if card is not trashed, added to Played pile 
-       50: 1264:  if (trashFlag < 1)
+    #####: 1263:  return -1;
+        -: 1264:}
+        -: 1265:
+function discardCard called 40 returned 100% blocks executed 78%
+       40: 1266:int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
+        -: 1267:{
+        -: 1268:	
+        -: 1269:  //if card is not trashed, added to Played pile 
+       40: 1270:  if (trashFlag < 1)
 branch  0 taken 100% (fallthrough)
 branch  1 taken 0%
-        -: 1265:    {
-        -: 1266:      //add card to played pile
-       50: 1267:      state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
-       50: 1268:      state->playedCardCount++;
-        -: 1269:    }
-        -: 1270:	
-        -: 1271:  //set played card to -1
-       50: 1272:  state->hand[currentPlayer][handPos] = -1;
-        -: 1273:	
-        -: 1274:  //remove card from player's hand
-       50: 1275:  if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
+        -: 1271:    {
+        -: 1272:      //add card to played pile
+       40: 1273:      state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
+       40: 1274:      state->playedCardCount++;
+        -: 1275:    }
+        -: 1276:	
+        -: 1277:  //set played card to -1
+       40: 1278:  state->hand[currentPlayer][handPos] = -1;
+        -: 1279:	
+        -: 1280:  //remove card from player's hand
+       40: 1281:  if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
-        -: 1276:    {
-        -: 1277:      //reduce number of cards in hand
-    #####: 1278:      state->handCount[currentPlayer]--;
-        -: 1279:    }
-       50: 1280:  else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
+        -: 1282:    {
+        -: 1283:      //reduce number of cards in hand
+    #####: 1284:      state->handCount[currentPlayer]--;
+        -: 1285:    }
+       40: 1286:  else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
-        -: 1281:    {
-        -: 1282:      //reduce number of cards in hand
-    #####: 1283:      state->handCount[currentPlayer]--;
-        -: 1284:    }
-        -: 1285:  else 	
-        -: 1286:    {
-        -: 1287:      //replace discarded card with last card in hand
-       50: 1288:      state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
-        -: 1289:      //set last card to -1
-       50: 1290:      state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
-        -: 1291:      //reduce number of cards in hand
-       50: 1292:      state->handCount[currentPlayer]--;
-        -: 1293:    }
-        -: 1294:	
-       50: 1295:  return 0;
-        -: 1296:}
-        -: 1297:
-function gainCard called 50 returned 100% blocks executed 70%
-       50: 1298:int gainCard(int supplyPos, struct gameState *state, int toFlag, int player)
-        -: 1299:{
-        -: 1300:  //Note: supplyPos is enum of choosen card
-        -: 1301:	
-        -: 1302:  //check if supply pile is empty (0) or card is not used in game (-1)
-       50: 1303:  if ( supplyCount(supplyPos, state) < 1 )
+        -: 1287:    {
+        -: 1288:      //reduce number of cards in hand
+    #####: 1289:      state->handCount[currentPlayer]--;
+        -: 1290:    }
+        -: 1291:  else 	
+        -: 1292:    {
+        -: 1293:      //replace discarded card with last card in hand
+       40: 1294:      state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
+        -: 1295:      //set last card to -1
+       40: 1296:      state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
+        -: 1297:      //reduce number of cards in hand
+       40: 1298:      state->handCount[currentPlayer]--;
+        -: 1299:    }
+        -: 1300:	
+       40: 1301:  return 0;
+        -: 1302:}
+        -: 1303:
+function gainCard called 20 returned 100% blocks executed 70%
+       20: 1304:int gainCard(int supplyPos, struct gameState *state, int toFlag, int player)
+        -: 1305:{
+        -: 1306:  //Note: supplyPos is enum of choosen card
+        -: 1307:	
+        -: 1308:  //check if supply pile is empty (0) or card is not used in game (-1)
+       20: 1309:  if ( supplyCount(supplyPos, state) < 1 )
 call    0 returned 100%
 branch  1 taken 0% (fallthrough)
 branch  2 taken 100%
-        -: 1304:    {
-    #####: 1305:      return -1;
-        -: 1306:    }
-        -: 1307:	
-        -: 1308:  //added card for [whoseTurn] current player:
-        -: 1309:  // toFlag = 0 : add to discard
-        -: 1310:  // toFlag = 1 : add to deck
-        -: 1311:  // toFlag = 2 : add to hand
-        -: 1312:
-       50: 1313:  if (toFlag == 1)
+        -: 1310:    {
+    #####: 1311:      return -1;
+        -: 1312:    }
+        -: 1313:	
+        -: 1314:  //added card for [whoseTurn] current player:
+        -: 1315:  // toFlag = 0 : add to discard
+        -: 1316:  // toFlag = 1 : add to deck
+        -: 1317:  // toFlag = 2 : add to hand
+        -: 1318:
+       20: 1319:  if (toFlag == 1)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
-        -: 1314:    {
-    #####: 1315:      state->deck[ player ][ state->deckCount[player] ] = supplyPos;
-    #####: 1316:      state->deckCount[player]++;
-        -: 1317:    }
-       50: 1318:  else if (toFlag == 2)
+        -: 1320:    {
+    #####: 1321:      state->deck[ player ][ state->deckCount[player] ] = supplyPos;
+    #####: 1322:      state->deckCount[player]++;
+        -: 1323:    }
+       20: 1324:  else if (toFlag == 2)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
-        -: 1319:    {
-    #####: 1320:      state->hand[ player ][ state->handCount[player] ] = supplyPos;
-    #####: 1321:      state->handCount[player]++;
-        -: 1322:    }
-        -: 1323:  else
-        -: 1324:    {
-       50: 1325:      state->discard[player][ state->discardCount[player] ] = supplyPos;
-       50: 1326:      state->discardCount[player]++;
-        -: 1327:    }
-        -: 1328:	
-        -: 1329:  //decrease number in supply pile
-       50: 1330:  state->supplyCount[supplyPos]--;
-        -: 1331:	 
-       50: 1332:  return 0;
-        -: 1333:}
-        -: 1334:
-function updateCoins called 100 returned 100% blocks executed 82%
-      100: 1335:int updateCoins(int player, struct gameState *state, int bonus)
-        -: 1336:{
-        -: 1337:  int i;
-        -: 1338:	
-        -: 1339:  //reset coin count
-      100: 1340:  state->coins = 0;
-        -: 1341:
-        -: 1342:  //add coins for each Treasure card in player's hand
-      960: 1343:  for (i = 0; i < state->handCount[player]; i++)
+        -: 1325:    {
+    #####: 1326:      state->hand[ player ][ state->handCount[player] ] = supplyPos;
+    #####: 1327:      state->handCount[player]++;
+        -: 1328:    }
+        -: 1329:  else
+        -: 1330:    {
+       20: 1331:      state->discard[player][ state->discardCount[player] ] = supplyPos;
+       20: 1332:      state->discardCount[player]++;
+        -: 1333:    }
+        -: 1334:	
+        -: 1335:  //decrease number in supply pile
+       20: 1336:  state->supplyCount[supplyPos]--;
+        -: 1337:	 
+       20: 1338:  return 0;
+        -: 1339:}
+        -: 1340:
+function updateCoins called 40 returned 100% blocks executed 82%
+       40: 1341:int updateCoins(int player, struct gameState *state, int bonus)
+        -: 1342:{
+        -: 1343:  int i;
+        -: 1344:	
+        -: 1345:  //reset coin count
+       40: 1346:  state->coins = 0;
+        -: 1347:
+        -: 1348:  //add coins for each Treasure card in player's hand
+      410: 1349:  for (i = 0; i < state->handCount[player]; i++)
 branch  0 taken 90%
 branch  1 taken 10% (fallthrough)
-        -: 1344:    {
-      860: 1345:      if (state->hand[player][i] == copper)
-branch  0 taken 22% (fallthrough)
-branch  1 taken 78%
-        -: 1346:	{
-      186: 1347:	  state->coins += 1;
-        -: 1348:	}
-      674: 1349:      else if (state->hand[player][i] == silver)
+        -: 1350:    {
+      370: 1351:      if (state->hand[player][i] == copper)
+branch  0 taken 18% (fallthrough)
+branch  1 taken 82%
+        -: 1352:	{
+       66: 1353:	  state->coins += 1;
+        -: 1354:	}
+      304: 1355:      else if (state->hand[player][i] == silver)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
-        -: 1350:	{
-    #####: 1351:	  state->coins += 2;
-        -: 1352:	}
-      674: 1353:      else if (state->hand[player][i] == gold)
+        -: 1356:	{
+    #####: 1357:	  state->coins += 2;
+        -: 1358:	}
+      304: 1359:      else if (state->hand[player][i] == gold)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
-        -: 1354:	{
-    #####: 1355:	  state->coins += 3;
-        -: 1356:	}	
-        -: 1357:    }	
-        -: 1358:
-        -: 1359:  //add bonus
-      100: 1360:  state->coins += bonus;
-        -: 1361:
-      100: 1362:  return 0;
-        -: 1363:}
+        -: 1360:	{
+    #####: 1361:	  state->coins += 3;
+        -: 1362:	}	
+        -: 1363:    }	
         -: 1364:
-        -: 1365:
-        -: 1366://end of dominion.c
+        -: 1365:  //add bonus
+       40: 1366:  state->coins += bonus;
         -: 1367:
+       40: 1368:  return 0;
+        -: 1369:}
+        -: 1370:
+        -: 1371:
+        -: 1372://end of dominion.c
+        -: 1373:

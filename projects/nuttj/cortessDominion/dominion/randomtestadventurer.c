@@ -34,7 +34,7 @@ int main(int argc, const char* argv[])
 	printf("Performing card test for Adventurer\n");
 
 	//This is the loop that performs the test
-	for(m = 1; m <= 100; m++)
+	for(m = 1; m <= 20; m++)
 	{
 		result = 0;
 		handPos = -1;
