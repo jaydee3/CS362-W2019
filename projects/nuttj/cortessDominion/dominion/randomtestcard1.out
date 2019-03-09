@@ -1,428 +1,694 @@
 Performing card test for Smithy
-Test 1    Starting deckCount: 5    Starting discardCount: 7
+Test 1    Starting deckCount: 9    Starting discardCount: 7
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 2    Starting deckCount: 2    Starting discardCount: 5
+Test 2    Starting deckCount: 9    Starting discardCount: 5
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 3    Starting deckCount: 2    Starting discardCount: 3
+Test 3    Starting deckCount: 1    Starting discardCount: 2
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+3 tests failed
 
-Test 4    Starting deckCount: 7    Starting discardCount: 4
+Test 4    Starting deckCount: 6    Starting discardCount: 1
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 5    Starting deckCount: 7    Starting discardCount: 9
+Test 5    Starting deckCount: 5    Starting discardCount: 1
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 6    Starting deckCount: 0    Starting discardCount: 8
+Test 6    Starting deckCount: 3    Starting discardCount: 2
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 7    Starting deckCount: 4    Starting discardCount: 0
+Test 7    Starting deckCount: 8    Starting discardCount: 8
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 8    Starting deckCount: 7    Starting discardCount: 5
+Test 8    Starting deckCount: 1    Starting discardCount: 9
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 9    Starting deckCount: 3    Starting discardCount: 5
+Test 9    Starting deckCount: 4    Starting discardCount: 3
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 10    Starting deckCount: 6    Starting discardCount: 7
+Test 10    Starting deckCount: 7    Starting discardCount: 6
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 11    Starting deckCount: 5    Starting discardCount: 5
+Test 11    Starting deckCount: 7    Starting discardCount: 10
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 12    Starting deckCount: 7    Starting discardCount: 4
-All tests passed
+Test 12    Starting deckCount: 10    Starting discardCount: 10
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
+TEST FAILED: Smithy is not on top of the played card pile
+4 tests failed
 
 Test 13    Starting deckCount: 5    Starting discardCount: 3
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 14    Starting deckCount: 8    Starting discardCount: 9
+Test 14    Starting deckCount: 2    Starting discardCount: 4
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 15    Starting deckCount: 0    Starting discardCount: 10
+Test 15    Starting deckCount: 8    Starting discardCount: 7
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 16    Starting deckCount: 3    Starting discardCount: 6
+Test 16    Starting deckCount: 3    Starting discardCount: 8
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 17    Starting deckCount: 10    Starting discardCount: 9
+Test 17    Starting deckCount: 1    Starting discardCount: 5
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 18    Starting deckCount: 7    Starting discardCount: 10
+Test 18    Starting deckCount: 1    Starting discardCount: 5
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 19    Starting deckCount: 5    Starting discardCount: 2
+Test 19    Starting deckCount: 0    Starting discardCount: 7
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 20    Starting deckCount: 5    Starting discardCount: 4
+Test 20    Starting deckCount: 8    Starting discardCount: 9
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 21    Starting deckCount: 3    Starting discardCount: 10
+Test 21    Starting deckCount: 3    Starting discardCount: 0
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+3 tests failed
 
-Test 22    Starting deckCount: 5    Starting discardCount: 5
-All tests passed
-
-Test 23    Starting deckCount: 10    Starting discardCount: 0
+Test 22    Starting deckCount: 3    Starting discardCount: 8
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 24    Starting deckCount: 8    Starting discardCount: 3
+Test 23    Starting deckCount: 0    Starting discardCount: 8
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 25    Starting deckCount: 10    Starting discardCount: 3
+Test 24    Starting deckCount: 5    Starting discardCount: 1
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
-
-Test 26    Starting deckCount: 10    Starting discardCount: 3
-All tests passed
+4 tests failed
 
-Test 27    Starting deckCount: 3    Starting discardCount: 6
+Test 25    Starting deckCount: 8    Starting discardCount: 6
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 28    Starting deckCount: 9    Starting discardCount: 7
+Test 26    Starting deckCount: 1    Starting discardCount: 8
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 29    Starting deckCount: 9    Starting discardCount: 7
+Test 27    Starting deckCount: 9    Starting discardCount: 8
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 30    Starting deckCount: 8    Starting discardCount: 5
+Test 28    Starting deckCount: 2    Starting discardCount: 9
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 31    Starting deckCount: 10    Starting discardCount: 9
+Test 29    Starting deckCount: 2    Starting discardCount: 8
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 32    Starting deckCount: 6    Starting discardCount: 10
+Test 30    Starting deckCount: 5    Starting discardCount: 6
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 33    Starting deckCount: 9    Starting discardCount: 0
+Test 31    Starting deckCount: 6    Starting discardCount: 1
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 34    Starting deckCount: 5    Starting discardCount: 7
+Test 32    Starting deckCount: 10    Starting discardCount: 5
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 35    Starting deckCount: 8    Starting discardCount: 0
+Test 33    Starting deckCount: 1    Starting discardCount: 7
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 36    Starting deckCount: 6    Starting discardCount: 10
+Test 34    Starting deckCount: 0    Starting discardCount: 6
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 37    Starting deckCount: 2    Starting discardCount: 6
-TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+Test 35    Starting deckCount: 6    Starting discardCount: 0
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
+3 tests failed
 
-Test 38    Starting deckCount: 1    Starting discardCount: 2
+Test 36    Starting deckCount: 6    Starting discardCount: 1
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 39    Starting deckCount: 5    Starting discardCount: 10
+Test 37    Starting deckCount: 5    Starting discardCount: 6
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 40    Starting deckCount: 5    Starting discardCount: 4
+Test 38    Starting deckCount: 0    Starting discardCount: 10
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 41    Starting deckCount: 2    Starting discardCount: 6
+Test 39    Starting deckCount: 2    Starting discardCount: 4
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 42    Starting deckCount: 8    Starting discardCount: 8
+Test 40    Starting deckCount: 6    Starting discardCount: 0
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 43    Starting deckCount: 8    Starting discardCount: 6
+Test 41    Starting deckCount: 10    Starting discardCount: 8
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 44    Starting deckCount: 7    Starting discardCount: 3
+Test 42    Starting deckCount: 9    Starting discardCount: 4
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 45    Starting deckCount: 1    Starting discardCount: 3
+Test 43    Starting deckCount: 8    Starting discardCount: 0
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 46    Starting deckCount: 9    Starting discardCount: 0
+Test 44    Starting deckCount: 5    Starting discardCount: 5
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 47    Starting deckCount: 1    Starting discardCount: 10
+Test 45    Starting deckCount: 9    Starting discardCount: 5
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 48    Starting deckCount: 0    Starting discardCount: 2
+Test 46    Starting deckCount: 7    Starting discardCount: 5
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 49    Starting deckCount: 4    Starting discardCount: 0
+Test 47    Starting deckCount: 7    Starting discardCount: 10
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 50    Starting deckCount: 9    Starting discardCount: 7
+Test 48    Starting deckCount: 2    Starting discardCount: 6
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 51    Starting deckCount: 9    Starting discardCount: 0
+Test 49    Starting deckCount: 10    Starting discardCount: 8
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 52    Starting deckCount: 7    Starting discardCount: 7
+Test 50    Starting deckCount: 1    Starting discardCount: 10
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 53    Starting deckCount: 5    Starting discardCount: 0
+Test 51    Starting deckCount: 9    Starting discardCount: 7
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 54    Starting deckCount: 5    Starting discardCount: 7
+Test 52    Starting deckCount: 7    Starting discardCount: 4
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 55    Starting deckCount: 6    Starting discardCount: 8
+Test 53    Starting deckCount: 7    Starting discardCount: 8
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 56    Starting deckCount: 8    Starting discardCount: 10
+Test 54    Starting deckCount: 4    Starting discardCount: 2
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 57    Starting deckCount: 10    Starting discardCount: 2
+Test 55    Starting deckCount: 8    Starting discardCount: 8
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 58    Starting deckCount: 2    Starting discardCount: 2
+Test 56    Starting deckCount: 7    Starting discardCount: 8
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 59    Starting deckCount: 6    Starting discardCount: 4
+Test 57    Starting deckCount: 6    Starting discardCount: 6
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 60    Starting deckCount: 6    Starting discardCount: 9
+Test 58    Starting deckCount: 1    Starting discardCount: 8
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 61    Starting deckCount: 7    Starting discardCount: 4
+Test 59    Starting deckCount: 9    Starting discardCount: 5
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 62    Starting deckCount: 3    Starting discardCount: 9
+Test 60    Starting deckCount: 0    Starting discardCount: 3
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+3 tests failed
 
-Test 63    Starting deckCount: 4    Starting discardCount: 10
+Test 61    Starting deckCount: 3    Starting discardCount: 1
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+3 tests failed
 
-Test 64    Starting deckCount: 9    Starting discardCount: 10
+Test 62    Starting deckCount: 4    Starting discardCount: 1
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 65    Starting deckCount: 7    Starting discardCount: 9
+Test 63    Starting deckCount: 0    Starting discardCount: 0
+TEST FAILED: Smithy should increase number of cards in player's hands by 0: 0 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+3 tests failed
 
-Test 66    Starting deckCount: 2    Starting discardCount: 2
+Test 64    Starting deckCount: 7    Starting discardCount: 3
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 67    Starting deckCount: 6    Starting discardCount: 3
+Test 65    Starting deckCount: 2    Starting discardCount: 6
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 68    Starting deckCount: 10    Starting discardCount: 10
+Test 66    Starting deckCount: 3    Starting discardCount: 0
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+3 tests failed
 
-Test 69    Starting deckCount: 2    Starting discardCount: 10
+Test 67    Starting deckCount: 8    Starting discardCount: 10
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 70    Starting deckCount: 1    Starting discardCount: 7
+Test 68    Starting deckCount: 5    Starting discardCount: 9
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 71    Starting deckCount: 5    Starting discardCount: 7
+Test 69    Starting deckCount: 8    Starting discardCount: 2
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 72    Starting deckCount: 6    Starting discardCount: 0
+Test 70    Starting deckCount: 4    Starting discardCount: 6
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 73    Starting deckCount: 3    Starting discardCount: 3
+Test 71    Starting deckCount: 3    Starting discardCount: 7
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 74    Starting deckCount: 5    Starting discardCount: 10
+Test 72    Starting deckCount: 0    Starting discardCount: 9
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 75    Starting deckCount: 6    Starting discardCount: 0
+Test 73    Starting deckCount: 3    Starting discardCount: 4
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 76    Starting deckCount: 5    Starting discardCount: 0
+Test 74    Starting deckCount: 8    Starting discardCount: 5
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 77    Starting deckCount: 2    Starting discardCount: 5
+Test 75    Starting deckCount: 0    Starting discardCount: 2
+TEST FAILED: Smithy should increase number of cards in player's hands by 2: 2 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+3 tests failed
 
-Test 78    Starting deckCount: 3    Starting discardCount: 2
+Test 76    Starting deckCount: 9    Starting discardCount: 4
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 79    Starting deckCount: 8    Starting discardCount: 3
+Test 77    Starting deckCount: 6    Starting discardCount: 2
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 80    Starting deckCount: 2    Starting discardCount: 4
+Test 78    Starting deckCount: 10    Starting discardCount: 6
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 81    Starting deckCount: 10    Starting discardCount: 9
+Test 79    Starting deckCount: 2    Starting discardCount: 10
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 82    Starting deckCount: 7    Starting discardCount: 7
+Test 80    Starting deckCount: 10    Starting discardCount: 3
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 83    Starting deckCount: 10    Starting discardCount: 1
+Test 81    Starting deckCount: 3    Starting discardCount: 10
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 84    Starting deckCount: 7    Starting discardCount: 5
+Test 82    Starting deckCount: 10    Starting discardCount: 5
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 85    Starting deckCount: 9    Starting discardCount: 3
+Test 83    Starting deckCount: 2    Starting discardCount: 3
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 86    Starting deckCount: 9    Starting discardCount: 7
+Test 84    Starting deckCount: 3    Starting discardCount: 4
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 87    Starting deckCount: 2    Starting discardCount: 9
+Test 85    Starting deckCount: 10    Starting discardCount: 9
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 88    Starting deckCount: 4    Starting discardCount: 2
+Test 86    Starting deckCount: 2    Starting discardCount: 6
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 89    Starting deckCount: 1    Starting discardCount: 6
+Test 87    Starting deckCount: 4    Starting discardCount: 9
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 90    Starting deckCount: 4    Starting discardCount: 3
-All tests passed
-
-Test 91    Starting deckCount: 9    Starting discardCount: 6
+Test 88    Starting deckCount: 5    Starting discardCount: 8
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 92    Starting deckCount: 3    Starting discardCount: 5
+Test 89    Starting deckCount: 1    Starting discardCount: 9
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 93    Starting deckCount: 9    Starting discardCount: 9
+Test 90    Starting deckCount: 9    Starting discardCount: 5
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
-
-Test 94    Starting deckCount: 7    Starting discardCount: 0
-All tests passed
+4 tests failed
 
-Test 95    Starting deckCount: 8    Starting discardCount: 2
+Test 91    Starting deckCount: 0    Starting discardCount: 5
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 96    Starting deckCount: 0    Starting discardCount: 2
+Test 92    Starting deckCount: 10    Starting discardCount: 5
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 97    Starting deckCount: 2    Starting discardCount: 8
+Test 93    Starting deckCount: 1    Starting discardCount: 7
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 98    Starting deckCount: 7    Starting discardCount: 5
+Test 94    Starting deckCount: 10    Starting discardCount: 1
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 99    Starting deckCount: 0    Starting discardCount: 1
+Test 95    Starting deckCount: 3    Starting discardCount: 10
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+4 tests failed
 
-Test 100    Starting deckCount: 0    Starting discardCount: 0
+Test 96    Starting deckCount: 1    Starting discardCount: 0
+TEST FAILED: Smithy should increase number of cards in player's hands by 1: 1 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
 TEST FAILED: Smithy is not on top of the played card pile
-1 tests failed
+3 tests failed
 
-Function 'baronEffect'
-Lines executed:0.00% of 29
-Branches executed:0.00% of 18
-Taken at least once:0.00% of 18
-Calls executed:0.00% of 8
-
-Function 'cutpurseEffect'
-Lines executed:0.00% of 13
-Branches executed:0.00% of 12
-Taken at least once:0.00% of 12
-Calls executed:0.00% of 3
+Test 97    Starting deckCount: 0    Starting discardCount: 10
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
+TEST FAILED: Smithy is not on top of the played card pile
+4 tests failed
 
-Function 'stewardEffect'
-Lines executed:0.00% of 10
-Branches executed:0.00% of 4
-Taken at least once:0.00% of 4
-Calls executed:0.00% of 5
+Test 98    Starting deckCount: 3    Starting discardCount: 5
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
+TEST FAILED: Smithy is not on top of the played card pile
+4 tests failed
 
-Function 'smithyEffect'
-Lines executed:100.00% of 5
-Branches executed:100.00% of 2
-Taken at least once:100.00% of 2
-Calls executed:100.00% of 2
+Test 99    Starting deckCount: 8    Starting discardCount: 9
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
+TEST FAILED: Smithy is not on top of the played card pile
+4 tests failed
 
-Function 'adventurerEffect'
-Lines executed:0.00% of 16
-Branches executed:0.00% of 12
-Taken at least once:0.00% of 12
-Calls executed:0.00% of 2
+Test 100    Starting deckCount: 9    Starting discardCount: 8
+TEST FAILED: Smithy should increase number of cards in player's hands by 3: 3 drawn cards minus discarded Smithy card
+TEST FAILED: Smithy did not decrease the number of cards in player's deck by 3
+TEST FAILED: Smithy did not increase the number of cards in player's played pile by 1
+TEST FAILED: Smithy is not on top of the played card pile
+4 tests failed
 
 Function 'updateCoins'
 Lines executed:81.82% of 11
@@ -437,16 +703,46 @@ Taken at least once:0.00% of 6
 Calls executed:0.00% of 1
 
 Function 'discardCard'
-Lines executed:92.31% of 13
+Lines executed:84.62% of 13
 Branches executed:100.00% of 6
-Taken at least once:66.67% of 6
+Taken at least once:50.00% of 6
 No calls
 
 Function 'cardEffect'
-Lines executed:4.07% of 172
-Branches executed:15.23% of 151
-Taken at least once:1.32% of 151
-Calls executed:4.08% of 49
+Lines executed:5.98% of 184
+Branches executed:14.84% of 155
+Taken at least once:1.29% of 155
+Calls executed:7.69% of 52
+
+Function 'smithyEffect'
+Lines executed:100.00% of 5
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 2
+
+Function 'mineEffect'
+Lines executed:0.00% of 15
+Branches executed:0.00% of 14
+Taken at least once:0.00% of 14
+Calls executed:0.00% of 5
+
+Function 'feastEffect'
+Lines executed:0.00% of 16
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 5
+
+Function 'council_roomEffect'
+Lines executed:0.00% of 9
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 3
+
+Function 'adventurerEffect'
+Lines executed:0.00% of 17
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 2
 
 Function 'getCost'
 Lines executed:0.00% of 30
@@ -551,10 +847,10 @@ Taken at least once:100.00% of 4
 No calls
 
 File 'dominion.c'
-Lines executed:23.70% of 557
-Branches executed:24.70% of 417
-Taken at least once:16.79% of 417
-Calls executed:12.63% of 95
+Lines executed:24.19% of 558
+Branches executed:24.82% of 415
+Taken at least once:16.63% of 415
+Calls executed:14.74% of 95
 Creating 'dominion.c.gcov'
 
         -:    0:Source:dominion.c
@@ -569,17 +865,17 @@ Creating 'dominion.c.gcov'
         -:    5:#include <math.h>
         -:    6:#include <stdlib.h>
         -:    7:
-function compare called 6184 returned 100% blocks executed 100%
-     6184:    8:int compare(const void* a, const void* b) {
-     6184:    9:  if (*(int*)a > *(int*)b)
-branch  0 taken 1% (fallthrough)
-branch  1 taken 99%
-       84:   10:    return 1;
-     6100:   11:  if (*(int*)a < *(int*)b)
-branch  0 taken 28% (fallthrough)
-branch  1 taken 72%
-     1690:   12:    return -1;
-     4410:   13:  return 0;
+function compare called 6476 returned 100% blocks executed 100%
+     6476:    8:int compare(const void* a, const void* b) {
+     6476:    9:  if (*(int*)a > *(int*)b)
+branch  0 taken 4% (fallthrough)
+branch  1 taken 96%
+      231:   10:    return 1;
+     6245:   11:  if (*(int*)a < *(int*)b)
+branch  0 taken 29% (fallthrough)
+branch  1 taken 71%
+     1817:   12:    return -1;
+     4428:   13:  return 0;
         -:   14:}
         -:   15:
 function newGame called 0 returned 0% blocks executed 0%
@@ -821,45 +1117,45 @@ call    0 returned 100%
       100:  198:  return 0;
         -:  199:}
         -:  200:
-function shuffle called 428 returned 100% blocks executed 100%
-      428:  201:int shuffle(int player, struct gameState *state) {
+function shuffle called 464 returned 100% blocks executed 100%
+      464:  201:int shuffle(int player, struct gameState *state) {
         -:  202: 
         -:  203:
         -:  204:  int newDeck[MAX_DECK];
-      428:  205:  int newDeckPos = 0;
+      464:  205:  int newDeckPos = 0;
         -:  206:  int card;
         -:  207:  int i;
         -:  208:
-      428:  209:  if (state->deckCount[player] < 1)
-branch  0 taken 2% (fallthrough)
-branch  1 taken 98%
-        7:  210:    return -1;
-      421:  211:  qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
+      464:  209:  if (state->deckCount[player] < 1)
+branch  0 taken 5% (fallthrough)
+branch  1 taken 95%
+       21:  210:    return -1;
+      443:  211:  qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
 call    0 returned 100%
         -:  212:  /* SORT CARDS IN DECK TO ENSURE DETERMINISM! */
         -:  213:
-     4953:  214:  while (state->deckCount[player] > 0) {
+     5152:  214:  while (state->deckCount[player] > 0) {
 branch  0 taken 91%
 branch  1 taken 9% (fallthrough)
-     4111:  215:    card = floor(Random() * state->deckCount[player]);
+     4266:  215:    card = floor(Random() * state->deckCount[player]);
 call    0 returned 100%
-     4111:  216:    newDeck[newDeckPos] = state->deck[player][card];
-     4111:  217:    newDeckPos++;
-    13394:  218:    for (i = card; i < state->deckCount[player]-1; i++) {
+     4266:  216:    newDeck[newDeckPos] = state->deck[player][card];
+     4266:  217:    newDeckPos++;
+    13742:  218:    for (i = card; i < state->deckCount[player]-1; i++) {
 branch  0 taken 69%
 branch  1 taken 31% (fallthrough)
-     9283:  219:      state->deck[player][i] = state->deck[player][i+1];
+     9476:  219:      state->deck[player][i] = state->deck[player][i+1];
         -:  220:    }
-     4111:  221:    state->deckCount[player]--;
+     4266:  221:    state->deckCount[player]--;
         -:  222:  }
-     4532:  223:  for (i = 0; i < newDeckPos; i++) {
+     4709:  223:  for (i = 0; i < newDeckPos; i++) {
 branch  0 taken 91%
 branch  1 taken 9% (fallthrough)
-     4111:  224:    state->deck[player][i] = newDeck[i];
-     4111:  225:    state->deckCount[player]++;
+     4266:  224:    state->deck[player][i] = newDeck[i];
+     4266:  225:    state->deckCount[player]++;
         -:  226:  }
         -:  227:
-      421:  228:  return 0;
+      443:  228:  return 0;
         -:  229:}
         -:  230:
 function playCard called 0 returned 0% blocks executed 0%
@@ -1290,70 +1586,70 @@ branch  1 never executed
     #####:  522:  return 0;
         -:  523:}
         -:  524:
-function drawCard called 800 returned 100% blocks executed 100%
-      800:  525:int drawCard(int player, struct gameState *state)
+function drawCard called 1000 returned 100% blocks executed 100%
+     1000:  525:int drawCard(int player, struct gameState *state)
         -:  526:{	int count;
         -:  527:  int deckCounter;
-      800:  528:  if (state->deckCount[player] <= 0){//Deck is empty
-branch  0 taken 4% (fallthrough)
-branch  1 taken 97%
+     1000:  528:  if (state->deckCount[player] <= 0){//Deck is empty
+branch  0 taken 6% (fallthrough)
+branch  1 taken 94%
         -:  529:    
         -:  530:    //Step 1 Shuffle the discard pile back into a deck
         -:  531:    int i;
         -:  532:    //Move discard to deck
-      139:  533:    for (i = 0; i < state->discardCount[player];i++){
-branch  0 taken 80%
-branch  1 taken 20% (fallthrough)
-      111:  534:      state->deck[player][i] = state->discard[player][i];
-      111:  535:      state->discard[player][i] = -1;
+      330:  533:    for (i = 0; i < state->discardCount[player];i++){
+branch  0 taken 81%
+branch  1 taken 19% (fallthrough)
+      266:  534:      state->deck[player][i] = state->discard[player][i];
+      266:  535:      state->discard[player][i] = -1;
         -:  536:    }
         -:  537:
-       28:  538:    state->deckCount[player] = state->discardCount[player];
-       28:  539:    state->discardCount[player] = 0;//Reset discard
+       64:  538:    state->deckCount[player] = state->discardCount[player];
+       64:  539:    state->discardCount[player] = 0;//Reset discard
         -:  540:
         -:  541:    //Shufffle the deck
-       28:  542:    shuffle(player, state);//Shuffle the deck up and make it so that we can draw
+       64:  542:    shuffle(player, state);//Shuffle the deck up and make it so that we can draw
 call    0 returned 100%
         -:  543:   
         -:  544:    if (DEBUG){//Debug statements
         -:  545:      printf("Deck count now: %d\n", state->deckCount[player]);
         -:  546:    }
         -:  547:    
-       28:  548:    state->discardCount[player] = 0;
+       64:  548:    state->discardCount[player] = 0;
         -:  549:
         -:  550:    //Step 2 Draw Card
-       28:  551:    count = state->handCount[player];//Get current player's hand count
+       64:  551:    count = state->handCount[player];//Get current player's hand count
         -:  552:    
         -:  553:    if (DEBUG){//Debug statements
         -:  554:      printf("Current hand count: %d\n", count);
         -:  555:    }
         -:  556:    
-       28:  557:    deckCounter = state->deckCount[player];//Create a holder for the deck count
+       64:  557:    deckCounter = state->deckCount[player];//Create a holder for the deck count
         -:  558:
-       28:  559:    if (deckCounter == 0)
-branch  0 taken 25% (fallthrough)
-branch  1 taken 75%
-        7:  560:      return -1;
+       64:  559:    if (deckCounter == 0)
+branch  0 taken 33% (fallthrough)
+branch  1 taken 67%
+       21:  560:      return -1;
         -:  561:
-       21:  562:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to hand
-       21:  563:    state->deckCount[player]--;
-       21:  564:    state->handCount[player]++;//Increment hand count
+       43:  562:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to hand
+       43:  563:    state->deckCount[player]--;
+       43:  564:    state->handCount[player]++;//Increment hand count
         -:  565:  }
         -:  566:
         -:  567:  else{
-      772:  568:    int count = state->handCount[player];//Get current hand count for player
+      936:  568:    int count = state->handCount[player];//Get current hand count for player
         -:  569:    int deckCounter;
         -:  570:    if (DEBUG){//Debug statements
         -:  571:      printf("Current hand count: %d\n", count);
         -:  572:    }
         -:  573:
-      772:  574:    deckCounter = state->deckCount[player];//Create holder for the deck count
-      772:  575:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
-      772:  576:    state->deckCount[player]--;
-      772:  577:    state->handCount[player]++;//Increment hand count
+      936:  574:    deckCounter = state->deckCount[player];//Create holder for the deck count
+      936:  575:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
+      936:  576:    state->deckCount[player]--;
+      936:  577:    state->handCount[player]++;//Increment hand count
         -:  578:  }
         -:  579:
-      793:  580:  return 0;
+      979:  580:  return 0;
         -:  581:}
         -:  582:
 function getCost called 0 returned 0% blocks executed 0%
@@ -1448,28 +1744,259 @@ branch 27 never executed
     #####:  643:  return -1;
         -:  644:}
         -:  645:
-function cardEffect called 100 returned 100% blocks executed 3%
-      100:  646:int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
-        -:  647:{
-        -:  648:  int i;
-        -:  649:  int j;
-        -:  650:  int x;
-        -:  651:  int index;
-      100:  652:  int currentPlayer = whoseTurn(state);
+function adventurerEffect called 0 returned 0% blocks executed 0%
+    #####:  646:int adventurerEffect(struct gameState *state, int currentPlayer) {
+    #####:  647:    int z = 0;// this is the counter for the temp hand
+        -:  648:    int cardDrawn;
+        -:  649:    int temphand[MAX_HAND];
+    #####:  650:    int drawntreasure=0;
+        -:  651:
+    #####:  652:    while(drawntreasure<2){
+branch  0 never executed
+branch  1 never executed
+    #####:  653:        if (state->deckCount[currentPlayer] < 1){   //if the deck is empty we need to shuffle discard and add to deck
+branch  0 never executed
+branch  1 never executed
+    #####:  654:            shuffle(currentPlayer, state);
+call    0 never executed
+        -:  655:        }
+    #####:  656:        drawCard(currentPlayer, state);
+call    0 never executed
+    #####:  657:        cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+        -:  658://        if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
+    #####:  659:        if (cardDrawn == copper || cardDrawn == silver) // assignment 2 bug
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:  660:            drawntreasure++;
+        -:  661:        else{
+    #####:  662:            temphand[z]=cardDrawn;
+    #####:  663:            state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
+    #####:  664:            z++;
+        -:  665:        }
+        -:  666:    }
+    #####:  667:    while(z-1>=0){
+branch  0 never executed
+branch  1 never executed
+    #####:  668:        state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
+    #####:  669:        z=z-1;
+        -:  670:    }
+        -:  671:
+    #####:  672:    return 0;
+        -:  673:}
+        -:  674:
+function council_roomEffect called 0 returned 0% blocks executed 0%
+    #####:  675:int council_roomEffect(struct gameState *state, int currentPlayer, int handPos){
+        -:  676:    int i;
+        -:  677:    //+4 Cards
+    #####:  678:    for (i = 0; i < 4; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  679:    {
+    #####:  680:        drawCard(currentPlayer, state);
+call    0 never executed
+        -:  681:    }
+        -:  682:
+        -:  683:    //+1 Buy
+    #####:  684:    state->numBuys++;
+        -:  685:
+        -:  686:    //Each other player draws a card
+        -:  687://    for (i = 0; i < state->numPlayers; i++)
+    #####:  688:    for (i = 0; i < state->numPlayers - 1; i++) // assignment 2 bug
+branch  0 never executed
+branch  1 never executed
+        -:  689:    {
+    #####:  690:        if ( i != currentPlayer )
+branch  0 never executed
+branch  1 never executed
+        -:  691:        {
+    #####:  692:            drawCard(i, state);
+call    0 never executed
+        -:  693:        }
+        -:  694:    }
+        -:  695:
+        -:  696:    //put played card in played card pile
+    #####:  697:    discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -:  698:
+    #####:  699:    return 0;
+        -:  700:}
+        -:  701:
+function feastEffect called 0 returned 0% blocks executed 0%
+    #####:  702:int feastEffect(struct gameState *state, int currentPlayer, int choice1){
+        -:  703:    int temphand[MAX_HAND];
+        -:  704:    int i;
+        -:  705:
+        -:  706:    //gain card with cost up to 5
+        -:  707:    //Backup hand
+    #####:  708:    for (i = 0; i <= state->handCount[currentPlayer]; i++){
+branch  0 never executed
+branch  1 never executed
+        -:  709://        temphand[i] = state->hand[currentPlayer][i];//Backup card
+    #####:  710:        temphand[i+1] = state->hand[currentPlayer][i];// assignment 2 bug
+    #####:  711:        state->hand[currentPlayer][i] = -1;//Set to nothing
+        -:  712:    }
+        -:  713:    //Backup hand
+        -:  714:
+        -:  715:    //Update Coins for Buy
+    #####:  716:    updateCoins(currentPlayer, state, 5);
+call    0 never executed
+    #####:  717:    int x = 1;//Condition to loop on
+    #####:  718:    while( x == 1) {//Buy one card
+branch  0 never executed
+branch  1 never executed
+    #####:  719:        if (supplyCount(choice1, state) <= 0){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  720:            if (DEBUG)
+        -:  721:                printf("None of that card left, sorry!\n");
+        -:  722:
+        -:  723:            if (DEBUG){
+        -:  724:                printf("Cards Left: %d\n", supplyCount(choice1, state));
+        -:  725:            }
+        -:  726:        }
+    #####:  727:        else if (state->coins < getCost(choice1)){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  728:            printf("That card is too expensive!\n");
+call    0 never executed
+        -:  729:
+        -:  730:            if (DEBUG){
+        -:  731:                printf("Coins: %d < %d\n", state->coins, getCost(choice1));
+        -:  732:            }
+        -:  733:        }
+        -:  734:        else{
+        -:  735:
+        -:  736:            if (DEBUG){
+        -:  737:                printf("Deck Count: %d\n", state->handCount[currentPlayer] + state->deckCount[currentPlayer] + state->discardCount[currentPlayer]);
+        -:  738:            }
+        -:  739:
+    #####:  740:            gainCard(choice1, state, 0, currentPlayer);//Gain the card
+call    0 never executed
+    #####:  741:            x = 0;//No more buying cards
+        -:  742:
+        -:  743:            if (DEBUG){
+        -:  744:                printf("Deck Count: %d\n", state->handCount[currentPlayer] + state->deckCount[currentPlayer] + state->discardCount[currentPlayer]);
+        -:  745:            }
+        -:  746:
+        -:  747:        }
+        -:  748:    }
+        -:  749:
+        -:  750:    //Reset Hand
+    #####:  751:    for (i = 0; i <= state->handCount[currentPlayer]; i++){
+branch  0 never executed
+branch  1 never executed
+    #####:  752:        state->hand[currentPlayer][i] = temphand[i];
+    #####:  753:        temphand[i] = -1;
+        -:  754:    }
+        -:  755:
+    #####:  756:    return 0;
+        -:  757:}
+        -:  758:
+function mineEffect called 0 returned 0% blocks executed 0%
+    #####:  759:int mineEffect(struct gameState *state, int currentPlayer, int choice1, int choice2, int handPos){
+        -:  760:    int i;
+        -:  761:    int j;
+        -:  762:
+    #####:  763:    j = state->hand[currentPlayer][choice1];  //store card we will trash
+        -:  764:
+    #####:  765:    if (state->hand[currentPlayer][choice1] < copper || state->hand[currentPlayer][choice1] > gold)
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  766:    {
+    #####:  767:        return -1;
+        -:  768:    }
+        -:  769:
+    #####:  770:    if (choice2 > treasure_map || choice2 < curse)
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  771:    {
+    #####:  772:        return -1;
+        -:  773:    }
+        -:  774:
+    #####:  775:    if ( (getCost(state->hand[currentPlayer][choice1]) + 3) > getCost(choice2) )
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  776:    {
+    #####:  777:        return -1;
+        -:  778:    }
+        -:  779:
+    #####:  780:    gainCard(choice2, state, 2, currentPlayer);
+call    0 never executed
+        -:  781:
+        -:  782:    //discard card from hand
+    #####:  783:    discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -:  784:
+        -:  785:    //discard trashed card
+    #####:  786:    for (i = 0; i < state->handCount[currentPlayer]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  787:    {
+    #####:  788:        if (state->hand[currentPlayer][i] == j)
+branch  0 never executed
+branch  1 never executed
+        -:  789:        {
+    #####:  790:            discardCard(i, currentPlayer, state, 0);
+call    0 never executed
+    #####:  791:            break;
+        -:  792:        }
+        -:  793:    }
+        -:  794:
+    #####:  795:    return 0;
+        -:  796:}
+        -:  797:
+function smithyEffect called 100 returned 100% blocks executed 100%
+      100:  798:int smithyEffect(struct gameState *state, int currentPlayer,int handPos){
+        -:  799:    int i;
+        -:  800:    //+3 Cards
+        -:  801://    for (i = 0; i < 3; i++)
+      500:  802:    for (i = 0; i < 4; i++) // assignment 2 bug
+branch  0 taken 80%
+branch  1 taken 20% (fallthrough)
+        -:  803:    {
+      400:  804:        drawCard(currentPlayer, state);
 call    0 returned 100%
-      100:  653:  int nextPlayer = currentPlayer + 1;
-        -:  654:
-      100:  655:  int tributeRevealedCards[2] = {-1, -1};
-        -:  656:  int temphand[MAX_HAND];// moved above the if statement
-      100:  657:  if (nextPlayer > (state->numPlayers - 1)){
+        -:  805:    }
+        -:  806:
+        -:  807:    //discard card from hand
+      100:  808:    discardCard(handPos, currentPlayer, state, 0);
+call    0 returned 100%
+      100:  809:    return 0;
+        -:  810:}
+        -:  811:
+function cardEffect called 100 returned 100% blocks executed 4%
+      100:  812:int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
+        -:  813:{
+        -:  814:  int i;
+        -:  815:  int j;
+        -:  816:  int k;
+        -:  817:  //int x;
+        -:  818:  int index;
+      100:  819:  int currentPlayer = whoseTurn(state);
+call    0 returned 100%
+      100:  820:  int nextPlayer = currentPlayer + 1;
+        -:  821:
+      100:  822:  int tributeRevealedCards[2] = {-1, -1};
+        -:  823: // int temphand[MAX_HAND];// moved above the if statement
+      100:  824:  if (nextPlayer > (state->numPlayers - 1)){
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
-    #####:  658:    nextPlayer = 0;
-        -:  659:  }
-        -:  660:  
-        -:  661:	
-        -:  662:  //uses switch to select card and perform actions
-      100:  663:  switch( card ) 
+    #####:  825:    nextPlayer = 0;
+        -:  826:  }
+        -:  827:  
+        -:  828:	
+        -:  829:  //uses switch to select card and perform actions
+      100:  830:  switch( card ) 
 branch  0 taken 0%
 branch  1 taken 0%
 branch  2 taken 0%
@@ -1491,389 +2018,347 @@ branch 17 taken 0%
 branch 18 taken 0%
 branch 19 taken 0%
 branch 20 taken 0%
-        -:  664:    {
-        -:  665:    case adventurer:
-    #####:  666:      return adventurerEffect(state, temphand, currentPlayer);
+        -:  831:    {
+        -:  832:    case adventurer:
+    #####:  833:        adventurerEffect(state, currentPlayer);
 call    0 never executed
-        -:  667:			
-        -:  668:    case council_room:
-        -:  669:      //+4 Cards
-    #####:  670:      for (i = 0; i < 4; i++)
-branch  0 never executed
-branch  1 never executed
-        -:  671:	{
-    #####:  672:	  drawCard(currentPlayer, state);
+        -:  834:			
+        -:  835:    case council_room:
+    #####:  836:        council_roomEffect(state, currentPlayer, handPos);
 call    0 never executed
-        -:  673:	}
-        -:  674:			
-        -:  675:      //+1 Buy
-    #####:  676:      state->numBuys++;
-        -:  677:			
-        -:  678:      //Each other player draws a card
-    #####:  679:      for (i = 0; i < state->numPlayers; i++)
-branch  0 never executed
-branch  1 never executed
-        -:  680:	{
-    #####:  681:	  if ( i != currentPlayer )
-branch  0 never executed
-branch  1 never executed
-        -:  682:	    {
-    #####:  683:	      drawCard(i, state);
+        -:  837:			
+        -:  838:    case feast:
+    #####:  839:        feastEffect(state, currentPlayer, choice1);
 call    0 never executed
-        -:  684:	    }
-        -:  685:	}
-        -:  686:			
-        -:  687:      //put played card in played card pile
-    #####:  688:      discardCard(handPos, currentPlayer, state, 0);
-call    0 never executed
-        -:  689:			
-    #####:  690:      return 0;
-        -:  691:			
-        -:  692:    case feast:
-        -:  693:      //gain card with cost up to 5
-        -:  694:      //Backup hand
-    #####:  695:      for (i = 0; i <= state->handCount[currentPlayer]; i++){
-branch  0 never executed
-branch  1 never executed
-    #####:  696:	temphand[i] = state->hand[currentPlayer][i];//Backup card
-    #####:  697:	state->hand[currentPlayer][i] = -1;//Set to nothing
-        -:  698:      }
-        -:  699:      //Backup hand
-        -:  700:
-        -:  701:      //Update Coins for Buy
-    #####:  702:      updateCoins(currentPlayer, state, 5);
-call    0 never executed
-    #####:  703:      x = 1;//Condition to loop on
-    #####:  704:      while( x == 1) {//Buy one card
-branch  0 never executed
-branch  1 never executed
-    #####:  705:	if (supplyCount(choice1, state) <= 0){
-call    0 never executed
-branch  1 never executed
-branch  2 never executed
-        -:  706:	  if (DEBUG)
-        -:  707:	    printf("None of that card left, sorry!\n");
-        -:  708:
-        -:  709:	  if (DEBUG){
-        -:  710:	    printf("Cards Left: %d\n", supplyCount(choice1, state));
-        -:  711:	  }
-        -:  712:	}
-    #####:  713:	else if (state->coins < getCost(choice1)){
-call    0 never executed
-branch  1 never executed
-branch  2 never executed
-    #####:  714:	  printf("That card is too expensive!\n");
-call    0 never executed
-        -:  715:
-        -:  716:	  if (DEBUG){
-        -:  717:	    printf("Coins: %d < %d\n", state->coins, getCost(choice1));
-        -:  718:	  }
-        -:  719:	}
-        -:  720:	else{
-        -:  721:
-        -:  722:	  if (DEBUG){
-        -:  723:	    printf("Deck Count: %d\n", state->handCount[currentPlayer] + state->deckCount[currentPlayer] + state->discardCount[currentPlayer]);
-        -:  724:	  }
-        -:  725:
-    #####:  726:	  gainCard(choice1, state, 0, currentPlayer);//Gain the card
-call    0 never executed
-    #####:  727:	  x = 0;//No more buying cards
-        -:  728:
-        -:  729:	  if (DEBUG){
-        -:  730:	    printf("Deck Count: %d\n", state->handCount[currentPlayer] + state->deckCount[currentPlayer] + state->discardCount[currentPlayer]);
-        -:  731:	  }
-        -:  732:
-        -:  733:	}
-        -:  734:      }     
-        -:  735:
-        -:  736:      //Reset Hand
-    #####:  737:      for (i = 0; i <= state->handCount[currentPlayer]; i++){
-branch  0 never executed
-branch  1 never executed
-    #####:  738:	state->hand[currentPlayer][i] = temphand[i];
-    #####:  739:	temphand[i] = -1;
-        -:  740:      }
-        -:  741:      //Reset Hand
-        -:  742:      			
-    #####:  743:      return 0;
-        -:  744:			
-        -:  745:    case gardens:
-    #####:  746:      return -1;
-        -:  747:			
-        -:  748:    case mine:
-    #####:  749:      j = state->hand[currentPlayer][choice1];  //store card we will trash
-        -:  750:
-    #####:  751:      if (state->hand[currentPlayer][choice1] < copper || state->hand[currentPlayer][choice1] > gold)
-branch  0 never executed
-branch  1 never executed
-branch  2 never executed
-branch  3 never executed
-        -:  752:	{
-    #####:  753:	  return -1;
-        -:  754:	}
-        -:  755:		
-    #####:  756:      if (choice2 > treasure_map || choice2 < curse)
-branch  0 never executed
-branch  1 never executed
-branch  2 never executed
-branch  3 never executed
-        -:  757:	{
-    #####:  758:	  return -1;
-        -:  759:	}
-        -:  760:
-    #####:  761:      if ( (getCost(state->hand[currentPlayer][choice1]) + 3) > getCost(choice2) )
-call    0 never executed
-call    1 never executed
-branch  2 never executed
-branch  3 never executed
-        -:  762:	{
-    #####:  763:	  return -1;
-        -:  764:	}
-        -:  765:
-    #####:  766:      gainCard(choice2, state, 2, currentPlayer);
-call    0 never executed
-        -:  767:
-        -:  768:      //discard card from hand
-    #####:  769:      discardCard(handPos, currentPlayer, state, 0);
-call    0 never executed
-        -:  770:
-        -:  771:      //discard trashed card
-    #####:  772:      for (i = 0; i < state->handCount[currentPlayer]; i++)
-branch  0 never executed
-branch  1 never executed
-        -:  773:	{
-    #####:  774:	  if (state->hand[currentPlayer][i] == j)
-branch  0 never executed
-branch  1 never executed
-        -:  775:	    {
-    #####:  776:	      discardCard(i, currentPlayer, state, 0);			
-call    0 never executed
-    #####:  777:	      break;
-        -:  778:	    }
-        -:  779:	}
-        -:  780:			
-    #####:  781:      return 0;
-        -:  782:			
-        -:  783:    case remodel:
-    #####:  784:      j = state->hand[currentPlayer][choice1];  //store card we will trash
-        -:  785:
-    #####:  786:      if ( (getCost(state->hand[currentPlayer][choice1]) + 2) > getCost(choice2) )
-call    0 never executed
-call    1 never executed
-branch  2 never executed
-branch  3 never executed
-        -:  787:	{
-    #####:  788:	  return -1;
-        -:  789:	}
-        -:  790:
-    #####:  791:      gainCard(choice2, state, 0, currentPlayer);
-call    0 never executed
-        -:  792:
-        -:  793:      //discard card from hand
-    #####:  794:      discardCard(handPos, currentPlayer, state, 0);
-call    0 never executed
-        -:  795:
-        -:  796:      //discard trashed card
-    #####:  797:      for (i = 0; i < state->handCount[currentPlayer]; i++)
-branch  0 never executed
-branch  1 never executed
-        -:  798:	{
-    #####:  799:	  if (state->hand[currentPlayer][i] == j)
-branch  0 never executed
-branch  1 never executed
-        -:  800:	    {
-    #####:  801:	      discardCard(i, currentPlayer, state, 0);			
-call    0 never executed
-    #####:  802:	      break;
-        -:  803:	    }
-        -:  804:	}
-        -:  805:
-        -:  806:
-    #####:  807:      return 0;
-        -:  808:		
-        -:  809:    case smithy:
-      100:  810:      return smithyEffect(state, handPos, currentPlayer);
-call    0 returned 100%
-        -:  811:		
-        -:  812:    case village:
-        -:  813:      //+1 Card
-    #####:  814:      drawCard(currentPlayer, state);
-call    0 never executed
-        -:  815:			
-        -:  816:      //+2 Actions
-    #####:  817:      state->numActions = state->numActions + 2;
-        -:  818:			
-        -:  819:      //discard played card from hand
-    #####:  820:      discardCard(handPos, currentPlayer, state, 0);
-call    0 never executed
-    #####:  821:      return 0;
-        -:  822:		
-        -:  823:    case baron:
-    #####:  824:      return baronEffect(state, choice1, currentPlayer);
-call    0 never executed
-        -:  825:		
-        -:  826:    case great_hall:
-        -:  827:      //+1 Card
-    #####:  828:      drawCard(currentPlayer, state);
-call    0 never executed
-        -:  829:			
-        -:  830:      //+1 Actions
-    #####:  831:      state->numActions++;
-        -:  832:			
-        -:  833:      //discard card from hand
-    #####:  834:      discardCard(handPos, currentPlayer, state, 0);
-call    0 never executed
-    #####:  835:      return 0;
-        -:  836:		
-        -:  837:    case minion:
-        -:  838:      //+1 action
-    #####:  839:      state->numActions++;
         -:  840:			
-        -:  841:      //discard card from hand
-    #####:  842:      discardCard(handPos, currentPlayer, state, 0);
-call    0 never executed
+        -:  841:    case gardens:
+    #####:  842:      return -1;
         -:  843:			
-    #####:  844:      if (choice1)		//+2 coins
+        -:  844:    case mine:
+    #####:  845:        mineEffect(state, currentPlayer, choice1, choice2, handPos);
+call    0 never executed
+        -:  846:			
+        -:  847:    case remodel:
+    #####:  848:      j = state->hand[currentPlayer][choice1];  //store card we will trash
+        -:  849:
+    #####:  850:      if ( (getCost(state->hand[currentPlayer][choice1]) + 2) > getCost(choice2) )
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  851:	{
+    #####:  852:	  return -1;
+        -:  853:	}
+        -:  854:
+    #####:  855:      gainCard(choice2, state, 0, currentPlayer);
+call    0 never executed
+        -:  856:
+        -:  857:      //discard card from hand
+    #####:  858:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -:  859:
+        -:  860:      //discard trashed card
+    #####:  861:      for (i = 0; i < state->handCount[currentPlayer]; i++)
 branch  0 never executed
 branch  1 never executed
-        -:  845:	{
-    #####:  846:	  state->coins = state->coins + 2;
-        -:  847:	}
-        -:  848:			
-    #####:  849:      else if (choice2)		//discard hand, redraw 4, other players with 5+ cards discard hand and draw 4
+        -:  862:	{
+    #####:  863:	  if (state->hand[currentPlayer][i] == j)
 branch  0 never executed
 branch  1 never executed
-        -:  850:	{
-        -:  851:	  //discard hand
-    #####:  852:	  while(numHandCards(state) > 0)
+        -:  864:	    {
+    #####:  865:	      discardCard(i, currentPlayer, state, 0);			
+call    0 never executed
+    #####:  866:	      break;
+        -:  867:	    }
+        -:  868:	}
+        -:  869:
+        -:  870:
+    #####:  871:      return 0;
+        -:  872:		
+        -:  873:    case smithy:
+      100:  874:      smithyEffect(state, currentPlayer, handPos);
+call    0 returned 100%
+        -:  875:		
+        -:  876:    case village:
+        -:  877:      //+1 Card
+      100:  878:      drawCard(currentPlayer, state);
+call    0 returned 100%
+        -:  879:			
+        -:  880:      //+2 Actions
+      100:  881:      state->numActions = state->numActions + 2;
+        -:  882:			
+        -:  883:      //discard played card from hand
+      100:  884:      discardCard(handPos, currentPlayer, state, 0);
+call    0 returned 100%
+      100:  885:      return 0;
+        -:  886:		
+        -:  887:    case baron:
+    #####:  888:      state->numBuys++;//Increase buys by 1!
+    #####:  889:      if (choice1 > 0){//Boolean true or going to discard an estate
+branch  0 never executed
+branch  1 never executed
+    #####:  890:	int p = 0;//Iterator for hand!
+    #####:  891:	int card_not_discarded = 1;//Flag for discard set!
+    #####:  892:	while(card_not_discarded){
+branch  0 never executed
+branch  1 never executed
+    #####:  893:	  if (state->hand[currentPlayer][p] == estate){//Found an estate card!
+branch  0 never executed
+branch  1 never executed
+    #####:  894:	    state->coins += 4;//Add 4 coins to the amount of coins
+    #####:  895:	    state->discard[currentPlayer][state->discardCount[currentPlayer]] = state->hand[currentPlayer][p];
+    #####:  896:	    state->discardCount[currentPlayer]++;
+    #####:  897:	    for (;p < state->handCount[currentPlayer]; p++){
+branch  0 never executed
+branch  1 never executed
+    #####:  898:	      state->hand[currentPlayer][p] = state->hand[currentPlayer][p+1];
+        -:  899:	    }
+    #####:  900:	    state->hand[currentPlayer][state->handCount[currentPlayer]] = -1;
+    #####:  901:	    state->handCount[currentPlayer]--;
+    #####:  902:	    card_not_discarded = 0;//Exit the loop
+        -:  903:	  }
+    #####:  904:	  else if (p > state->handCount[currentPlayer]){
+branch  0 never executed
+branch  1 never executed
+        -:  905:	    if(DEBUG) {
+        -:  906:	      printf("No estate cards in your hand, invalid choice\n");
+        -:  907:	      printf("Must gain an estate if there are any\n");
+        -:  908:	    }
+    #####:  909:	    if (supplyCount(estate, state) > 0){
 call    0 never executed
 branch  1 never executed
 branch  2 never executed
-        -:  853:	    {
-    #####:  854:	      discardCard(handPos, currentPlayer, state, 0);
+    #####:  910:	      gainCard(estate, state, 0, currentPlayer);
 call    0 never executed
-        -:  855:	    }
-        -:  856:				
-        -:  857:	  //draw 4
-    #####:  858:	  for (i = 0; i < 4; i++)
-branch  0 never executed
-branch  1 never executed
-        -:  859:	    {
-    #####:  860:	      drawCard(currentPlayer, state);
+    #####:  911:	      state->supplyCount[estate]--;//Decrement estates
+    #####:  912:	      if (supplyCount(estate, state) == 0){
 call    0 never executed
-        -:  861:	    }
-        -:  862:				
-        -:  863:	  //other players discard hand and redraw if hand size > 4
-    #####:  864:	  for (i = 0; i < state->numPlayers; i++)
-branch  0 never executed
 branch  1 never executed
-        -:  865:	    {
-    #####:  866:	      if (i != currentPlayer)
-branch  0 never executed
-branch  1 never executed
-        -:  867:		{
-    #####:  868:		  if ( state->handCount[i] > 4 )
-branch  0 never executed
-branch  1 never executed
-        -:  869:		    {
-        -:  870:		      //discard hand
-    #####:  871:		      while( state->handCount[i] > 0 )
-branch  0 never executed
-branch  1 never executed
-        -:  872:			{
-    #####:  873:			  discardCard(handPos, i, state, 0);
+branch  2 never executed
+    #####:  913:		isGameOver(state);
 call    0 never executed
-        -:  874:			}
-        -:  875:							
-        -:  876:		      //draw 4
-    #####:  877:		      for (j = 0; j < 4; j++)
-branch  0 never executed
-branch  1 never executed
-        -:  878:			{
-    #####:  879:			  drawCard(i, state);
+        -:  914:	      }
+        -:  915:	    }
+    #####:  916:	    card_not_discarded = 0;//Exit the loop
+        -:  917:	  }
+        -:  918:			    
+        -:  919:	  else{
+    #####:  920:	    p++;//Next card
+        -:  921:	  }
+        -:  922:	}
+        -:  923:      }
+        -:  924:			    
+        -:  925:      else{
+    #####:  926:	if (supplyCount(estate, state) > 0){
 call    0 never executed
-        -:  880:			}
-        -:  881:		    }
-        -:  882:		}
-        -:  883:	    }
-        -:  884:				
-        -:  885:	}
-    #####:  886:      return 0;
-        -:  887:		
-        -:  888:    case steward:
-    #####:  889:      return stewardEffect(state, choice1, choice2, choice3, handPos, currentPlayer);
+branch  1 never executed
+branch  2 never executed
+    #####:  927:	  gainCard(estate, state, 0, currentPlayer);//Gain an estate
 call    0 never executed
-        -:  890:		
-        -:  891:    case tribute:
-    #####:  892:      if ((state->discardCount[nextPlayer] + state->deckCount[nextPlayer]) <= 1){
-branch  0 never executed
-branch  1 never executed
-    #####:  893:	if (state->deckCount[nextPlayer] > 0){
-branch  0 never executed
-branch  1 never executed
-    #####:  894:	  tributeRevealedCards[0] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
-    #####:  895:	  state->deckCount[nextPlayer]--;
-        -:  896:	}
-    #####:  897:	else if (state->discardCount[nextPlayer] > 0){
-branch  0 never executed
-branch  1 never executed
-    #####:  898:	  tributeRevealedCards[0] = state->discard[nextPlayer][state->discardCount[nextPlayer]-1];
-    #####:  899:	  state->discardCount[nextPlayer]--;
-        -:  900:	}
-        -:  901:	else{
-        -:  902:	  //No Card to Reveal
-        -:  903:	  if (DEBUG){
-        -:  904:	    printf("No cards to reveal\n");
-        -:  905:	  }
-        -:  906:	}
-        -:  907:      }
-        -:  908:	    
-        -:  909:      else{
-    #####:  910:	if (state->deckCount[nextPlayer] == 0){
-branch  0 never executed
-branch  1 never executed
-    #####:  911:	  for (i = 0; i < state->discardCount[nextPlayer]; i++){
-branch  0 never executed
-branch  1 never executed
-    #####:  912:	    state->deck[nextPlayer][i] = state->discard[nextPlayer][i];//Move to deck
-    #####:  913:	    state->deckCount[nextPlayer]++;
-    #####:  914:	    state->discard[nextPlayer][i] = -1;
-    #####:  915:	    state->discardCount[nextPlayer]--;
-        -:  916:	  }
-        -:  917:			    
-    #####:  918:	  shuffle(nextPlayer,state);//Shuffle the deck
+    #####:  928:	  state->supplyCount[estate]--;//Decrement Estates
+    #####:  929:	  if (supplyCount(estate, state) == 0){
 call    0 never executed
-        -:  919:	} 
-    #####:  920:	tributeRevealedCards[0] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
-    #####:  921:	state->deck[nextPlayer][state->deckCount[nextPlayer]--] = -1;
-    #####:  922:	state->deckCount[nextPlayer]--;
-    #####:  923:	tributeRevealedCards[1] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
-    #####:  924:	state->deck[nextPlayer][state->deckCount[nextPlayer]--] = -1;
-    #####:  925:	state->deckCount[nextPlayer]--;
-        -:  926:      }    
-        -:  927:		       
-    #####:  928:      if (tributeRevealedCards[0] == tributeRevealedCards[1]){//If we have a duplicate card, just drop one 
+branch  1 never executed
+branch  2 never executed
+    #####:  930:	    isGameOver(state);
+call    0 never executed
+        -:  931:	  }
+        -:  932:	}
+        -:  933:      }
+        -:  934:	    
+        -:  935:      
+    #####:  936:      return 0;
+        -:  937:		
+        -:  938:    case great_hall:
+        -:  939:      //+1 Card
+    #####:  940:      drawCard(currentPlayer, state);
+call    0 never executed
+        -:  941:			
+        -:  942:      //+1 Actions
+    #####:  943:      state->numActions++;
+        -:  944:			
+        -:  945:      //discard card from hand
+    #####:  946:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####:  947:      return 0;
+        -:  948:		
+        -:  949:    case minion:
+        -:  950:      //+1 action
+    #####:  951:      state->numActions++;
+        -:  952:			
+        -:  953:      //discard card from hand
+    #####:  954:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -:  955:			
+    #####:  956:      if (choice1)		//+2 coins
 branch  0 never executed
 branch  1 never executed
-    #####:  929:	state->playedCards[state->playedCardCount] = tributeRevealedCards[1];
-    #####:  930:	state->playedCardCount++;
-    #####:  931:	tributeRevealedCards[1] = -1;
-        -:  932:      }
-        -:  933:
-    #####:  934:      for (i = 0; i <= 2; i ++){
+        -:  957:	{
+    #####:  958:	  state->coins = state->coins + 2;
+        -:  959:	}
+        -:  960:			
+    #####:  961:      else if (choice2)		//discard hand, redraw 4, other players with 5+ cards discard hand and draw 4
 branch  0 never executed
 branch  1 never executed
-    #####:  935:	if (tributeRevealedCards[i] == copper || tributeRevealedCards[i] == silver || tributeRevealedCards[i] == gold){//Treasure cards
+        -:  962:	{
+        -:  963:	  //discard hand
+    #####:  964:	  while(numHandCards(state) > 0)
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  965:	    {
+    #####:  966:	      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -:  967:	    }
+        -:  968:				
+        -:  969:	  //draw 4
+    #####:  970:	  for (i = 0; i < 4; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  971:	    {
+    #####:  972:	      drawCard(currentPlayer, state);
+call    0 never executed
+        -:  973:	    }
+        -:  974:				
+        -:  975:	  //other players discard hand and redraw if hand size > 4
+    #####:  976:	  for (i = 0; i < state->numPlayers; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  977:	    {
+    #####:  978:	      if (i != currentPlayer)
+branch  0 never executed
+branch  1 never executed
+        -:  979:		{
+    #####:  980:		  if ( state->handCount[i] > 4 )
+branch  0 never executed
+branch  1 never executed
+        -:  981:		    {
+        -:  982:		      //discard hand
+    #####:  983:		      while( state->handCount[i] > 0 )
+branch  0 never executed
+branch  1 never executed
+        -:  984:			{
+    #####:  985:			  discardCard(handPos, i, state, 0);
+call    0 never executed
+        -:  986:			}
+        -:  987:							
+        -:  988:		      //draw 4
+    #####:  989:		      for (j = 0; j < 4; j++)
+branch  0 never executed
+branch  1 never executed
+        -:  990:			{
+    #####:  991:			  drawCard(i, state);
+call    0 never executed
+        -:  992:			}
+        -:  993:		    }
+        -:  994:		}
+        -:  995:	    }
+        -:  996:				
+        -:  997:	}
+    #####:  998:      return 0;
+        -:  999:		
+        -: 1000:    case steward:
+    #####: 1001:      if (choice1 == 1)
+branch  0 never executed
+branch  1 never executed
+        -: 1002:	{
+        -: 1003:	  //+2 cards
+    #####: 1004:	  drawCard(currentPlayer, state);
+call    0 never executed
+    #####: 1005:	  drawCard(currentPlayer, state);
+call    0 never executed
+        -: 1006:	}
+    #####: 1007:      else if (choice1 == 2)
+branch  0 never executed
+branch  1 never executed
+        -: 1008:	{
+        -: 1009:	  //+2 coins
+    #####: 1010:	  state->coins = state->coins + 2;
+        -: 1011:	}
+        -: 1012:      else
+        -: 1013:	{
+        -: 1014:	  //trash 2 cards in hand
+    #####: 1015:	  discardCard(choice2, currentPlayer, state, 1);
+call    0 never executed
+    #####: 1016:	  discardCard(choice3, currentPlayer, state, 1);
+call    0 never executed
+        -: 1017:	}
+        -: 1018:			
+        -: 1019:      //discard card from hand
+    #####: 1020:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####: 1021:      return 0;
+        -: 1022:		
+        -: 1023:    case tribute:
+    #####: 1024:      if ((state->discardCount[nextPlayer] + state->deckCount[nextPlayer]) <= 1){
+branch  0 never executed
+branch  1 never executed
+    #####: 1025:	if (state->deckCount[nextPlayer] > 0){
+branch  0 never executed
+branch  1 never executed
+    #####: 1026:	  tributeRevealedCards[0] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
+    #####: 1027:	  state->deckCount[nextPlayer]--;
+        -: 1028:	}
+    #####: 1029:	else if (state->discardCount[nextPlayer] > 0){
+branch  0 never executed
+branch  1 never executed
+    #####: 1030:	  tributeRevealedCards[0] = state->discard[nextPlayer][state->discardCount[nextPlayer]-1];
+    #####: 1031:	  state->discardCount[nextPlayer]--;
+        -: 1032:	}
+        -: 1033:	else{
+        -: 1034:	  //No Card to Reveal
+        -: 1035:	  if (DEBUG){
+        -: 1036:	    printf("No cards to reveal\n");
+        -: 1037:	  }
+        -: 1038:	}
+        -: 1039:      }
+        -: 1040:	    
+        -: 1041:      else{
+    #####: 1042:	if (state->deckCount[nextPlayer] == 0){
+branch  0 never executed
+branch  1 never executed
+    #####: 1043:	  for (i = 0; i < state->discardCount[nextPlayer]; i++){
+branch  0 never executed
+branch  1 never executed
+    #####: 1044:	    state->deck[nextPlayer][i] = state->discard[nextPlayer][i];//Move to deck
+    #####: 1045:	    state->deckCount[nextPlayer]++;
+    #####: 1046:	    state->discard[nextPlayer][i] = -1;
+    #####: 1047:	    state->discardCount[nextPlayer]--;
+        -: 1048:	  }
+        -: 1049:			    
+    #####: 1050:	  shuffle(nextPlayer,state);//Shuffle the deck
+call    0 never executed
+        -: 1051:	} 
+    #####: 1052:	tributeRevealedCards[0] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
+    #####: 1053:	state->deck[nextPlayer][state->deckCount[nextPlayer]--] = -1;
+    #####: 1054:	state->deckCount[nextPlayer]--;
+    #####: 1055:	tributeRevealedCards[1] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
+    #####: 1056:	state->deck[nextPlayer][state->deckCount[nextPlayer]--] = -1;
+    #####: 1057:	state->deckCount[nextPlayer]--;
+        -: 1058:      }    
+        -: 1059:		       
+    #####: 1060:      if (tributeRevealedCards[0] == tributeRevealedCards[1]){//If we have a duplicate card, just drop one 
+branch  0 never executed
+branch  1 never executed
+    #####: 1061:	state->playedCards[state->playedCardCount] = tributeRevealedCards[1];
+    #####: 1062:	state->playedCardCount++;
+    #####: 1063:	tributeRevealedCards[1] = -1;
+        -: 1064:      }
+        -: 1065:
+    #####: 1066:      for (i = 0; i <= 2; i ++){
+branch  0 never executed
+branch  1 never executed
+    #####: 1067:	if (tributeRevealedCards[i] == copper || tributeRevealedCards[i] == silver || tributeRevealedCards[i] == gold){//Treasure cards
 branch  0 never executed
 branch  1 never executed
 branch  2 never executed
 branch  3 never executed
 branch  4 never executed
 branch  5 never executed
-    #####:  936:	  state->coins += 2;
-        -:  937:	}
-        -:  938:		    
-    #####:  939:	else if (tributeRevealedCards[i] == estate || tributeRevealedCards[i] == duchy || tributeRevealedCards[i] == province || tributeRevealedCards[i] == gardens || tributeRevealedCards[i] == great_hall){//Victory Card Found
+    #####: 1068:	  state->coins += 2;
+        -: 1069:	}
+        -: 1070:		    
+    #####: 1071:	else if (tributeRevealedCards[i] == estate || tributeRevealedCards[i] == duchy || tributeRevealedCards[i] == province || tributeRevealedCards[i] == gardens || tributeRevealedCards[i] == great_hall){//Victory Card Found
 branch  0 never executed
 branch  1 never executed
 branch  2 never executed
@@ -1884,584 +2369,396 @@ branch  6 never executed
 branch  7 never executed
 branch  8 never executed
 branch  9 never executed
-    #####:  940:	  drawCard(currentPlayer, state);
+    #####: 1072:	  drawCard(currentPlayer, state);
 call    0 never executed
-    #####:  941:	  drawCard(currentPlayer, state);
+    #####: 1073:	  drawCard(currentPlayer, state);
 call    0 never executed
-        -:  942:	}
-        -:  943:	else{//Action Card
-    #####:  944:	  state->numActions = state->numActions + 2;
-        -:  945:	}
-        -:  946:      }
-        -:  947:	    
-    #####:  948:      return 0;
-        -:  949:		
-        -:  950:    case ambassador:
-    #####:  951:      j = 0;		//used to check if player has enough cards to discard
-        -:  952:
-    #####:  953:      if (choice2 > 2 || choice2 < 0)
+        -: 1074:	}
+        -: 1075:	else{//Action Card
+    #####: 1076:	  state->numActions = state->numActions + 2;
+        -: 1077:	}
+        -: 1078:      }
+        -: 1079:	    
+    #####: 1080:      return 0;
+        -: 1081:		
+        -: 1082:    case ambassador:
+    #####: 1083:      j = 0;		//used to check if player has enough cards to discard
+        -: 1084:
+    #####: 1085:      if (choice2 > 2 || choice2 < 0)
 branch  0 never executed
 branch  1 never executed
 branch  2 never executed
 branch  3 never executed
-        -:  954:	{
-    #####:  955:	  return -1;				
-        -:  956:	}
-        -:  957:
-    #####:  958:      if (choice1 == handPos)
+        -: 1086:	{
+    #####: 1087:	  return -1;				
+        -: 1088:	}
+        -: 1089:
+    #####: 1090:      if (choice1 == handPos)
 branch  0 never executed
 branch  1 never executed
-        -:  959:	{
-    #####:  960:	  return -1;
-        -:  961:	}
-        -:  962:
-    #####:  963:      for (i = 0; i < state->handCount[currentPlayer]; i++)
+        -: 1091:	{
+    #####: 1092:	  return -1;
+        -: 1093:	}
+        -: 1094:
+    #####: 1095:      for (i = 0; i < state->handCount[currentPlayer]; i++)
 branch  0 never executed
 branch  1 never executed
-        -:  964:	{
-    #####:  965:	  if (i != handPos && i == state->hand[currentPlayer][choice1] && i != choice1)
+        -: 1096:	{
+    #####: 1097:	  if (i != handPos && i == state->hand[currentPlayer][choice1] && i != choice1)
 branch  0 never executed
 branch  1 never executed
 branch  2 never executed
 branch  3 never executed
 branch  4 never executed
 branch  5 never executed
-        -:  966:	    {
-    #####:  967:	      j++;
-        -:  968:	    }
-        -:  969:	}
-    #####:  970:      if (j < choice2)
+        -: 1098:	    {
+    #####: 1099:	      j++;
+        -: 1100:	    }
+        -: 1101:	}
+    #####: 1102:      if (j < choice2)
 branch  0 never executed
 branch  1 never executed
-        -:  971:	{
-    #####:  972:	  return -1;				
-        -:  973:	}
-        -:  974:
-        -:  975:      if (DEBUG) 
-        -:  976:	printf("Player %d reveals card number: %d\n", currentPlayer, state->hand[currentPlayer][choice1]);
-        -:  977:
-        -:  978:      //increase supply count for choosen card by amount being discarded
-    #####:  979:      state->supplyCount[state->hand[currentPlayer][choice1]] += choice2;
-        -:  980:			
-        -:  981:      //each other player gains a copy of revealed card
-    #####:  982:      for (i = 0; i < state->numPlayers; i++)
+        -: 1103:	{
+    #####: 1104:	  return -1;				
+        -: 1105:	}
+        -: 1106:
+        -: 1107:      if (DEBUG) 
+        -: 1108:	printf("Player %d reveals card number: %d\n", currentPlayer, state->hand[currentPlayer][choice1]);
+        -: 1109:
+        -: 1110:      //increase supply count for choosen card by amount being discarded
+    #####: 1111:      state->supplyCount[state->hand[currentPlayer][choice1]] += choice2;
+        -: 1112:			
+        -: 1113:      //each other player gains a copy of revealed card
+    #####: 1114:      for (i = 0; i < state->numPlayers; i++)
 branch  0 never executed
 branch  1 never executed
-        -:  983:	{
-    #####:  984:	  if (i != currentPlayer)
+        -: 1115:	{
+    #####: 1116:	  if (i != currentPlayer)
 branch  0 never executed
 branch  1 never executed
-        -:  985:	    {
-    #####:  986:	      gainCard(state->hand[currentPlayer][choice1], state, 0, i);
+        -: 1117:	    {
+    #####: 1118:	      gainCard(state->hand[currentPlayer][choice1], state, 0, i);
 call    0 never executed
-        -:  987:	    }
-        -:  988:	}
-        -:  989:
-        -:  990:      //discard played card from hand
-    #####:  991:      discardCard(handPos, currentPlayer, state, 0);			
+        -: 1119:	    }
+        -: 1120:	}
+        -: 1121:
+        -: 1122:      //discard played card from hand
+    #####: 1123:      discardCard(handPos, currentPlayer, state, 0);			
 call    0 never executed
-        -:  992:
-        -:  993:      //trash copies of cards returned to supply
-    #####:  994:      for (j = 0; j < choice2; j++)
+        -: 1124:
+        -: 1125:      //trash copies of cards returned to supply
+    #####: 1126:      for (j = 0; j < choice2; j++)
 branch  0 never executed
 branch  1 never executed
-        -:  995:	{
-    #####:  996:	  for (i = 0; i < state->handCount[currentPlayer]; i++)
+        -: 1127:	{
+    #####: 1128:	  for (i = 0; i < state->handCount[currentPlayer]; i++)
 branch  0 never executed
 branch  1 never executed
-        -:  997:	    {
-    #####:  998:	      if (state->hand[currentPlayer][i] == state->hand[currentPlayer][choice1])
+        -: 1129:	    {
+    #####: 1130:	      if (state->hand[currentPlayer][i] == state->hand[currentPlayer][choice1])
 branch  0 never executed
 branch  1 never executed
-        -:  999:		{
-    #####: 1000:		  discardCard(i, currentPlayer, state, 1);
+        -: 1131:		{
+    #####: 1132:		  discardCard(i, currentPlayer, state, 1);
 call    0 never executed
-    #####: 1001:		  break;
-        -: 1002:		}
-        -: 1003:	    }
-        -: 1004:	}			
-        -: 1005:
-    #####: 1006:      return 0;
-        -: 1007:		
-        -: 1008:    case cutpurse:
-    #####: 1009:      return cutpurseEffect(state, currentPlayer, handPos);
+    #####: 1133:		  break;
+        -: 1134:		}
+        -: 1135:	    }
+        -: 1136:	}			
+        -: 1137:
+    #####: 1138:      return 0;
+        -: 1139:		
+        -: 1140:    case cutpurse:
+        -: 1141:
+    #####: 1142:      updateCoins(currentPlayer, state, 2);
 call    0 never executed
-        -: 1010:		
-        -: 1011:    case embargo: 
-        -: 1012:      //+2 Coins
-    #####: 1013:      state->coins = state->coins + 2;
-        -: 1014:			
-        -: 1015:      //see if selected pile is in play
-    #####: 1016:      if ( state->supplyCount[choice1] == -1 )
+    #####: 1143:      for (i = 0; i < state->numPlayers; i++)
 branch  0 never executed
 branch  1 never executed
-        -: 1017:	{
-    #####: 1018:	  return -1;
-        -: 1019:	}
-        -: 1020:			
-        -: 1021:      //add embargo token to selected supply pile
-    #####: 1022:      state->embargoTokens[choice1]++;
-        -: 1023:			
-        -: 1024:      //trash card
-    #####: 1025:      discardCard(handPos, currentPlayer, state, 1);		
-call    0 never executed
-    #####: 1026:      return 0;
-        -: 1027:		
-        -: 1028:    case outpost:
-        -: 1029:      //set outpost flag
-    #####: 1030:      state->outpostPlayed++;
-        -: 1031:			
-        -: 1032:      //discard card
-    #####: 1033:      discardCard(handPos, currentPlayer, state, 0);
-call    0 never executed
-    #####: 1034:      return 0;
-        -: 1035:		
-        -: 1036:    case salvager:
-        -: 1037:      //+1 buy
-    #####: 1038:      state->numBuys++;
-        -: 1039:			
-    #####: 1040:      if (choice1)
+        -: 1144:	{
+    #####: 1145:	  if (i != currentPlayer)
 branch  0 never executed
 branch  1 never executed
-        -: 1041:	{
-        -: 1042:	  //gain coins equal to trashed card
-    #####: 1043:	  state->coins = state->coins + getCost( handCard(choice1, state) );
+        -: 1146:	    {
+    #####: 1147:	      for (j = 0; j < state->handCount[i]; j++)
+branch  0 never executed
+branch  1 never executed
+        -: 1148:		{
+    #####: 1149:		  if (state->hand[i][j] == copper)
+branch  0 never executed
+branch  1 never executed
+        -: 1150:		    {
+    #####: 1151:		      discardCard(j, i, state, 0);
+call    0 never executed
+    #####: 1152:		      break;
+        -: 1153:		    }
+    #####: 1154:		  if (j == state->handCount[i])
+branch  0 never executed
+branch  1 never executed
+        -: 1155:		    {
+    #####: 1156:		      for (k = 0; k < state->handCount[i]; k++)
+branch  0 never executed
+branch  1 never executed
+        -: 1157:			{
+        -: 1158:			  if (DEBUG)
+        -: 1159:			    printf("Player %d reveals card number %d\n", i, state->hand[i][k]);
+        -: 1160:			}	
+    #####: 1161:		      break;
+        -: 1162:		    }		
+        -: 1163:		}
+        -: 1164:					
+        -: 1165:	    }
+        -: 1166:				
+        -: 1167:	}				
+        -: 1168:
+        -: 1169:      //discard played card from hand
+    #####: 1170:      discardCard(handPos, currentPlayer, state, 0);			
+call    0 never executed
+        -: 1171:
+    #####: 1172:      return 0;
+        -: 1173:
+        -: 1174:		
+        -: 1175:    case embargo: 
+        -: 1176:      //+2 Coins
+    #####: 1177:      state->coins = state->coins + 2;
+        -: 1178:			
+        -: 1179:      //see if selected pile is in play
+    #####: 1180:      if ( state->supplyCount[choice1] == -1 )
+branch  0 never executed
+branch  1 never executed
+        -: 1181:	{
+    #####: 1182:	  return -1;
+        -: 1183:	}
+        -: 1184:			
+        -: 1185:      //add embargo token to selected supply pile
+    #####: 1186:      state->embargoTokens[choice1]++;
+        -: 1187:			
+        -: 1188:      //trash card
+    #####: 1189:      discardCard(handPos, currentPlayer, state, 1);		
+call    0 never executed
+    #####: 1190:      return 0;
+        -: 1191:		
+        -: 1192:    case outpost:
+        -: 1193:      //set outpost flag
+    #####: 1194:      state->outpostPlayed++;
+        -: 1195:			
+        -: 1196:      //discard card
+    #####: 1197:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####: 1198:      return 0;
+        -: 1199:		
+        -: 1200:    case salvager:
+        -: 1201:      //+1 buy
+    #####: 1202:      state->numBuys++;
+        -: 1203:			
+    #####: 1204:      if (choice1)
+branch  0 never executed
+branch  1 never executed
+        -: 1205:	{
+        -: 1206:	  //gain coins equal to trashed card
+    #####: 1207:	  state->coins = state->coins + getCost( handCard(choice1, state) );
 call    0 never executed
 call    1 never executed
-        -: 1044:	  //trash card
-    #####: 1045:	  discardCard(choice1, currentPlayer, state, 1);	
+        -: 1208:	  //trash card
+    #####: 1209:	  discardCard(choice1, currentPlayer, state, 1);	
 call    0 never executed
-        -: 1046:	}
-        -: 1047:			
-        -: 1048:      //discard card
-    #####: 1049:      discardCard(handPos, currentPlayer, state, 0);
+        -: 1210:	}
+        -: 1211:			
+        -: 1212:      //discard card
+    #####: 1213:      discardCard(handPos, currentPlayer, state, 0);
 call    0 never executed
-    #####: 1050:      return 0;
-        -: 1051:		
-        -: 1052:    case sea_hag:
-    #####: 1053:      for (i = 0; i < state->numPlayers; i++){
+    #####: 1214:      return 0;
+        -: 1215:		
+        -: 1216:    case sea_hag:
+    #####: 1217:      for (i = 0; i < state->numPlayers; i++){
 branch  0 never executed
 branch  1 never executed
-    #####: 1054:	if (i != currentPlayer){
+    #####: 1218:	if (i != currentPlayer){
 branch  0 never executed
 branch  1 never executed
-    #####: 1055:	  state->discard[i][state->discardCount[i]] = state->deck[i][state->deckCount[i]--];			    state->deckCount[i]--;
-    #####: 1056:	  state->discardCount[i]++;
-    #####: 1057:	  state->deck[i][state->deckCount[i]--] = curse;//Top card now a curse
-        -: 1058:	}
-        -: 1059:      }
-    #####: 1060:      return 0;
-        -: 1061:		
-        -: 1062:    case treasure_map:
-        -: 1063:      //search hand for another treasure_map
-    #####: 1064:      index = -1;
-    #####: 1065:      for (i = 0; i < state->handCount[currentPlayer]; i++)
+    #####: 1219:	  state->discard[i][state->discardCount[i]] = state->deck[i][state->deckCount[i]--];			    state->deckCount[i]--;
+    #####: 1220:	  state->discardCount[i]++;
+    #####: 1221:	  state->deck[i][state->deckCount[i]--] = curse;//Top card now a curse
+        -: 1222:	}
+        -: 1223:      }
+    #####: 1224:      return 0;
+        -: 1225:		
+        -: 1226:    case treasure_map:
+        -: 1227:      //search hand for another treasure_map
+    #####: 1228:      index = -1;
+    #####: 1229:      for (i = 0; i < state->handCount[currentPlayer]; i++)
 branch  0 never executed
 branch  1 never executed
-        -: 1066:	{
-    #####: 1067:	  if (state->hand[currentPlayer][i] == treasure_map && i != handPos)
+        -: 1230:	{
+    #####: 1231:	  if (state->hand[currentPlayer][i] == treasure_map && i != handPos)
 branch  0 never executed
 branch  1 never executed
 branch  2 never executed
 branch  3 never executed
-        -: 1068:	    {
-    #####: 1069:	      index = i;
-    #####: 1070:	      break;
-        -: 1071:	    }
-        -: 1072:	}
-    #####: 1073:      if (index > -1)
+        -: 1232:	    {
+    #####: 1233:	      index = i;
+    #####: 1234:	      break;
+        -: 1235:	    }
+        -: 1236:	}
+    #####: 1237:      if (index > -1)
 branch  0 never executed
 branch  1 never executed
-        -: 1074:	{
-        -: 1075:	  //trash both treasure cards
-    #####: 1076:	  discardCard(handPos, currentPlayer, state, 1);
+        -: 1238:	{
+        -: 1239:	  //trash both treasure cards
+    #####: 1240:	  discardCard(handPos, currentPlayer, state, 1);
 call    0 never executed
-    #####: 1077:	  discardCard(index, currentPlayer, state, 1);
+    #####: 1241:	  discardCard(index, currentPlayer, state, 1);
 call    0 never executed
-        -: 1078:
-        -: 1079:	  //gain 4 Gold cards
-    #####: 1080:	  for (i = 0; i < 4; i++)
+        -: 1242:
+        -: 1243:	  //gain 4 Gold cards
+    #####: 1244:	  for (i = 0; i < 4; i++)
 branch  0 never executed
 branch  1 never executed
-        -: 1081:	    {
-    #####: 1082:	      gainCard(gold, state, 1, currentPlayer);
+        -: 1245:	    {
+    #####: 1246:	      gainCard(gold, state, 1, currentPlayer);
 call    0 never executed
-        -: 1083:	    }
-        -: 1084:				
-        -: 1085:	  //return success
-    #####: 1086:	  return 1;
-        -: 1087:	}
-        -: 1088:			
-        -: 1089:      //no second treasure_map found in hand
-    #####: 1090:      return -1;
-        -: 1091:    }
-        -: 1092:	
-    #####: 1093:  return -1;
-        -: 1094:}
-        -: 1095:
-function discardCard called 100 returned 100% blocks executed 89%
-      100: 1096:int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
-        -: 1097:{
-        -: 1098:	
-        -: 1099:  //if card is not trashed, added to Played pile 
-      100: 1100:  if (trashFlag < 1)
+        -: 1247:	    }
+        -: 1248:				
+        -: 1249:	  //return success
+    #####: 1250:	  return 1;
+        -: 1251:	}
+        -: 1252:			
+        -: 1253:      //no second treasure_map found in hand
+    #####: 1254:      return -1;
+        -: 1255:    }
+        -: 1256:	
+    #####: 1257:  return -1;
+        -: 1258:}
+        -: 1259:
+function discardCard called 200 returned 100% blocks executed 78%
+      200: 1260:int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
+        -: 1261:{
+        -: 1262:	
+        -: 1263:  //if card is not trashed, added to Played pile 
+      200: 1264:  if (trashFlag < 1)
 branch  0 taken 100% (fallthrough)
 branch  1 taken 0%
-        -: 1101:    {
-        -: 1102:      //add card to played pile
-      100: 1103:      state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
-      100: 1104:      state->playedCardCount++;
-        -: 1105:    }
-        -: 1106:	
-        -: 1107:  //set played card to -1
-      100: 1108:  state->hand[currentPlayer][handPos] = -1;
-        -: 1109:	
-        -: 1110:  //remove card from player's hand
-      100: 1111:  if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
-branch  0 taken 2% (fallthrough)
-branch  1 taken 98%
-        -: 1112:    {
-        -: 1113:      //reduce number of cards in hand
-        2: 1114:      state->handCount[currentPlayer]--;
-        -: 1115:    }
-       98: 1116:  else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
+        -: 1265:    {
+        -: 1266:      //add card to played pile
+      200: 1267:      state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
+      200: 1268:      state->playedCardCount++;
+        -: 1269:    }
+        -: 1270:	
+        -: 1271:  //set played card to -1
+      200: 1272:  state->hand[currentPlayer][handPos] = -1;
+        -: 1273:	
+        -: 1274:  //remove card from player's hand
+      200: 1275:  if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
-        -: 1117:    {
-        -: 1118:      //reduce number of cards in hand
-    #####: 1119:      state->handCount[currentPlayer]--;
-        -: 1120:    }
-        -: 1121:  else 	
-        -: 1122:    {
-        -: 1123:      //replace discarded card with last card in hand
-       98: 1124:      state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
-        -: 1125:      //set last card to -1
-       98: 1126:      state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
-        -: 1127:      //reduce number of cards in hand
-       98: 1128:      state->handCount[currentPlayer]--;
-        -: 1129:    }
-        -: 1130:	
-      100: 1131:  return 0;
-        -: 1132:}
-        -: 1133:
+        -: 1276:    {
+        -: 1277:      //reduce number of cards in hand
+    #####: 1278:      state->handCount[currentPlayer]--;
+        -: 1279:    }
+      200: 1280:  else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
+branch  0 taken 0% (fallthrough)
+branch  1 taken 100%
+        -: 1281:    {
+        -: 1282:      //reduce number of cards in hand
+    #####: 1283:      state->handCount[currentPlayer]--;
+        -: 1284:    }
+        -: 1285:  else 	
+        -: 1286:    {
+        -: 1287:      //replace discarded card with last card in hand
+      200: 1288:      state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
+        -: 1289:      //set last card to -1
+      200: 1290:      state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
+        -: 1291:      //reduce number of cards in hand
+      200: 1292:      state->handCount[currentPlayer]--;
+        -: 1293:    }
+        -: 1294:	
+      200: 1295:  return 0;
+        -: 1296:}
+        -: 1297:
 function gainCard called 0 returned 0% blocks executed 0%
-    #####: 1134:int gainCard(int supplyPos, struct gameState *state, int toFlag, int player)
-        -: 1135:{
-        -: 1136:  //Note: supplyPos is enum of choosen card
-        -: 1137:	
-        -: 1138:  //check if supply pile is empty (0) or card is not used in game (-1)
-    #####: 1139:  if ( supplyCount(supplyPos, state) < 1 )
+    #####: 1298:int gainCard(int supplyPos, struct gameState *state, int toFlag, int player)
+        -: 1299:{
+        -: 1300:  //Note: supplyPos is enum of choosen card
+        -: 1301:	
+        -: 1302:  //check if supply pile is empty (0) or card is not used in game (-1)
+    #####: 1303:  if ( supplyCount(supplyPos, state) < 1 )
 call    0 never executed
 branch  1 never executed
 branch  2 never executed
-        -: 1140:    {
-    #####: 1141:      return -1;
-        -: 1142:    }
-        -: 1143:	
-        -: 1144:  //added card for [whoseTurn] current player:
-        -: 1145:  // toFlag = 0 : add to discard
-        -: 1146:  // toFlag = 1 : add to deck
-        -: 1147:  // toFlag = 2 : add to hand
-        -: 1148:
-    #####: 1149:  if (toFlag == 1)
+        -: 1304:    {
+    #####: 1305:      return -1;
+        -: 1306:    }
+        -: 1307:	
+        -: 1308:  //added card for [whoseTurn] current player:
+        -: 1309:  // toFlag = 0 : add to discard
+        -: 1310:  // toFlag = 1 : add to deck
+        -: 1311:  // toFlag = 2 : add to hand
+        -: 1312:
+    #####: 1313:  if (toFlag == 1)
 branch  0 never executed
 branch  1 never executed
-        -: 1150:    {
-    #####: 1151:      state->deck[ player ][ state->deckCount[player] ] = supplyPos;
-    #####: 1152:      state->deckCount[player]++;
-        -: 1153:    }
-    #####: 1154:  else if (toFlag == 2)
+        -: 1314:    {
+    #####: 1315:      state->deck[ player ][ state->deckCount[player] ] = supplyPos;
+    #####: 1316:      state->deckCount[player]++;
+        -: 1317:    }
+    #####: 1318:  else if (toFlag == 2)
 branch  0 never executed
 branch  1 never executed
-        -: 1155:    {
-    #####: 1156:      state->hand[ player ][ state->handCount[player] ] = supplyPos;
-    #####: 1157:      state->handCount[player]++;
-        -: 1158:    }
-        -: 1159:  else
-        -: 1160:    {
-    #####: 1161:      state->discard[player][ state->discardCount[player] ] = supplyPos;
-    #####: 1162:      state->discardCount[player]++;
-        -: 1163:    }
-        -: 1164:	
-        -: 1165:  //decrease number in supply pile
-    #####: 1166:  state->supplyCount[supplyPos]--;
-        -: 1167:	 
-    #####: 1168:  return 0;
-        -: 1169:}
-        -: 1170:
+        -: 1319:    {
+    #####: 1320:      state->hand[ player ][ state->handCount[player] ] = supplyPos;
+    #####: 1321:      state->handCount[player]++;
+        -: 1322:    }
+        -: 1323:  else
+        -: 1324:    {
+    #####: 1325:      state->discard[player][ state->discardCount[player] ] = supplyPos;
+    #####: 1326:      state->discardCount[player]++;
+        -: 1327:    }
+        -: 1328:	
+        -: 1329:  //decrease number in supply pile
+    #####: 1330:  state->supplyCount[supplyPos]--;
+        -: 1331:	 
+    #####: 1332:  return 0;
+        -: 1333:}
+        -: 1334:
 function updateCoins called 100 returned 100% blocks executed 82%
-      100: 1171:int updateCoins(int player, struct gameState *state, int bonus)
-        -: 1172:{
-        -: 1173:  int i;
-        -: 1174:	
-        -: 1175:  //reset coin count
-      100: 1176:  state->coins = 0;
-        -: 1177:
-        -: 1178:  //add coins for each Treasure card in player's hand
-      600: 1179:  for (i = 0; i < state->handCount[player]; i++)
+      100: 1335:int updateCoins(int player, struct gameState *state, int bonus)
+        -: 1336:{
+        -: 1337:  int i;
+        -: 1338:	
+        -: 1339:  //reset coin count
+      100: 1340:  state->coins = 0;
+        -: 1341:
+        -: 1342:  //add coins for each Treasure card in player's hand
+      600: 1343:  for (i = 0; i < state->handCount[player]; i++)
 branch  0 taken 83%
 branch  1 taken 17% (fallthrough)
-        -: 1180:    {
-      500: 1181:      if (state->hand[player][i] == copper)
-branch  0 taken 71% (fallthrough)
-branch  1 taken 29%
-        -: 1182:	{
-      356: 1183:	  state->coins += 1;
-        -: 1184:	}
-      144: 1185:      else if (state->hand[player][i] == silver)
+        -: 1344:    {
+      500: 1345:      if (state->hand[player][i] == copper)
+branch  0 taken 72% (fallthrough)
+branch  1 taken 28%
+        -: 1346:	{
+      359: 1347:	  state->coins += 1;
+        -: 1348:	}
+      141: 1349:      else if (state->hand[player][i] == silver)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
-        -: 1186:	{
-    #####: 1187:	  state->coins += 2;
-        -: 1188:	}
-      144: 1189:      else if (state->hand[player][i] == gold)
+        -: 1350:	{
+    #####: 1351:	  state->coins += 2;
+        -: 1352:	}
+      141: 1353:      else if (state->hand[player][i] == gold)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
-        -: 1190:	{
-    #####: 1191:	  state->coins += 3;
-        -: 1192:	}	
-        -: 1193:    }	
-        -: 1194:
-        -: 1195:  //add bonus
-      100: 1196:  state->coins += bonus;
-        -: 1197:
-      100: 1198:  return 0;
-        -: 1199:}
-        -: 1200:
-        -: 1201:/*The Adventurer card allows the player to reveal cards from their deck until they draw two Treasure cards
-        -: 1202: * The Treasure cards are added to the player's hand and the rest of the revealed cards are discarded*/
-function adventurerEffect called 0 returned 0% blocks executed 0%
-    #####: 1203:int adventurerEffect(struct gameState *state, int *temphand, int currentPlayer)
-        -: 1204:{
-    #####: 1205:   int drawntreasure = 0;
-    #####: 1206:   int z = 0;
-        -: 1207:   int cardDrawn;
-        -: 1208:
-    #####: 1209:   while(drawntreasure<2){ //loops until two Treasure cards had been drawn
-branch  0 never executed
-branch  1 never executed
-    #####: 1210:	if (state->deckCount[currentPlayer] <1){//if the deck is empty we need to shuffle discard and add to deck
-branch  0 never executed
-branch  1 never executed
-    #####: 1211:	  shuffle(currentPlayer, state);
-call    0 never executed
-        -: 1212:	}
-    #####: 1213:	drawCard(currentPlayer, state);
-call    0 never executed
-    #####: 1214:	cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
-    #####: 1215:	if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold) //if this is a treasure card
-branch  0 never executed
-branch  1 never executed
-branch  2 never executed
-branch  3 never executed
-branch  4 never executed
-branch  5 never executed
-    #####: 1216:	  drawntreasure++;
-        -: 1217:	else{
-    #####: 1218:	  temphand[z]=cardDrawn; //if this is not a treasure card
-    #####: 1219:	  state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
-        -: 1220:	}
-        -: 1221:      }
-    #####: 1222:      while(z-1>=0){ //while there are revealed cards that need to be discarded
-branch  0 never executed
-branch  1 never executed
-    #####: 1223:	state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
-    #####: 1224:	z=z-1;
-        -: 1225:      }
-    #####: 1226:      return 0;
-        -: 1227:}
-        -: 1228:
-        -: 1229:/*The Smithy card allows the player to draw three cards and add it to their hand*/
-function smithyEffect called 100 returned 100% blocks executed 100%
-      100: 1230:int smithyEffect(struct gameState *state, int handPos, int currentPlayer)
-        -: 1231:{
-        -: 1232:      //+3 Cards
-        -: 1233:      int i;
-      400: 1234:      for (i = 0; i < 3; i++)
-branch  0 taken 75%
-branch  1 taken 25% (fallthrough)
-        -: 1235:	{
-      300: 1236:	  drawCard(currentPlayer, state);
-call    0 returned 100%
-        -: 1237:	}
-        -: 1238:			
-        -: 1239:      //discard card from hand
-      100: 1240:      discardCard(i, currentPlayer, state, 0);
-call    0 returned 100%
-      100: 1241:      return 0;
-        -: 1242:}
-        -: 1243:
-        -: 1244:/* The Steward card allows the player to make a choice to gain 2 cards, gain 2 coins, or trash 2 cards */
-function stewardEffect called 0 returned 0% blocks executed 0%
-    #####: 1245:int stewardEffect(struct gameState *state, int choice1, int choice2, int choice3, int handPos, int currentPlayer)
-        -: 1246:{
-    #####: 1247:      if (choice1 == 1)
-branch  0 never executed
-branch  1 never executed
-        -: 1248:	{
-        -: 1249:	  //+2 cards
-    #####: 1250:	  drawCard(currentPlayer, state);
-call    0 never executed
-    #####: 1251:	  drawCard(currentPlayer, state);
-call    0 never executed
-        -: 1252:	}
-    #####: 1253:      else if (choice1 == 2)
-branch  0 never executed
-branch  1 never executed
-        -: 1254:	{
-        -: 1255:	  //+2 coins
-    #####: 1256:	  state->coins = state->coins + 2;
-        -: 1257:	}
-        -: 1258:      else
-        -: 1259:	{
-        -: 1260:	  //trash 2 cards in hand
-    #####: 1261:	  discardCard(choice2, currentPlayer, state, 1);
-call    0 never executed
-    #####: 1262:	  discardCard(choice3, currentPlayer, state, 1);
-call    0 never executed
-        -: 1263:	}
-        -: 1264:			
-        -: 1265:      //discard card from hand
-    #####: 1266:      discardCard(handPos, currentPlayer, state, 0);
-call    0 never executed
-    #####: 1267:      return 0;
-        -: 1268:}
-        -: 1269:
-        -: 1270:/* The cutpurse card adds gives the player two coins, and every other player mus discard a 
-        -: 1271: * Copper or reveal a hand with no Coppers*/
-function cutpurseEffect called 0 returned 0% blocks executed 0%
-    #####: 1272:int cutpurseEffect(struct gameState *state, int currentPlayer, int handPos)
-        -: 1273:{
-        -: 1274:      int i, j, k;
-    #####: 1275:      updateCoins(currentPlayer, state, 2);
-call    0 never executed
-    #####: 1276:      for (i = 0; i < state->numPlayers; i++)//loop through all the players
-branch  0 never executed
-branch  1 never executed
-        -: 1277:	{
-    #####: 1278:	  if (i == currentPlayer)
-branch  0 never executed
-branch  1 never executed
-        -: 1279:	    {
-    #####: 1280:	      for (j = 0; j < state->handCount[i]; j++) //see if the player is holding a Copper
-branch  0 never executed
-branch  1 never executed
-        -: 1281:		{
-    #####: 1282:		  if (state->hand[i][j] == copper)
-branch  0 never executed
-branch  1 never executed
-        -: 1283:		    {
-    #####: 1284:		      discardCard(j, i, state, 0);
-call    0 never executed
-    #####: 1285:		      break;
-        -: 1286:		    }
-    #####: 1287:		  if (j == state->handCount[i]) //if the player has no Coppers
-branch  0 never executed
-branch  1 never executed
-        -: 1288:		    {
-    #####: 1289:		      for (k = 0; k < state->handCount[i]; k++) //reveal players hand
-branch  0 never executed
-branch  1 never executed
-        -: 1290:			{
-        -: 1291:			  if (DEBUG)
-        -: 1292:			    printf("Player %d reveals card number %d\n", i, state->hand[i][k]);
-        -: 1293:			}	
-    #####: 1294:		      break;
-        -: 1295:		    }		
-        -: 1296:		}
-        -: 1297:					
-        -: 1298:	    }
-        -: 1299:				
-        -: 1300:	}				
-        -: 1301:
-        -: 1302:      //discard played card from hand
-    #####: 1303:      discardCard(handPos, currentPlayer, state, 0);			
-call    0 never executed
-        -: 1304:
-    #####: 1305:      return 0;
-        -: 1306:}
-        -: 1307:
-        -: 1308:/* The Baron card gives the player an additional Buy, and allows the player to discard and Estate for
-        -: 1309: * four coins or gain an estate */
-function baronEffect called 0 returned 0% blocks executed 0%
-    #####: 1310:int baronEffect(struct gameState *state, int choice1, int currentPlayer)
-        -: 1311:{
-    #####: 1312:      state->numPlayers++;//Increase buys by 1!
-    #####: 1313:      if (choice1 > 0){//Boolean true or going to discard an estate
-branch  0 never executed
-branch  1 never executed
-    #####: 1314:	int p = 0;//Iterator for hand!
-    #####: 1315:	int card_not_discarded = 1;//Flag for discard set!
-    #####: 1316:	while(card_not_discarded){ //while an estate has not been found and discarded
-branch  0 never executed
-branch  1 never executed
-    #####: 1317:	  if (state->hand[currentPlayer][p] == estate){//Found an estate card!
-branch  0 never executed
-branch  1 never executed
-    #####: 1318:	    state->coins += 4;//Add 4 coins to the amount of coins
-    #####: 1319:	    state->discard[currentPlayer][state->discardCount[currentPlayer]] = state->hand[currentPlayer][p];
-    #####: 1320:	    state->discardCount[currentPlayer]++;
-    #####: 1321:	    for (;p < state->handCount[currentPlayer]; p++){
-branch  0 never executed
-branch  1 never executed
-    #####: 1322:	      state->hand[currentPlayer][p] = state->hand[currentPlayer][p+1];
-        -: 1323:	    }
-    #####: 1324:	    state->hand[currentPlayer][state->handCount[currentPlayer]] = -1;
-    #####: 1325:	    state->handCount[currentPlayer]--;
-    #####: 1326:	    card_not_discarded = 0;//Exit the loop
-        -: 1327:	  }
-    #####: 1328:	  else if (p > state->handCount[currentPlayer]){//if all cards have been looped through and no estate was found
-branch  0 never executed
-branch  1 never executed
-        -: 1329:	    if(DEBUG) {
-        -: 1330:	      printf("No estate cards in your hand, invalid choice\n");
-        -: 1331:	      printf("Must gain an estate if there are any\n");
-        -: 1332:	    }
-    #####: 1333:	    if (supplyCount(estate, state) > 0){ //if there are still estates in the supply
-call    0 never executed
-branch  1 never executed
-branch  2 never executed
-    #####: 1334:	      gainCard(estate, state, 0, currentPlayer); //gain an estate
-call    0 never executed
-    #####: 1335:	      state->supplyCount[estate]--;//Decrement estates
-    #####: 1336:	      if (supplyCount(estate, state) == 0){
-call    0 never executed
-branch  1 never executed
-branch  2 never executed
-    #####: 1337:		isGameOver(state);
-call    0 never executed
-        -: 1338:	      }
-        -: 1339:	    }
-    #####: 1340:	    card_not_discarded = 0;//Exit the loop
-        -: 1341:	  }
-        -: 1342:			    
-        -: 1343:	  else{
-    #####: 1344:	    p++;//Next card
-        -: 1345:	  }
-        -: 1346:	}
-        -: 1347:      }
-        -: 1348:			    
-        -: 1349:      else{//if the player chose to gain an estate
-    #####: 1350:	if (supplyCount(estate, state) > 0){
-call    0 never executed
-branch  1 never executed
-branch  2 never executed
-    #####: 1351:	  gainCard(estate, state, 0, currentPlayer);//Gain an estate
-call    0 never executed
-    #####: 1352:	  state->supplyCount[estate]--;//Decrement Estates
-    #####: 1353:	  if (supplyCount(estate, state) == 0){
-call    0 never executed
-branch  1 never executed
-branch  2 never executed
-    #####: 1354:	    isGameOver(state);
-call    0 never executed
-        -: 1355:	  }
-        -: 1356:	}
-        -: 1357:      }
-        -: 1358:	    
-        -: 1359:      
-    #####: 1360:      return 0;
-        -: 1361:}
-        -: 1362:
-        -: 1363://end of dominion.c
+        -: 1354:	{
+    #####: 1355:	  state->coins += 3;
+        -: 1356:	}	
+        -: 1357:    }	
+        -: 1358:
+        -: 1359:  //add bonus
+      100: 1360:  state->coins += bonus;
+        -: 1361:
+      100: 1362:  return 0;
+        -: 1363:}
         -: 1364:
+        -: 1365:
+        -: 1366://end of dominion.c
+        -: 1367:
