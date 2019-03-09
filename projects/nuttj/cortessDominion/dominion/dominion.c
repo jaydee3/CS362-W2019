@@ -714,7 +714,7 @@ int feastEffect(struct gameState *state, int currentPlayer, int choice1){
 
     //Update Coins for Buy
     updateCoins(currentPlayer, state, 5);
-    x = 1;//Condition to loop on
+    int x = 1;//Condition to loop on
     while( x == 1) {//Buy one card
         if (supplyCount(choice1, state) <= 0){
             if (DEBUG)
@@ -756,7 +756,7 @@ int feastEffect(struct gameState *state, int currentPlayer, int choice1){
     return 0;
 }
 
-int mineEffect(struct gameState *state, int currentPlayer, int choice1, int choice2){
+int mineEffect(struct gameState *state, int currentPlayer, int choice1, int choice2, int handPos){
     int i;
     int j;
 
@@ -795,7 +795,7 @@ int mineEffect(struct gameState *state, int currentPlayer, int choice1, int choi
     return 0;
 }
 
-int smithyEffect(struct gameState *state, int currentPlayer){
+int smithyEffect(struct gameState *state, int currentPlayer,int handPos){
     int i;
     //+3 Cards
 //    for (i = 0; i < 3; i++)
@@ -814,13 +814,13 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
   int i;
   int j;
   int k;
-  int x;
+  //int x;
   int index;
   int currentPlayer = whoseTurn(state);
   int nextPlayer = currentPlayer + 1;
 
   int tributeRevealedCards[2] = {-1, -1};
-  int temphand[MAX_HAND];// moved above the if statement
+ // int temphand[MAX_HAND];// moved above the if statement
   if (nextPlayer > (state->numPlayers - 1)){
     nextPlayer = 0;
   }
@@ -842,7 +842,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return -1;
 			
     case mine:
-        mineEffect(state, currentPlayer, choice1, choice2);
+        mineEffect(state, currentPlayer, choice1, choice2, handPos);
 			
     case remodel:
       j = state->hand[currentPlayer][choice1];  //store card we will trash
@@ -871,7 +871,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return 0;
 		
     case smithy:
-      smithyEffect(state, currentPlayer);
+      smithyEffect(state, currentPlayer, handPos);
 		
     case village:
       //+1 Card
