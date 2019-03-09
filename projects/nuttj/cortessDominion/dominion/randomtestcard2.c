@@ -56,14 +56,19 @@ int main(int argc, const char* argv[])
 			if(I.hand[player][i] == card) {
 				handPos = i; //save position of adventurer
 			}
-			if(I.hand[player][i] == estate) {
-				hasEstate = 1; //player is holding estate
-			}
 		}
 		//if an baron is not in the players hand, assign it to a random position
 		if(handPos < 0){
 			handPos = rand() % I.handCount[player];
 			I.hand[player][handPos] = card;
+		}
+		
+		//see if player is holding an estate		
+		for (i = 0; i < I.handCount[player]; i++)
+		{
+			if(I.hand[player][i] == estate) {
+				hasEstate = 1; //player is holding estate
+			}
 		}
 
 		//set a deckcount between one and twenty and populate it with random cards
@@ -100,7 +105,7 @@ int main(int argc, const char* argv[])
 		printf("Test %d: ", m);
 		if (choice == 0)
 			printf("Player draws Estate from supply");
-		else 
+		else if (choice == 1) 
 			printf("Player discards Estate");
 		if (hasEstate == 0)
 			printf("  Not holding Estate");
@@ -190,9 +195,9 @@ int main(int argc, const char* argv[])
 		//estates in their hand, there are Estates in the supply pile
 		else if(estateSupply == 1)
 		{	
-			//Baron should have been played and Estate should have been drawn
-			if (G.handCount[player] != I.handCount[player]) { 
-				printf("  TEST FAILED: Net loss in player's hand count should be 0: Played Baron card drew Estate card");
+			//Baron should have been played
+			if (G.handCount[player] != I.handCount[player] - 1) { 
+				printf("  TEST FAILED: Net loss in player's hand count should be 1: Played Baron card");
 				printf("  Starting handCount: %d", I.handCount[player]);
 				printf("  Ending handCount: %d\n", G.handCount[player]);
 				result += 1; //increase the count of failed tests by 1
@@ -220,10 +225,10 @@ int main(int argc, const char* argv[])
 				result += 1; //increase the count of failed tests by 1
 			}
 
-			//No cards should have been discarded
-			if (G.discardCount[player] != I.discardCount[player]) { 
-				printf("  TEST FAILED: Number of discarded cards should be equal to the starting number of discarded cards");
-				printf("  Expected count: %d", I.discardCount[player]);
+			//The gained estate card should have been placed in the discard pile
+			if (G.discardCount[player] != I.discardCount[player] +1) { 
+				printf("  TEST FAILED: The gained Estate card should have been placed in the discard pile");
+				printf("  Expected count: %d", I.discardCount[player] + 1);
 				printf("  discardCount: %d\n", G.discardCount[player]);
 				result += 1; //increase the count of failed tests by 1
 			}
