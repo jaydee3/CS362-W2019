@@ -1,0 +1,32 @@
+Breakpoint 1 at 0x4072ab: file dominion.c, line 921.
+Breakpoint 2 at 0x407435: file dominion.c, line 938.
+Starting program: c:\Users\joshu\Documents\_OSU\CS 362\Assignment 5\CS362-W2019\projects\nuttj\cortessDominion\dominion/cardtest3.exe 
+[New Thread 34584.0xbac4]
+[New Thread 34584.0xbb6c]
+
+Breakpoint 2, cardEffect (card=15, choice1=0, choice2=0, choice3=0, state=0x639830, handPos=0, bonus=0x0) at dominion.c:938
+938		  gainCard(estate, state, 0, currentPlayer);//Gain an estate
+$1 = 12
+Hardware watchpoint 3: state->supplyCount[estate]
+Continuing.
+Hardware watchpoint 3: state->supplyCount[estate]
+
+Old value = 12
+New value = 11
+gainCard (supplyPos=1, state=0x639830, toFlag=0, player=0) at dominion.c:1343
+1343	  return 0;
+Continuing.
+Hardware watchpoint 3: state->supplyCount[estate]
+
+Old value = 11
+New value = 10
+cardEffect (card=15, choice1=0, choice2=0, choice3=0, state=0x639830, handPos=0, bonus=0x0) at dominion.c:940
+940		  if (supplyCount(estate, state) == 0){
+Continuing.
+
+Watchpoint 3 deleted because the program has left the block in
+which its expression is valid.
+main (argc=1, argv=0xc415f8) at cardtest3.c:180
+180		if (G.numBuys != I.numBuys + 1) {
+Continuing.
+[Inferior 1 (process 34584) exited normally]
