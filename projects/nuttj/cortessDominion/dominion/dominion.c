@@ -806,8 +806,8 @@ int mineEffect(struct gameState *state, int currentPlayer, int choice1, int choi
 int smithyEffect(struct gameState *state, int currentPlayer,int handPos){
     int i;
     //+3 Cards
-//    for (i = 0; i < 3; i++)
-    for (i = 0; i < 4; i++) // assignment 2 bug
+   // for (i = 0; i < 4; i++) //  bug
+    for (i = 0; i < 3; i++)
     {
         drawCard(currentPlayer, state);
     }
