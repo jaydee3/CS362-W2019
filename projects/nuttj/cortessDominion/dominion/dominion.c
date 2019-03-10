@@ -901,7 +901,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 	int p = 0;//Iterator for hand!
 	int card_not_discarded = 1;//Flag for discard set!
 	while(card_not_discarded){
-	  if (state->hand[currentPlayer][p] == estate){//Found an estate card!
+	  if (state->hand[currentPlayer][p] == estate && p < state->handCount[currentPlayer]){//Found an estate card!
 	    state->coins += 4;//Add 4 coins to the amount of coins
 	    state->discard[currentPlayer][state->discardCount[currentPlayer]] = state->hand[currentPlayer][p];
 	    state->discardCount[currentPlayer]++;
