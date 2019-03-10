@@ -648,9 +648,14 @@ int adventurerEffect(struct gameState *state, int currentPlayer, int handPos) {
     int cardDrawn;
     int temphand[MAX_HAND];
     int drawntreasure=0;
+    int emptyDeck = 0;
 
     while(drawntreasure<2){
         if (state->deckCount[currentPlayer] < 1){   //if the deck is empty we need to shuffle discard and add to deck
+            emptyDeck++;
+            if (emptyDeck == 2){
+		break;
+            }
             shuffle(currentPlayer, state);
         }
         drawCard(currentPlayer, state);
