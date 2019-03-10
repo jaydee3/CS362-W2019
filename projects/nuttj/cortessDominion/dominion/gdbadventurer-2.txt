@@ -1,0 +1,41 @@
+Breakpoint 1 at 0x401e29: file randomtestadventurer.c, line 95.
+Starting program: c:\Users\joshu\Documents\_OSU\CS 362\Assignment 5\CS362-W2019\projects\nuttj\cortessDominion\dominion/randomtestadventurer.exe 
+[New Thread 49096.0xb4cc]
+[New Thread 49096.0x7344]
+
+Breakpoint 1, main (argc=1, argv=0x6815f8) at randomtestadventurer.c:96
+96			cardEffect(card, 0, 0, 0, &G, handPos, 0); //play the card from the player's hand
+cardEffect (card=7, choice1=0, choice2=0, choice3=0, state=0x63981c, handPos=0, bonus=0x0) at dominion.c:822
+822	  int currentPlayer = whoseTurn(state);
+whoseTurn (state=0x63981c) at dominion.c:347
+347	  return state->whoseTurn;
+348	}
+cardEffect (card=7, choice1=0, choice2=0, choice3=0, state=0x63981c, handPos=0, bonus=0x0) at dominion.c:823
+823	  int nextPlayer = currentPlayer + 1;
+825	  int tributeRevealedCards[2] = {-1, -1};
+827	  if (nextPlayer > (state->numPlayers - 1)){
+833	  switch( card ) 
+836	        return adventurerEffect(state, currentPlayer, handPos);
+adventurerEffect (state=0x63981c, currentPlayer=0, handPos=0) at dominion.c:647
+647	    int z = 0;// this is the counter for the temp hand
+650	    int drawntreasure=0;
+652	    while(drawntreasure<2){
+653	        if (state->deckCount[currentPlayer] < 1){   //if the deck is empty we need to shuffle discard and add to deck
+656	        drawCard(currentPlayer, state);
+drawCard (player=0, state=0x63981c) at dominion.c:528
+528	  if (state->deckCount[player] <= 0){//Deck is empty
+568	    int count = state->handCount[player];//Get current hand count for player
+574	    deckCounter = state->deckCount[player];//Create holder for the deck count
+575	    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
+576	    state->deckCount[player]--;
+577	    state->handCount[player]++;//Increment hand count
+580	  return 0;
+581	}
+adventurerEffect (state=0x63981c, currentPlayer=0, handPos=0) at dominion.c:657
+657	        cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+659	        if (cardDrawn == copper || cardDrawn == silver) // assignment 2 bug
+A debugging session is active.
+
+	Inferior 1 [process 49096] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
