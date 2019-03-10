@@ -1,0 +1,41 @@
+Breakpoint 1 at 0x404b90: file dominion.c, line 696.
+Starting program: c:\Users\joshu\Documents\_OSU\CS 362\Assignment 5\CS362-W2019\projects\nuttj\cortessDominion\dominion/cardtest4.exe 
+[New Thread 40196.0x8c98]
+[New Thread 40196.0xad78]
+
+Breakpoint 1, council_roomEffect (state=0x639830, currentPlayer=0, handPos=0) at dominion.c:696
+696	    for (i = 0; i < state->numPlayers - 1; i++) // assignment 2 bug
+$1 = 4
+Hardware watchpoint 2: i
+Continuing.
+Hardware watchpoint 2: i
+
+Old value = 4
+New value = 1
+0x00404bef in council_roomEffect (state=0x639830, currentPlayer=0, handPos=0) at dominion.c:696
+696	    for (i = 0; i < state->numPlayers - 1; i++) // assignment 2 bug
+Continuing.
+Hardware watchpoint 2: i
+
+Old value = 1
+New value = 2
+0x00404bef in council_roomEffect (state=0x639830, currentPlayer=0, handPos=0) at dominion.c:696
+696	    for (i = 0; i < state->numPlayers - 1; i++) // assignment 2 bug
+Continuing.
+Hardware watchpoint 2: i
+
+Old value = 2
+New value = 3
+0x00404bef in council_roomEffect (state=0x639830, currentPlayer=0, handPos=0) at dominion.c:696
+696	    for (i = 0; i < state->numPlayers - 1; i++) // assignment 2 bug
+705	    discardCard(handPos, currentPlayer, state, 0);
+707	    return 0;
+708	}
+Continuing.
+
+Watchpoint 2 deleted because the program has left the block in
+which its expression is valid.
+0x004053bb in cardEffect (card=8, choice1=0, choice2=0, choice3=0, state=0x639830, handPos=0, bonus=0x0) at dominion.c:844
+844	        return council_roomEffect(state, currentPlayer, handPos);
+Continuing.
+[Inferior 1 (process 40196) exited normally]
