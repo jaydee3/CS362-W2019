@@ -1,0 +1,143 @@
+Already logging to gdb.txt.
+Already logging to gdb.txt.
+Breakpoint 1 at 0x401836: file cardtest2.c, line 49.
+Starting program: c:\Users\joshu\Documents\_OSU\CS 362\Assignment 5\CS362-W2019\projects\nuttj\cortessDominion\dominion/cardtest2.exe 
+[New Thread 45208.0xa218]
+[New Thread 45208.0x941c]
+
+Breakpoint 1, main (argc=1, argv=0x7915f8) at cardtest2.c:50
+50		cardEffect(card,0, 0, 0, &G, handPos, 0); //play the card from the player's hand
+cardEffect (card=7, choice1=0, choice2=0, choice3=0, state=0x63982c, handPos=0, bonus=0x0) at dominion.c:822
+822	  int currentPlayer = whoseTurn(state);
+whoseTurn (state=0x63982c) at dominion.c:347
+347	  return state->whoseTurn;
+348	}
+cardEffect (card=7, choice1=0, choice2=0, choice3=0, state=0x63982c, handPos=0, bonus=0x0) at dominion.c:823
+823	  int nextPlayer = currentPlayer + 1;
+825	  int tributeRevealedCards[2] = {-1, -1};
+827	  if (nextPlayer > (state->numPlayers - 1)){
+833	  switch( card ) 
+836	        adventurerEffect(state, currentPlayer, handPos);
+adventurerEffect (state=0x63982c, currentPlayer=0, handPos=0) at dominion.c:647
+647	    int z = 0;// this is the counter for the temp hand
+650	    int drawntreasure=0;
+652	    while(drawntreasure<2){
+653	        if (state->deckCount[currentPlayer] < 1){   //if the deck is empty we need to shuffle discard and add to deck
+656	        drawCard(currentPlayer, state);
+drawCard (player=0, state=0x63982c) at dominion.c:528
+528	  if (state->deckCount[player] <= 0){//Deck is empty
+568	    int count = state->handCount[player];//Get current hand count for player
+574	    deckCounter = state->deckCount[player];//Create holder for the deck count
+575	    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
+576	    state->deckCount[player]--;
+577	    state->handCount[player]++;//Increment hand count
+580	  return 0;
+581	}
+adventurerEffect (state=0x63982c, currentPlayer=0, handPos=0) at dominion.c:657
+657	        cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+659	        if (cardDrawn == copper || cardDrawn == silver) // assignment 2 bug
+660	            drawntreasure++;
+652	    while(drawntreasure<2){
+653	        if (state->deckCount[currentPlayer] < 1){   //if the deck is empty we need to shuffle discard and add to deck
+656	        drawCard(currentPlayer, state);
+drawCard (player=0, state=0x63982c) at dominion.c:528
+528	  if (state->deckCount[player] <= 0){//Deck is empty
+568	    int count = state->handCount[player];//Get current hand count for player
+574	    deckCounter = state->deckCount[player];//Create holder for the deck count
+575	    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
+576	    state->deckCount[player]--;
+577	    state->handCount[player]++;//Increment hand count
+580	  return 0;
+581	}
+adventurerEffect (state=0x63982c, currentPlayer=0, handPos=0) at dominion.c:657
+657	        cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+659	        if (cardDrawn == copper || cardDrawn == silver) // assignment 2 bug
+662	            temphand[z]=cardDrawn;
+663	            state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
+664	            z++;
+652	    while(drawntreasure<2){
+653	        if (state->deckCount[currentPlayer] < 1){   //if the deck is empty we need to shuffle discard and add to deck
+656	        drawCard(currentPlayer, state);
+drawCard (player=0, state=0x63982c) at dominion.c:528
+528	  if (state->deckCount[player] <= 0){//Deck is empty
+568	    int count = state->handCount[player];//Get current hand count for player
+574	    deckCounter = state->deckCount[player];//Create holder for the deck count
+575	    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
+576	    state->deckCount[player]--;
+577	    state->handCount[player]++;//Increment hand count
+580	  return 0;
+581	}
+adventurerEffect (state=0x63982c, currentPlayer=0, handPos=0) at dominion.c:657
+657	        cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+659	        if (cardDrawn == copper || cardDrawn == silver) // assignment 2 bug
+662	            temphand[z]=cardDrawn;
+663	            state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
+664	            z++;
+652	    while(drawntreasure<2){
+653	        if (state->deckCount[currentPlayer] < 1){   //if the deck is empty we need to shuffle discard and add to deck
+656	        drawCard(currentPlayer, state);
+drawCard (player=0, state=0x63982c) at dominion.c:528
+528	  if (state->deckCount[player] <= 0){//Deck is empty
+568	    int count = state->handCount[player];//Get current hand count for player
+574	    deckCounter = state->deckCount[player];//Create holder for the deck count
+575	    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
+576	    state->deckCount[player]--;
+577	    state->handCount[player]++;//Increment hand count
+580	  return 0;
+581	}
+adventurerEffect (state=0x63982c, currentPlayer=0, handPos=0) at dominion.c:657
+657	        cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+659	        if (cardDrawn == copper || cardDrawn == silver) // assignment 2 bug
+660	            drawntreasure++;
+652	    while(drawntreasure<2){
+667	    while(z-1>=0){
+668	        state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
+669	        z=z-1;
+667	    while(z-1>=0){
+668	        state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
+669	        z=z-1;
+667	    while(z-1>=0){
+673	    discardCard(handPos, currentPlayer, state, 0);
+discardCard (handPos=0, currentPlayer=0, state=0x63982c, trashFlag=0) at dominion.c:1270
+1270	  if (trashFlag < 1)
+1273	      state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
+1274	      state->playedCardCount++;
+1278	  state->hand[currentPlayer][handPos] = -1;
+1281	  if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
+1286	  else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
+1294	      state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
+1296	      state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
+1298	      state->handCount[currentPlayer]--;
+1301	  return 0;
+1302	}
+adventurerEffect (state=0x63982c, currentPlayer=0, handPos=0) at dominion.c:675
+675	    return 0;
+676	}
+cardEffect (card=7, choice1=0, choice2=0, choice3=0, state=0x63982c, handPos=0, bonus=0x0) at dominion.c:839
+839	        council_roomEffect(state, currentPlayer, handPos);
+council_roomEffect (state=0x63982c, currentPlayer=0, handPos=0) at dominion.c:681
+681	    for (i = 0; i < 4; i++)
+683	        drawCard(currentPlayer, state);
+drawCard (player=0, state=0x63982c) at dominion.c:528
+528	  if (state->deckCount[player] <= 0){//Deck is empty
+568	    int count = state->handCount[player];//Get current hand count for player
+574	    deckCounter = state->deckCount[player];//Create holder for the deck count
+575	    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
+576	    state->deckCount[player]--;
+577	    state->handCount[player]++;//Increment hand count
+580	  return 0;
+581	}
+council_roomEffect (state=0x63982c, currentPlayer=0, handPos=0) at dominion.c:681
+681	    for (i = 0; i < 4; i++)
+683	        drawCard(currentPlayer, state);
+drawCard (player=0, state=0x63982c) at dominion.c:528
+528	  if (state->deckCount[player] <= 0){//Deck is empty
+#0  drawCard (player=0, state=0x63982c) at dominion.c:528
+#1  0x00404d49 in council_roomEffect (state=0x63982c, currentPlayer=0, handPos=0) at dominion.c:683
+#2  0x00405629 in cardEffect (card=7, choice1=0, choice2=0, choice3=0, state=0x63982c, handPos=0, bonus=0x0) at dominion.c:839
+#3  0x0040187b in main (argc=1, argv=0x7915f8) at cardtest2.c:50
+A debugging session is active.
+
+	Inferior 1 [process 45208] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
