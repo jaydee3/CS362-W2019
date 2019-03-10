@@ -1,0 +1,53 @@
+Breakpoint 1 at 0x4058dd: file dominion.c, line 900.
+Starting program: c:\Users\joshu\Documents\_OSU\CS 362\Assignment 5\CS362-W2019\projects\nuttj\cortessDominion\dominion/barontest.exe 
+[New Thread 46940.0x9c34]
+[New Thread 46940.0xbc70]
+
+Breakpoint 1, cardEffect (card=15, choice1=1, choice2=0, choice3=0, state=0x639830, handPos=0, bonus=0x0) at dominion.c:900
+900	      if (choice1 > 0){//Boolean true or going to discard an estate
+901		int p = 0;//Iterator for hand!
+$1 = 0
+Hardware watchpoint 2: p
+Continuing.
+Hardware watchpoint 2: p
+
+Old value = 3
+New value = 4
+0x00405bcd in cardEffect (card=15, choice1=1, choice2=0, choice3=0, state=0x639830, handPos=0, bonus=0x0) at dominion.c:931
+931		    p++;//Next card
+$2 = 1
+903		while(card_not_discarded){
+$3 = 1
+Continuing.
+
+Watchpoint 2 deleted because the program has left the block in
+which its expression is valid.
+main (argc=1, argv=0xaf15f8) at barontest.c:56
+56		if (G.numBuys != I.numBuys + 1) {
+Continuing.
+[Inferior 1 (process 46940) exited normally]
+Starting program: c:\Users\joshu\Documents\_OSU\CS 362\Assignment 5\CS362-W2019\projects\nuttj\cortessDominion\dominion/barontest.exe 
+[New Thread 31340.0x6618]
+[New Thread 31340.0x9344]
+
+Breakpoint 1, cardEffect (card=15, choice1=1, choice2=0, choice3=0, state=0x639830, handPos=0, bonus=0x0) at dominion.c:900
+900	      if (choice1 > 0){//Boolean true or going to discard an estate
+No symbol "hand" in current context.
+No symbol "p" in current context.
+901		int p = 0;//Iterator for hand!
+Hardware watchpoint 3: state->hand[currentPlayer][p]
+Continuing.
+Hardware watchpoint 3: state->hand[currentPlayer][p]
+
+Old value = -1
+New value = 1
+0x00405bcd in cardEffect (card=15, choice1=1, choice2=0, choice3=0, state=0x639830, handPos=0, bonus=0x0) at dominion.c:931
+931		    p++;//Next card
+$4 = 4
+$5 = 3
+$6 = 1
+A debugging session is active.
+
+	Inferior 1 [process 31340] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

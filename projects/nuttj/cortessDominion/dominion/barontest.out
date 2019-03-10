@@ -1,0 +1,9 @@
+Performing card test for Baron with options: Player discards Estate  Not holding Estate  No Estate in supply
+TEST FAILED: Net loss in player's hand count should be 1: Played Baron card
+  Starting handCount: 4
+  Ending handCount: 2
+TEST FAILED: No cards should have been discarded
+  Expected # of discarded cards: 0
+  discardCount: 1
+2 tests failed
+
