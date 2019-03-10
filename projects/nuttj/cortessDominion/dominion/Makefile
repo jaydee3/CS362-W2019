@@ -72,6 +72,9 @@ cardtest3: cardtest3.c dominion.o rngs.o
 cardtest4: cardtest4.c dominion.o rngs.o
 	gcc  -o cardtest4 -g  cardtest4.c dominion.o rngs.o $(CFLAGS)
 
+barontest: barontest.c dominion.o rngs.o
+	gcc  -o barontest -g  barontest.c dominion.o rngs.o $(CFLAGS)
+
 unittestresults: unittest1.c unittest2.c unittest3.c unittest4.c cardtest1.c cardtest2.c cardtest3.c cardtest4.c dominion.c rngs.c
 	make clean
 	echo "Results of running unit tests" >> unittestresults.out
